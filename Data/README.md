@@ -1,8 +1,8 @@
 # 지하철 그래프 데이터
 
 수도권 지하철 **역 782개, 간선 1,516개, 환승 1,110개.**
-[`../collect/`](../collect/)의 코드로 서울교통공사 최단경로 API(`getShtrmPath2`)를 호출 
-→ JSON 저장 
+[`../collect/`](../collect/)의 코드로 서울교통공사 최단경로 API(`getShtrmPath2`)를 호출  
+→ JSON 저장  
 → 필요한 데이터만 CSV로 정리했다.
 
 
