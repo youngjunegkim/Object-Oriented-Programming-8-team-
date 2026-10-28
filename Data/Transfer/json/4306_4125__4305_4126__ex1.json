@@ -1,0 +1,371 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 10360,
+    "totalReqHr": 1571,
+    "totalCardCrg": 2250,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "강남",
+        "dptreLineNm": "신분당선",
+        "arvlLineNm": "2호선"
+      },
+      {
+        "stnNm": "종합운동장",
+        "dptreLineNm": "2호선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [
+      "4308",
+      "0329"
+    ],
+    "thrghStns": [
+      "4306"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4305",
+          "stnNo": "D5",
+          "stnNm": "논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4306",
+          "stnNo": "D6",
+          "stnNm": "신논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "광교",
+        "tmnlStnCd": "4319",
+        "upbdnbSe": "하행",
+        "trainno": "GW074",
+        "trainDptreTm": "14:05:56",
+        "trainArvlTm": "14:07:06",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4306",
+          "stnNo": "D6",
+          "stnNm": "신논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4307",
+          "stnNo": "D7",
+          "stnNm": "강남",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 68,
+        "wtngHr": 0,
+        "tmnlStnNm": "광교",
+        "tmnlStnCd": "4319",
+        "upbdnbSe": "하행",
+        "trainno": "GW074",
+        "trainDptreTm": "14:07:41",
+        "trainArvlTm": "14:08:49",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4307",
+          "stnNo": "D7",
+          "stnNm": "강남",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0222",
+          "stnNo": "222",
+          "stnNm": "강남",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 366,
+        "reqHr": 305,
+        "wtngHr": 66,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0222",
+          "stnNo": "222",
+          "stnNm": "강남",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0221",
+          "stnNo": "221",
+          "stnNm": "역삼",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2255",
+        "trainDptreTm": "14:15:00",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0221",
+          "stnNo": "221",
+          "stnNm": "역삼",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0220",
+          "stnNo": "220",
+          "stnNm": "선릉",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2255",
+        "trainDptreTm": "14:16:30",
+        "trainArvlTm": "14:18:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0220",
+          "stnNo": "220",
+          "stnNm": "선릉",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0219",
+          "stnNo": "219",
+          "stnNm": "삼성",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2255",
+        "trainDptreTm": "14:19:00",
+        "trainArvlTm": "14:20:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0219",
+          "stnNo": "219",
+          "stnNm": "삼성",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0218",
+          "stnNo": "218",
+          "stnNm": "종합운동장",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2255",
+        "trainDptreTm": "14:21:00",
+        "trainArvlTm": "14:22:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0218",
+          "stnNo": "218",
+          "stnNm": "종합운동장",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4130",
+          "stnNo": "930",
+          "stnNm": "종합운동장",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 94,
+        "reqHr": 418,
+        "wtngHr": 642,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4130",
+          "stnNo": "930",
+          "stnNm": "종합운동장",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4129",
+          "stnNo": "929",
+          "stnNm": "봉은사",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "개화",
+        "tmnlStnCd": "4101",
+        "upbdnbSe": "하행",
+        "trainno": "C9125",
+        "trainDptreTm": "14:40:10",
+        "trainArvlTm": "14:42:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4129",
+          "stnNo": "929",
+          "stnNm": "봉은사",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4128",
+          "stnNo": "928",
+          "stnNm": "삼성중앙",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "개화",
+        "tmnlStnCd": "4101",
+        "upbdnbSe": "하행",
+        "trainno": "C9125",
+        "trainDptreTm": "14:42:30",
+        "trainArvlTm": "14:44:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4128",
+          "stnNo": "928",
+          "stnNm": "삼성중앙",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4127",
+          "stnNo": "927",
+          "stnNm": "선정릉",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "개화",
+        "tmnlStnCd": "4101",
+        "upbdnbSe": "하행",
+        "trainno": "C9125",
+        "trainDptreTm": "14:44:25",
+        "trainArvlTm": "14:45:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4127",
+          "stnNo": "927",
+          "stnNm": "선정릉",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4126",
+          "stnNo": "926",
+          "stnNm": "언주",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "개화",
+        "tmnlStnCd": "4101",
+        "upbdnbSe": "하행",
+        "trainno": "C9125",
+        "trainDptreTm": "14:46:25",
+        "trainArvlTm": "14:47:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

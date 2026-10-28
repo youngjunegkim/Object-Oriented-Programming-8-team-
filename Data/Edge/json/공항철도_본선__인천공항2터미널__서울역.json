@@ -1,0 +1,383 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 74000,
+    "totalReqHr": 3600,
+    "totalCardCrg": 5350,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4215",
+          "stnNo": "A11",
+          "stnNm": "인천공항2터미널",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4213",
+          "stnNo": "A10",
+          "stnNm": "인천공항1터미널",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 5800,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:03:30",
+        "trainArvlTm": "14:09:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4213",
+          "stnNo": "A10",
+          "stnNm": "인천공항1터미널",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4212",
+          "stnNo": "A09",
+          "stnNm": "공항화물청사",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:10:00",
+        "trainArvlTm": "14:13:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4212",
+          "stnNo": "A09",
+          "stnNm": "공항화물청사",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4211",
+          "stnNo": "A08",
+          "stnNm": "운서",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4300,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:13:30",
+        "trainArvlTm": "14:17:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4211",
+          "stnNo": "A08",
+          "stnNm": "운서",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4217",
+          "stnNo": "A072",
+          "stnNm": "영종",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 13800,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:18:00",
+        "trainArvlTm": "14:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4217",
+          "stnNo": "A072",
+          "stnNm": "영종",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4210",
+          "stnNo": "A071",
+          "stnNm": "청라국제도시",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 10200,
+        "reqHr": 480,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:22:00",
+        "trainArvlTm": "14:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4210",
+          "stnNo": "A071",
+          "stnNm": "청라국제도시",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4209",
+          "stnNo": "A07",
+          "stnNm": "검암",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4800,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:30:30",
+        "trainArvlTm": "14:35:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4209",
+          "stnNo": "A07",
+          "stnNm": "검암",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4208",
+          "stnNo": "A06",
+          "stnNm": "계양",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 5500,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:35:30",
+        "trainArvlTm": "14:41:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4208",
+          "stnNo": "A06",
+          "stnNm": "계양",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4207",
+          "stnNo": "A05",
+          "stnNm": "김포공항",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 6600,
+        "reqHr": 360,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:41:30",
+        "trainArvlTm": "14:47:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4207",
+          "stnNo": "A05",
+          "stnNm": "김포공항",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4206",
+          "stnNo": "A042",
+          "stnNm": "마곡나루",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:48:00",
+        "trainArvlTm": "14:50:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4206",
+          "stnNo": "A042",
+          "stnNm": "마곡나루",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4204",
+          "stnNo": "A04",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 8600,
+        "reqHr": 420,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:51:00",
+        "trainArvlTm": "14:58:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4204",
+          "stnNo": "A04",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4203",
+          "stnNo": "A03",
+          "stnNm": "홍대입구",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3400,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "14:58:30",
+        "trainArvlTm": "15:02:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4203",
+          "stnNo": "A03",
+          "stnNm": "홍대입구",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4202",
+          "stnNo": "A02",
+          "stnNm": "공덕",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2800,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "15:02:30",
+        "trainArvlTm": "15:05:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4202",
+          "stnNo": "A02",
+          "stnNm": "공덕",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4201",
+          "stnNo": "A01",
+          "stnNm": "서울역",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3300,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2098",
+        "trainDptreTm": "15:06:00",
+        "trainArvlTm": "15:10:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

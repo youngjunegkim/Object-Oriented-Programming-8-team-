@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2952,
+    "totalReqHr": 273,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "구리",
+        "dptreLineNm": "8호선",
+        "arvlLineNm": "경의선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2808"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2807",
+          "stnNo": "806",
+          "stnNm": "동구릉",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8157",
+        "trainDptreTm": "14:04:30",
+        "trainArvlTm": "14:05:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 52,
+        "reqHr": 43,
+        "wtngHr": 1257,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1206",
+          "stnNo": "K124",
+          "stnNm": "도농",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "덕소",
+        "tmnlStnCd": "1208",
+        "upbdnbSe": "하행",
+        "trainno": "K5077",
+        "trainDptreTm": "14:27:30",
+        "trainArvlTm": "14:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

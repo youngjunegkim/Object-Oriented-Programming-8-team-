@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 5868,
+    "totalReqHr": 707,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "김포공항",
+        "dptreLineNm": "서해선",
+        "arvlLineNm": "5호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1980"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1981",
+          "stnNo": "S14",
+          "stnNm": "원종",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1980",
+          "stnNo": "S13",
+          "stnNm": "김포공항",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4300,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7278",
+        "trainDptreTm": "14:02:30",
+        "trainArvlTm": "14:07:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1980",
+          "stnNo": "S13",
+          "stnNm": "김포공항",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2513",
+          "stnNo": "512",
+          "stnNm": "김포공항",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 368,
+        "reqHr": 307,
+        "wtngHr": 513,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2513",
+          "stnNo": "512",
+          "stnNm": "김포공항",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2514",
+          "stnNo": "513",
+          "stnNm": "송정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5109",
+        "trainDptreTm": "14:20:40",
+        "trainArvlTm": "14:22:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

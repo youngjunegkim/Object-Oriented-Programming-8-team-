@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2470,
+    "totalReqHr": 405,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "주안",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "인천2호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1809"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1816",
+          "stnNo": "155",
+          "stnNm": "간석",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1809",
+          "stnNo": "156",
+          "stnNm": "주안",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "S105",
+        "trainDptreTm": "14:05:30",
+        "trainArvlTm": "14:07:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1809",
+          "stnNo": "156",
+          "stnNm": "주안",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "3218",
+          "stnNo": "I218",
+          "stnNm": "주안",
+          "lineNm": "인천2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 270,
+        "reqHr": 225,
+        "wtngHr": 326,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3218",
+          "stnNo": "I218",
+          "stnNm": "주안",
+          "lineNm": "인천2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3217",
+          "stnNo": "I217",
+          "stnNm": "주안국가산단",
+          "lineNm": "인천2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단오류",
+        "tmnlStnCd": "3201",
+        "upbdnbSe": "상행",
+        "trainno": "A325",
+        "trainDptreTm": "14:16:41",
+        "trainArvlTm": "14:17:41",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

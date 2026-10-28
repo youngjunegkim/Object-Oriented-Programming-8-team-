@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2245,
+    "totalReqHr": 253,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "동대문역사문화공원",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "2호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0422"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0423",
+          "stnNo": "423",
+          "stnNm": "충무로",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0422",
+          "stnNo": "422",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4592",
+        "trainDptreTm": "14:04:30",
+        "trainArvlTm": "14:06:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0422",
+          "stnNo": "422",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0205",
+          "stnNo": "205",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 45,
+        "reqHr": 43,
+        "wtngHr": 347,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0205",
+          "stnNo": "205",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0206",
+          "stnNo": "206",
+          "stnNm": "신당",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "내선",
+        "trainno": "2232",
+        "trainDptreTm": "14:13:00",
+        "trainArvlTm": "14:14:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3200,
+    "totalReqHr": 230,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2549",
+          "stnNo": "548",
+          "stnNm": "강동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2566",
+          "stnNo": "558",
+          "stnNm": "하남검단산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "마천",
+        "tmnlStnCd": "2561",
+        "upbdnbSe": "하행",
+        "trainno": "5611",
+        "trainDptreTm": "14:06:20",
+        "trainArvlTm": null,
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "Y"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2566",
+          "stnNo": "558",
+          "stnNm": "하남검단산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2555",
+          "stnNo": "P549",
+          "stnNm": "둔촌동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "마천",
+        "tmnlStnCd": "2561",
+        "upbdnbSe": "하행",
+        "trainno": "5611",
+        "trainDptreTm": "14:08:10",
+        "trainArvlTm": "14:08:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2555",
+          "stnNo": "P549",
+          "stnNm": "둔촌동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2556",
+          "stnNo": "P550",
+          "stnNm": "올림픽공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "마천",
+        "tmnlStnCd": "2561",
+        "upbdnbSe": "하행",
+        "trainno": "5611",
+        "trainDptreTm": "14:10:20",
+        "trainArvlTm": "14:10:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2556",
+          "stnNo": "P550",
+          "stnNm": "올림픽공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2557",
+          "stnNo": "P551",
+          "stnNm": "방이",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "마천",
+        "tmnlStnCd": "2561",
+        "upbdnbSe": "하행",
+        "trainno": "5611",
+        "trainDptreTm": "14:12:10",
+        "trainArvlTm": "14:12:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2557",
+          "stnNo": "P551",
+          "stnNm": "방이",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2558",
+          "stnNo": "P552",
+          "stnNm": "오금",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "마천",
+        "tmnlStnCd": "2561",
+        "upbdnbSe": "하행",
+        "trainno": "5611",
+        "trainDptreTm": "14:14:00",
+        "trainArvlTm": "14:14:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

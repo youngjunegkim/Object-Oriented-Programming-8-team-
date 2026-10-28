@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 8302,
+    "totalReqHr": 885,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "김포공항",
+        "dptreLineNm": "9호선",
+        "arvlLineNm": "서해선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4102"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4101",
+          "stnNo": "901",
+          "stnNm": "개화",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4102",
+          "stnNo": "902",
+          "stnNm": "김포공항",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3600,
+        "reqHr": 280,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9124",
+        "trainDptreTm": "14:05:00",
+        "trainArvlTm": "14:09:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4102",
+          "stnNo": "902",
+          "stnNm": "김포공항",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1980",
+          "stnNo": "S13",
+          "stnNm": "김포공항",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 402,
+        "reqHr": 335,
+        "wtngHr": 585,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1980",
+          "stnNo": "S13",
+          "stnNm": "김포공항",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1981",
+          "stnNo": "S14",
+          "stnNm": "원종",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4300,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7281",
+        "trainDptreTm": "14:25:00",
+        "trainArvlTm": "14:29:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

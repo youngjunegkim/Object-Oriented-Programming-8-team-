@@ -1,0 +1,340 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 10726,
+    "totalReqHr": 1293,
+    "totalCardCrg": 3250,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "양재",
+        "dptreLineNm": "신분당선",
+        "arvlLineNm": "3호선"
+      },
+      {
+        "stnNm": "고속터미널",
+        "dptreLineNm": "3호선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4306"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4305",
+          "stnNo": "D5",
+          "stnNm": "논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4306",
+          "stnNo": "D6",
+          "stnNm": "신논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "광교",
+        "tmnlStnCd": "4319",
+        "upbdnbSe": "하행",
+        "trainno": "GW074",
+        "trainDptreTm": "14:05:56",
+        "trainArvlTm": "14:07:06",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4306",
+          "stnNo": "D6",
+          "stnNm": "신논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4307",
+          "stnNo": "D7",
+          "stnNm": "강남",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 68,
+        "wtngHr": 0,
+        "tmnlStnNm": "광교",
+        "tmnlStnCd": "4319",
+        "upbdnbSe": "하행",
+        "trainno": "GW074",
+        "trainDptreTm": "14:07:41",
+        "trainArvlTm": "14:08:49",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4307",
+          "stnNo": "D7",
+          "stnNm": "강남",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4308",
+          "stnNo": "D8",
+          "stnNm": "양재",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 98,
+        "wtngHr": 0,
+        "tmnlStnNm": "광교",
+        "tmnlStnCd": "4319",
+        "upbdnbSe": "하행",
+        "trainno": "GW074",
+        "trainDptreTm": "14:09:24",
+        "trainArvlTm": "14:11:02",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4308",
+          "stnNo": "D8",
+          "stnNm": "양재",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0332",
+          "stnNo": "342",
+          "stnNm": "양재",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 271,
+        "reqHr": 226,
+        "wtngHr": 762,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0332",
+          "stnNo": "342",
+          "stnNm": "양재",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0331",
+          "stnNo": "341",
+          "stnNm": "남부터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "대화",
+        "tmnlStnCd": "1958",
+        "upbdnbSe": "상행",
+        "trainno": "3228",
+        "trainDptreTm": "14:27:30",
+        "trainArvlTm": "14:29:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0331",
+          "stnNo": "341",
+          "stnNm": "남부터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0330",
+          "stnNo": "340",
+          "stnNm": "교대",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "대화",
+        "tmnlStnCd": "1958",
+        "upbdnbSe": "상행",
+        "trainno": "3228",
+        "trainDptreTm": "14:30:00",
+        "trainArvlTm": "14:31:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0330",
+          "stnNo": "340",
+          "stnNm": "교대",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0329",
+          "stnNo": "339",
+          "stnNm": "고속터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "대화",
+        "tmnlStnCd": "1958",
+        "upbdnbSe": "상행",
+        "trainno": "3228",
+        "trainDptreTm": "14:32:00",
+        "trainArvlTm": "14:34:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0329",
+          "stnNo": "339",
+          "stnNm": "고속터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4123",
+          "stnNo": "923",
+          "stnNm": "고속터미널",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 155,
+        "reqHr": 201,
+        "wtngHr": 44,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4123",
+          "stnNo": "923",
+          "stnNm": "고속터미널",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4124",
+          "stnNo": "924",
+          "stnNm": "사평",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9120",
+        "trainDptreTm": "14:38:05",
+        "trainArvlTm": "14:39:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4124",
+          "stnNo": "924",
+          "stnNm": "사평",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4125",
+          "stnNo": "925",
+          "stnNm": "신논현",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9120",
+        "trainDptreTm": "14:40:20",
+        "trainArvlTm": "14:42:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4125",
+          "stnNo": "925",
+          "stnNm": "신논현",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4126",
+          "stnNo": "926",
+          "stnNm": "언주",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9120",
+        "trainDptreTm": "14:42:30",
+        "trainArvlTm": "14:44:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

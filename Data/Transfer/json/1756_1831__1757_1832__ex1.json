@@ -1,0 +1,348 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 12825,
+    "totalReqHr": 1088,
+    "totalCardCrg": 0,
+    "trsitNmtm": 3,
+    "trfstnNms": [
+      {
+        "stnNm": "안산",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "수인분당선"
+      },
+      {
+        "stnNm": "한대앞",
+        "dptreLineNm": "수인분당선",
+        "arvlLineNm": "4호선"
+      },
+      {
+        "stnNm": "고잔",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "수인분당선"
+      }
+    ],
+    "exclTrfstns": [
+      "1458",
+      "1713"
+    ],
+    "thrghStns": [
+      "1756"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1758",
+          "stnNo": "452",
+          "stnNm": "초지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "4597",
+        "trainDptreTm": "14:01:00",
+        "trainArvlTm": "14:03:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1758",
+          "stnNo": "452",
+          "stnNm": "초지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1759",
+          "stnNo": "453",
+          "stnNm": "안산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "4597",
+        "trainDptreTm": "14:03:30",
+        "trainArvlTm": "14:05:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1759",
+          "stnNo": "453",
+          "stnNm": "안산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1834",
+          "stnNo": "K255",
+          "stnNm": "안산",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 121,
+        "reqHr": 101,
+        "wtngHr": 979,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1834",
+          "stnNo": "K255",
+          "stnNm": "안산",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1833",
+          "stnNo": "K254",
+          "stnNm": "초지",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "왕십리",
+        "tmnlStnCd": "102C",
+        "upbdnbSe": "상행",
+        "trainno": "K6554",
+        "trainDptreTm": "14:23:30",
+        "trainArvlTm": "14:25:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1833",
+          "stnNo": "K254",
+          "stnNm": "초지",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1832",
+          "stnNo": "K253",
+          "stnNm": "고잔",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "왕십리",
+        "tmnlStnCd": "102C",
+        "upbdnbSe": "상행",
+        "trainno": "K6554",
+        "trainDptreTm": "14:26:00",
+        "trainArvlTm": "14:28:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1832",
+          "stnNo": "K253",
+          "stnNm": "고잔",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1831",
+          "stnNo": "K252",
+          "stnNm": "중앙",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "왕십리",
+        "tmnlStnCd": "102C",
+        "upbdnbSe": "상행",
+        "trainno": "K6554",
+        "trainDptreTm": "14:28:30",
+        "trainArvlTm": "14:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1831",
+          "stnNo": "K252",
+          "stnNm": "중앙",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1830",
+          "stnNo": "K251",
+          "stnNm": "한대앞",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "왕십리",
+        "tmnlStnCd": "102C",
+        "upbdnbSe": "상행",
+        "trainno": "K6554",
+        "trainDptreTm": "14:30:30",
+        "trainArvlTm": "14:32:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1830",
+          "stnNo": "K251",
+          "stnNm": "한대앞",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 68,
+        "reqHr": 57,
+        "wtngHr": 423,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "K4605",
+        "trainDptreTm": "14:40:30",
+        "trainArvlTm": "14:42:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "K4605",
+        "trainDptreTm": "14:43:00",
+        "trainArvlTm": "14:44:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1832",
+          "stnNo": "K253",
+          "stnNm": "고잔",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 36,
+        "reqHr": 30,
+        "wtngHr": 870,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

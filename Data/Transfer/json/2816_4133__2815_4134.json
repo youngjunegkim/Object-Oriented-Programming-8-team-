@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2082,
+    "totalReqHr": 346,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "석촌",
+        "dptreLineNm": "8호선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2816"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2815",
+          "stnNo": "814",
+          "stnNm": "잠실",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2816",
+          "stnNo": "815",
+          "stnNm": "석촌",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8151",
+        "trainDptreTm": "14:01:10",
+        "trainArvlTm": "14:03:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2816",
+          "stnNo": "815",
+          "stnNm": "석촌",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4133",
+          "stnNo": "933",
+          "stnNm": "석촌",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 82,
+        "reqHr": 136,
+        "wtngHr": 544,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4133",
+          "stnNo": "933",
+          "stnNm": "석촌",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4134",
+          "stnNo": "934",
+          "stnNm": "송파나루",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9112",
+        "trainDptreTm": "14:14:20",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

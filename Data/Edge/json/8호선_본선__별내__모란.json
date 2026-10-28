@@ -1,0 +1,663 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 30100,
+    "totalReqHr": 2400,
+    "totalCardCrg": 1950,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2805",
+          "stnNo": "804",
+          "stnNm": "별내",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2806",
+          "stnNo": "805",
+          "stnNm": "다산",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3000,
+        "reqHr": 190,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:06:00",
+        "trainArvlTm": "14:09:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2806",
+          "stnNo": "805",
+          "stnNm": "다산",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2807",
+          "stnNo": "806",
+          "stnNm": "동구릉",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 140,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:09:40",
+        "trainArvlTm": "14:12:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2807",
+          "stnNo": "806",
+          "stnNm": "동구릉",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:12:30",
+        "trainArvlTm": "14:13:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2809",
+          "stnNo": "808",
+          "stnNm": "장자호수공원",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2809",
+          "stnNo": "808",
+          "stnNm": "장자호수공원",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2810",
+          "stnNo": "809",
+          "stnNm": "암사역사공원",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3500,
+        "reqHr": 220,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:17:10",
+        "trainArvlTm": "14:20:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2810",
+          "stnNo": "809",
+          "stnNm": "암사역사공원",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2811",
+          "stnNo": "810",
+          "stnNm": "암사",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:21:20",
+        "trainArvlTm": "14:24:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2811",
+          "stnNo": "810",
+          "stnNm": "암사",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2812",
+          "stnNo": "811",
+          "stnNm": "천호",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:24:50",
+        "trainArvlTm": "14:26:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2812",
+          "stnNo": "811",
+          "stnNm": "천호",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2813",
+          "stnNo": "812",
+          "stnNm": "강동구청",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:27:00",
+        "trainArvlTm": "14:28:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2813",
+          "stnNo": "812",
+          "stnNm": "강동구청",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2814",
+          "stnNo": "813",
+          "stnNm": "몽촌토성",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:28:50",
+        "trainArvlTm": "14:30:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2814",
+          "stnNo": "813",
+          "stnNm": "몽촌토성",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2815",
+          "stnNo": "814",
+          "stnNm": "잠실",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:31:20",
+        "trainArvlTm": "14:32:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2815",
+          "stnNo": "814",
+          "stnNm": "잠실",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2816",
+          "stnNo": "815",
+          "stnNm": "석촌",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:33:10",
+        "trainArvlTm": "14:35:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2816",
+          "stnNo": "815",
+          "stnNm": "석촌",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2817",
+          "stnNo": "816",
+          "stnNm": "송파",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:35:30",
+        "trainArvlTm": "14:36:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2817",
+          "stnNo": "816",
+          "stnNm": "송파",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2818",
+          "stnNo": "817",
+          "stnNm": "가락시장",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:37:10",
+        "trainArvlTm": "14:38:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2818",
+          "stnNo": "817",
+          "stnNm": "가락시장",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2819",
+          "stnNo": "818",
+          "stnNm": "문정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:39:00",
+        "trainArvlTm": "14:40:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2819",
+          "stnNo": "818",
+          "stnNm": "문정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2820",
+          "stnNo": "819",
+          "stnNm": "장지",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:40:50",
+        "trainArvlTm": "14:42:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2820",
+          "stnNo": "819",
+          "stnNm": "장지",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2821",
+          "stnNo": "820",
+          "stnNm": "복정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:42:30",
+        "trainArvlTm": "14:43:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2821",
+          "stnNo": "820",
+          "stnNm": "복정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2828",
+          "stnNo": "821",
+          "stnNm": "남위례",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:44:10",
+        "trainArvlTm": "14:46:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2828",
+          "stnNo": "821",
+          "stnNm": "남위례",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2822",
+          "stnNo": "822",
+          "stnNm": "산성",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:46:30",
+        "trainArvlTm": "14:48:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2822",
+          "stnNo": "822",
+          "stnNm": "산성",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2823",
+          "stnNo": "823",
+          "stnNm": "남한산성입구",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:48:40",
+        "trainArvlTm": "14:50:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2823",
+          "stnNo": "823",
+          "stnNm": "남한산성입구",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2824",
+          "stnNo": "824",
+          "stnNm": "단대오거리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:51:20",
+        "trainArvlTm": "14:52:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2824",
+          "stnNo": "824",
+          "stnNm": "단대오거리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2825",
+          "stnNo": "825",
+          "stnNm": "신흥",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:53:00",
+        "trainArvlTm": "14:54:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2825",
+          "stnNo": "825",
+          "stnNm": "신흥",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2826",
+          "stnNo": "826",
+          "stnNm": "수진",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:54:30",
+        "trainArvlTm": "14:55:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2826",
+          "stnNo": "826",
+          "stnNm": "수진",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2827",
+          "stnNo": "827",
+          "stnNm": "모란",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:56:00",
+        "trainArvlTm": "14:57:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

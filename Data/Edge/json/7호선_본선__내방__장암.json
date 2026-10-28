@@ -1,0 +1,747 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 29000,
+    "totalReqHr": 2500,
+    "totalCardCrg": 1950,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2737",
+          "stnNo": "735",
+          "stnNm": "내방",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2736",
+          "stnNo": "734",
+          "stnNm": "고속터미널",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2200,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:05:50",
+        "trainArvlTm": "14:08:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2736",
+          "stnNo": "734",
+          "stnNm": "고속터미널",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2735",
+          "stnNo": "733",
+          "stnNm": "반포",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:09:00",
+        "trainArvlTm": "14:10:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2735",
+          "stnNo": "733",
+          "stnNm": "반포",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2734",
+          "stnNo": "732",
+          "stnNm": "논현",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:10:50",
+        "trainArvlTm": "14:12:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2734",
+          "stnNo": "732",
+          "stnNm": "논현",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2733",
+          "stnNo": "731",
+          "stnNm": "학동",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:12:30",
+        "trainArvlTm": "14:13:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2733",
+          "stnNo": "731",
+          "stnNm": "학동",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2732",
+          "stnNo": "730",
+          "stnNm": "강남구청",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:14:20",
+        "trainArvlTm": "14:15:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2732",
+          "stnNo": "730",
+          "stnNm": "강남구청",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2731",
+          "stnNo": "729",
+          "stnNm": "청담",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:16:00",
+        "trainArvlTm": "14:17:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2731",
+          "stnNo": "729",
+          "stnNm": "청담",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2730",
+          "stnNo": "728",
+          "stnNm": "자양",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:18:00",
+        "trainArvlTm": "14:20:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2730",
+          "stnNo": "728",
+          "stnNm": "자양",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2729",
+          "stnNo": "727",
+          "stnNm": "건대입구",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:20:50",
+        "trainArvlTm": "14:22:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2729",
+          "stnNo": "727",
+          "stnNm": "건대입구",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2728",
+          "stnNo": "726",
+          "stnNm": "어린이대공원",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:23:00",
+        "trainArvlTm": "14:24:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2728",
+          "stnNo": "726",
+          "stnNm": "어린이대공원",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2727",
+          "stnNo": "725",
+          "stnNm": "군자",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:24:50",
+        "trainArvlTm": "14:26:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2727",
+          "stnNo": "725",
+          "stnNm": "군자",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2726",
+          "stnNo": "724",
+          "stnNm": "중곡",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:26:50",
+        "trainArvlTm": "14:28:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2726",
+          "stnNo": "724",
+          "stnNm": "중곡",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2725",
+          "stnNo": "723",
+          "stnNm": "용마산",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:28:40",
+        "trainArvlTm": "14:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2725",
+          "stnNo": "723",
+          "stnNm": "용마산",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2724",
+          "stnNo": "722",
+          "stnNm": "사가정",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:30:20",
+        "trainArvlTm": "14:31:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2724",
+          "stnNo": "722",
+          "stnNm": "사가정",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2723",
+          "stnNo": "721",
+          "stnNm": "면목",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:32:00",
+        "trainArvlTm": "14:33:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2723",
+          "stnNo": "721",
+          "stnNm": "면목",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2722",
+          "stnNo": "720",
+          "stnNm": "상봉",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:33:40",
+        "trainArvlTm": "14:34:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2722",
+          "stnNo": "720",
+          "stnNm": "상봉",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2721",
+          "stnNo": "719",
+          "stnNm": "중화",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:35:20",
+        "trainArvlTm": "14:37:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2721",
+          "stnNo": "719",
+          "stnNm": "중화",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2720",
+          "stnNo": "718",
+          "stnNm": "먹골",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:37:40",
+        "trainArvlTm": "14:39:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2720",
+          "stnNo": "718",
+          "stnNm": "먹골",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2719",
+          "stnNo": "717",
+          "stnNm": "태릉입구",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:39:30",
+        "trainArvlTm": "14:40:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2719",
+          "stnNo": "717",
+          "stnNm": "태릉입구",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2718",
+          "stnNo": "716",
+          "stnNm": "공릉",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:41:10",
+        "trainArvlTm": "14:42:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2718",
+          "stnNo": "716",
+          "stnNm": "공릉",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2717",
+          "stnNo": "715",
+          "stnNm": "하계",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:42:40",
+        "trainArvlTm": "14:44:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2717",
+          "stnNo": "715",
+          "stnNm": "하계",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2716",
+          "stnNo": "714",
+          "stnNm": "중계",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:44:40",
+        "trainArvlTm": "14:45:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2716",
+          "stnNo": "714",
+          "stnNm": "중계",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2715",
+          "stnNo": "713",
+          "stnNm": "노원",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:46:20",
+        "trainArvlTm": "14:47:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2715",
+          "stnNo": "713",
+          "stnNm": "노원",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2714",
+          "stnNo": "712",
+          "stnNm": "마들",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:48:10",
+        "trainArvlTm": "14:49:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2714",
+          "stnNo": "712",
+          "stnNm": "마들",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2713",
+          "stnNo": "711",
+          "stnNm": "수락산",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:50:10",
+        "trainArvlTm": "14:52:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2713",
+          "stnNo": "711",
+          "stnNm": "수락산",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2712",
+          "stnNo": "710",
+          "stnNm": "도봉산",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 140,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:52:40",
+        "trainArvlTm": "14:55:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2712",
+          "stnNo": "710",
+          "stnNm": "도봉산",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2711",
+          "stnNo": "709",
+          "stnNm": "장암",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7192",
+        "trainDptreTm": "14:55:30",
+        "trainArvlTm": "15:00:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

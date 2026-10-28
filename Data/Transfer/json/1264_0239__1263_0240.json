@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2704,
+    "totalReqHr": 630,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "홍대입구",
+        "dptreLineNm": "경의선",
+        "arvlLineNm": "2호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1264"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1263",
+          "stnNo": "K313",
+          "stnNm": "서강대",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1264",
+          "stnNo": "K314",
+          "stnNm": "홍대입구",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5056",
+        "trainDptreTm": "14:06:00",
+        "trainArvlTm": "14:07:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1264",
+          "stnNo": "K314",
+          "stnNm": "홍대입구",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0239",
+          "stnNo": "239",
+          "stnNm": "홍대입구",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 504,
+        "reqHr": 420,
+        "wtngHr": 270,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0239",
+          "stnNo": "239",
+          "stnNm": "홍대입구",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0240",
+          "stnNo": "240",
+          "stnNm": "신촌",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "내선",
+        "trainno": "2240",
+        "trainDptreTm": "14:19:00",
+        "trainArvlTm": "14:21:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

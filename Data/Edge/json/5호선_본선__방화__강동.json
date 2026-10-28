@@ -1,0 +1,1083 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 40500,
+    "totalReqHr": 3390,
+    "totalCardCrg": 2150,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2511",
+          "stnNo": "510",
+          "stnNm": "방화",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2512",
+          "stnNo": "511",
+          "stnNm": "개화산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:03:30",
+        "trainArvlTm": "14:05:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2512",
+          "stnNo": "511",
+          "stnNm": "개화산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2513",
+          "stnNo": "512",
+          "stnNm": "김포공항",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:05:30",
+        "trainArvlTm": "14:07:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2513",
+          "stnNo": "512",
+          "stnNm": "김포공항",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2514",
+          "stnNo": "513",
+          "stnNm": "송정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:07:40",
+        "trainArvlTm": "14:09:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2514",
+          "stnNo": "513",
+          "stnNm": "송정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2515",
+          "stnNo": "514",
+          "stnNm": "마곡",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:10:20",
+        "trainArvlTm": "14:11:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2515",
+          "stnNo": "514",
+          "stnNm": "마곡",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2516",
+          "stnNo": "515",
+          "stnNm": "발산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:12:10",
+        "trainArvlTm": "14:13:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2516",
+          "stnNo": "515",
+          "stnNm": "발산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2517",
+          "stnNo": "516",
+          "stnNm": "우장산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:14:20",
+        "trainArvlTm": "14:15:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2517",
+          "stnNo": "516",
+          "stnNm": "우장산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2518",
+          "stnNo": "517",
+          "stnNm": "화곡",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:16:20",
+        "trainArvlTm": "14:17:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2518",
+          "stnNo": "517",
+          "stnNm": "화곡",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2519",
+          "stnNo": "518",
+          "stnNm": "까치산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:18:20",
+        "trainArvlTm": "14:19:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2519",
+          "stnNo": "518",
+          "stnNm": "까치산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2520",
+          "stnNo": "519",
+          "stnNm": "신정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:20:20",
+        "trainArvlTm": "14:22:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2520",
+          "stnNo": "519",
+          "stnNm": "신정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2521",
+          "stnNo": "520",
+          "stnNm": "목동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:22:30",
+        "trainArvlTm": "14:23:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2521",
+          "stnNo": "520",
+          "stnNm": "목동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2522",
+          "stnNo": "521",
+          "stnNm": "오목교",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:24:10",
+        "trainArvlTm": "14:25:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2522",
+          "stnNo": "521",
+          "stnNm": "오목교",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2523",
+          "stnNo": "522",
+          "stnNm": "양평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:26:00",
+        "trainArvlTm": "14:27:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2523",
+          "stnNo": "522",
+          "stnNm": "양평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2524",
+          "stnNo": "523",
+          "stnNm": "영등포구청",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:27:40",
+        "trainArvlTm": "14:28:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2524",
+          "stnNo": "523",
+          "stnNm": "영등포구청",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2525",
+          "stnNo": "524",
+          "stnNm": "영등포시장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:29:20",
+        "trainArvlTm": "14:30:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2525",
+          "stnNo": "524",
+          "stnNm": "영등포시장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2526",
+          "stnNo": "525",
+          "stnNm": "신길",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:30:50",
+        "trainArvlTm": "14:32:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2526",
+          "stnNo": "525",
+          "stnNm": "신길",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2527",
+          "stnNo": "526",
+          "stnNm": "여의도",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:32:50",
+        "trainArvlTm": "14:34:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2527",
+          "stnNo": "526",
+          "stnNm": "여의도",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2528",
+          "stnNo": "527",
+          "stnNm": "여의나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:34:50",
+        "trainArvlTm": "14:36:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2528",
+          "stnNo": "527",
+          "stnNm": "여의나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2529",
+          "stnNo": "528",
+          "stnNm": "마포",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:36:30",
+        "trainArvlTm": "14:38:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2529",
+          "stnNo": "528",
+          "stnNm": "마포",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2530",
+          "stnNo": "529",
+          "stnNm": "공덕",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:39:00",
+        "trainArvlTm": "14:40:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2530",
+          "stnNo": "529",
+          "stnNm": "공덕",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2531",
+          "stnNo": "530",
+          "stnNm": "애오개",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:40:50",
+        "trainArvlTm": "14:42:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2531",
+          "stnNo": "530",
+          "stnNm": "애오개",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2532",
+          "stnNo": "531",
+          "stnNm": "충정로",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:42:30",
+        "trainArvlTm": "14:43:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2532",
+          "stnNo": "531",
+          "stnNm": "충정로",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2533",
+          "stnNo": "532",
+          "stnNm": "서대문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:44:20",
+        "trainArvlTm": "14:45:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2533",
+          "stnNo": "532",
+          "stnNm": "서대문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2534",
+          "stnNo": "533",
+          "stnNm": "광화문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:45:50",
+        "trainArvlTm": "14:47:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2534",
+          "stnNo": "533",
+          "stnNm": "광화문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2535",
+          "stnNo": "534",
+          "stnNm": "종로3가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:47:50",
+        "trainArvlTm": "14:49:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2535",
+          "stnNo": "534",
+          "stnNm": "종로3가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2536",
+          "stnNo": "535",
+          "stnNm": "을지로4가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:50:00",
+        "trainArvlTm": "14:51:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2536",
+          "stnNo": "535",
+          "stnNm": "을지로4가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2537",
+          "stnNo": "536",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:52:10",
+        "trainArvlTm": "14:53:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2537",
+          "stnNo": "536",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2538",
+          "stnNo": "537",
+          "stnNm": "청구",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:54:20",
+        "trainArvlTm": "14:55:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2538",
+          "stnNo": "537",
+          "stnNm": "청구",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2539",
+          "stnNo": "538",
+          "stnNm": "신금호",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:56:10",
+        "trainArvlTm": "14:57:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2539",
+          "stnNo": "538",
+          "stnNm": "신금호",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2540",
+          "stnNo": "539",
+          "stnNm": "행당",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:58:00",
+        "trainArvlTm": "14:59:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2540",
+          "stnNo": "539",
+          "stnNm": "행당",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2541",
+          "stnNo": "540",
+          "stnNm": "왕십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "14:59:40",
+        "trainArvlTm": "15:00:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2541",
+          "stnNo": "540",
+          "stnNm": "왕십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2542",
+          "stnNo": "541",
+          "stnNm": "마장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "15:01:20",
+        "trainArvlTm": "15:02:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2542",
+          "stnNo": "541",
+          "stnNm": "마장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2543",
+          "stnNo": "542",
+          "stnNm": "답십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "15:02:40",
+        "trainArvlTm": "15:04:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2543",
+          "stnNo": "542",
+          "stnNm": "답십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2544",
+          "stnNo": "543",
+          "stnNm": "장한평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "15:04:50",
+        "trainArvlTm": "15:06:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2544",
+          "stnNo": "543",
+          "stnNm": "장한평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2545",
+          "stnNo": "544",
+          "stnNm": "군자",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "15:07:00",
+        "trainArvlTm": "15:08:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2545",
+          "stnNo": "544",
+          "stnNm": "군자",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2546",
+          "stnNo": "545",
+          "stnNm": "아차산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "15:09:20",
+        "trainArvlTm": "15:10:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2546",
+          "stnNo": "545",
+          "stnNm": "아차산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2547",
+          "stnNo": "546",
+          "stnNm": "광나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "15:11:10",
+        "trainArvlTm": "15:13:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2547",
+          "stnNo": "546",
+          "stnNm": "광나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2548",
+          "stnNo": "547",
+          "stnNm": "천호",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "15:13:20",
+        "trainArvlTm": "15:15:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2548",
+          "stnNo": "547",
+          "stnNm": "천호",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2549",
+          "stnNo": "548",
+          "stnNm": "강동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5107",
+        "trainDptreTm": "15:16:00",
+        "trainArvlTm": "15:17:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

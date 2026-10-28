@@ -1,0 +1,1014 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 75716,
+    "totalReqHr": 5853,
+    "totalCardCrg": 2650,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "신길",
+        "dptreLineNm": "5호선",
+        "arvlLineNm": "1호선 경인선"
+      },
+      {
+        "stnNm": "용산",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "경의선"
+      }
+    ],
+    "exclTrfstns": [
+      "2530"
+    ],
+    "thrghStns": [
+      "2523"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2522",
+          "stnNo": "521",
+          "stnNm": "오목교",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2523",
+          "stnNo": "522",
+          "stnNm": "양평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5103",
+        "trainDptreTm": "14:00:00",
+        "trainArvlTm": "14:01:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2523",
+          "stnNo": "522",
+          "stnNm": "양평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2524",
+          "stnNo": "523",
+          "stnNm": "영등포구청",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5103",
+        "trainDptreTm": "14:01:40",
+        "trainArvlTm": "14:02:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2524",
+          "stnNo": "523",
+          "stnNm": "영등포구청",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2525",
+          "stnNo": "524",
+          "stnNm": "영등포시장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5103",
+        "trainDptreTm": "14:03:20",
+        "trainArvlTm": "14:04:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2525",
+          "stnNo": "524",
+          "stnNm": "영등포시장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2526",
+          "stnNo": "525",
+          "stnNm": "신길",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5103",
+        "trainDptreTm": "14:04:50",
+        "trainArvlTm": "14:06:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2526",
+          "stnNo": "525",
+          "stnNm": "신길",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1032",
+          "stnNo": "138",
+          "stnNm": "신길",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 242,
+        "reqHr": 425,
+        "wtngHr": 1295,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1032",
+          "stnNo": "138",
+          "stnNm": "신길",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1005",
+          "stnNo": "137",
+          "stnNm": "대방",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "양주",
+        "tmnlStnCd": "1909",
+        "upbdnbSe": "상행",
+        "trainno": "S104",
+        "trainDptreTm": "14:35:00",
+        "trainArvlTm": "14:36:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1005",
+          "stnNo": "137",
+          "stnNm": "대방",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1004",
+          "stnNo": "136",
+          "stnNm": "노량진",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "양주",
+        "tmnlStnCd": "1909",
+        "upbdnbSe": "상행",
+        "trainno": "S104",
+        "trainDptreTm": "14:36:30",
+        "trainArvlTm": "14:38:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1004",
+          "stnNo": "136",
+          "stnNm": "노량진",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1003",
+          "stnNo": "135",
+          "stnNm": "용산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "양주",
+        "tmnlStnCd": "1909",
+        "upbdnbSe": "상행",
+        "trainno": "S104",
+        "trainDptreTm": "14:39:00",
+        "trainArvlTm": "14:42:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1003",
+          "stnNo": "135",
+          "stnNm": "용산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "100C",
+          "stnNo": "K110",
+          "stnNm": "용산",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 274,
+        "reqHr": 228,
+        "wtngHr": 522,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "100C",
+          "stnNo": "K110",
+          "stnNm": "용산",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1008",
+          "stnNo": "K111",
+          "stnNm": "이촌",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1900,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "14:54:30",
+        "trainArvlTm": "14:58:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1008",
+          "stnNo": "K111",
+          "stnNm": "이촌",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1009",
+          "stnNo": "K112",
+          "stnNm": "서빙고",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "14:58:30",
+        "trainArvlTm": "15:00:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1009",
+          "stnNo": "K112",
+          "stnNm": "서빙고",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1010",
+          "stnNo": "K113",
+          "stnNm": "한남",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1900,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:01:00",
+        "trainArvlTm": "15:03:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1010",
+          "stnNo": "K113",
+          "stnNm": "한남",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1011",
+          "stnNo": "K114",
+          "stnNm": "옥수",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:04:00",
+        "trainArvlTm": "15:06:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1011",
+          "stnNo": "K114",
+          "stnNm": "옥수",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1012",
+          "stnNo": "K115",
+          "stnNm": "응봉",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:06:30",
+        "trainArvlTm": "15:08:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1012",
+          "stnNo": "K115",
+          "stnNm": "응봉",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1013",
+          "stnNo": "K116",
+          "stnNm": "왕십리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:09:00",
+        "trainArvlTm": "15:11:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1013",
+          "stnNo": "K116",
+          "stnNm": "왕십리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1014",
+          "stnNo": "K117",
+          "stnNm": "청량리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:11:30",
+        "trainArvlTm": "15:15:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1014",
+          "stnNo": "K117",
+          "stnNm": "청량리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "101C",
+          "stnNo": "K118",
+          "stnNm": "회기",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:15:30",
+        "trainArvlTm": "15:18:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "101C",
+          "stnNo": "K118",
+          "stnNm": "회기",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1201",
+          "stnNo": "K119",
+          "stnNm": "중랑",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:19:00",
+        "trainArvlTm": "15:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1201",
+          "stnNo": "K119",
+          "stnNm": "중랑",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1202",
+          "stnNo": "K120",
+          "stnNm": "상봉",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:22:00",
+        "trainArvlTm": "15:23:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1202",
+          "stnNo": "K120",
+          "stnNm": "상봉",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1203",
+          "stnNo": "K121",
+          "stnNm": "망우",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:24:00",
+        "trainArvlTm": "15:25:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1203",
+          "stnNo": "K121",
+          "stnNm": "망우",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1204",
+          "stnNo": "K122",
+          "stnNm": "양원",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:30:00",
+        "trainArvlTm": "15:32:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1204",
+          "stnNo": "K122",
+          "stnNm": "양원",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3200,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:33:00",
+        "trainArvlTm": "15:36:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1206",
+          "stnNo": "K124",
+          "stnNm": "도농",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:37:00",
+        "trainArvlTm": "15:39:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1206",
+          "stnNo": "K124",
+          "stnNm": "도농",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1207",
+          "stnNo": "K125",
+          "stnNm": "양정",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3700,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:40:00",
+        "trainArvlTm": "15:43:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1207",
+          "stnNo": "K125",
+          "stnNm": "양정",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1208",
+          "stnNo": "K126",
+          "stnNm": "덕소",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:44:00",
+        "trainArvlTm": "15:47:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1208",
+          "stnNo": "K126",
+          "stnNm": "덕소",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1209",
+          "stnNo": "K127",
+          "stnNm": "도심",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:47:30",
+        "trainArvlTm": "15:49:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1209",
+          "stnNo": "K127",
+          "stnNm": "도심",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1210",
+          "stnNo": "K128",
+          "stnNm": "팔당",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4200,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:50:00",
+        "trainArvlTm": "15:54:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1210",
+          "stnNo": "K128",
+          "stnNm": "팔당",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1211",
+          "stnNo": "K129",
+          "stnNm": "운길산",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 6400,
+        "reqHr": 300,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "15:54:30",
+        "trainArvlTm": "15:59:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1211",
+          "stnNo": "K129",
+          "stnNm": "운길산",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1212",
+          "stnNo": "K130",
+          "stnNm": "양수",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1900,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "16:00:00",
+        "trainArvlTm": "16:02:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1212",
+          "stnNo": "K130",
+          "stnNm": "양수",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1213",
+          "stnNo": "K131",
+          "stnNm": "신원",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4700,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "16:02:30",
+        "trainArvlTm": "16:06:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1213",
+          "stnNo": "K131",
+          "stnNm": "신원",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1214",
+          "stnNo": "K132",
+          "stnNm": "국수",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2900,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "16:07:00",
+        "trainArvlTm": "16:10:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1214",
+          "stnNo": "K132",
+          "stnNm": "국수",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1215",
+          "stnNo": "K133",
+          "stnNm": "아신",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4100,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "16:10:30",
+        "trainArvlTm": "16:14:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1215",
+          "stnNo": "K133",
+          "stnNm": "아신",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1216",
+          "stnNo": "K134",
+          "stnNm": "오빈",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2800,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "16:19:00",
+        "trainArvlTm": "16:22:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1216",
+          "stnNo": "K134",
+          "stnNm": "오빈",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1217",
+          "stnNo": "K135",
+          "stnNm": "양평",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2200,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "16:22:30",
+        "trainArvlTm": "16:25:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1217",
+          "stnNo": "K135",
+          "stnNm": "양평",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1218",
+          "stnNo": "K136",
+          "stnNm": "원덕",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 5800,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5087",
+        "trainDptreTm": "16:25:30",
+        "trainArvlTm": "16:31:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

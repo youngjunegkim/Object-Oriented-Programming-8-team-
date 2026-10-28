@@ -1,0 +1,113 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3036,
+    "totalReqHr": 240,
+    "totalCardCrg": 0,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "중앙",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "수인분당선"
+      }
+    ],
+    "exclTrfstns": [
+      "1757"
+    ],
+    "thrghStns": [
+      "1756"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "K4599",
+        "trainDptreTm": "14:07:30",
+        "trainArvlTm": "14:09:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1831",
+          "stnNo": "K252",
+          "stnNm": "중앙",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 36,
+        "reqHr": 30,
+        "wtngHr": 330,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1831",
+          "stnNo": "K252",
+          "stnNm": "중앙",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1832",
+          "stnNo": "K253",
+          "stnNm": "고잔",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6553",
+        "trainDptreTm": "14:15:30",
+        "trainArvlTm": "14:17:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

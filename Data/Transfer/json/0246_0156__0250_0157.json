@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2259,
+    "totalReqHr": 585,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "신설동",
+        "dptreLineNm": "2호선 성수지선",
+        "arvlLineNm": "1호선 서동탄행"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0246"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0250",
+          "stnNo": "211-3",
+          "stnNm": "용두",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "arvlStn": {
+          "stnCd": "0246",
+          "stnNo": "211-4",
+          "stnNm": "신설동",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "0246",
+        "upbdnbSe": "외선",
+        "trainno": "1599",
+        "trainDptreTm": "14:01:30",
+        "trainArvlTm": "14:03:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0246",
+          "stnNo": "211-4",
+          "stnNm": "신설동",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "arvlStn": {
+          "stnCd": "0156",
+          "stnNo": "126",
+          "stnNm": "신설동",
+          "lineNm": "1호선",
+          "brlnNm": "서동탄행"
+        },
+        "stnSctnDstc": 159,
+        "reqHr": 405,
+        "wtngHr": 285,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0156",
+          "stnNo": "126",
+          "stnNm": "신설동",
+          "lineNm": "1호선",
+          "brlnNm": "서동탄행"
+        },
+        "arvlStn": {
+          "stnCd": "0157",
+          "stnNo": "125",
+          "stnNm": "제기동",
+          "lineNm": "1호선",
+          "brlnNm": "서동탄행"
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "청량리",
+        "tmnlStnCd": "0158",
+        "upbdnbSe": "상행",
+        "trainno": "K454",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

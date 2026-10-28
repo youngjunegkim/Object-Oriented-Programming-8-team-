@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 1596,
+    "totalReqHr": 386,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "동묘앞",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "6호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0159"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0155",
+          "stnNo": "128",
+          "stnNm": "동대문",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0159",
+          "stnNo": "127",
+          "stnNm": "동묘앞",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "의정부",
+        "tmnlStnCd": "1906",
+        "upbdnbSe": "상행",
+        "trainno": "K92",
+        "trainDptreTm": "14:01:00",
+        "trainArvlTm": "14:02:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0159",
+          "stnNo": "127",
+          "stnNm": "동묘앞",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "2637",
+          "stnNo": "636",
+          "stnNm": "동묘앞",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 96,
+        "reqHr": 216,
+        "wtngHr": 744,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2637",
+          "stnNo": "636",
+          "stnNm": "동묘앞",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2638",
+          "stnNo": "637",
+          "stnNm": "창신",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "신내",
+        "tmnlStnCd": "2649",
+        "upbdnbSe": "하행",
+        "trainno": "6161",
+        "trainDptreTm": "14:18:30",
+        "trainArvlTm": "14:19:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

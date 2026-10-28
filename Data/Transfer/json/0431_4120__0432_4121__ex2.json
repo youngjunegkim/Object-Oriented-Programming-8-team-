@@ -1,0 +1,316 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 12445,
+    "totalReqHr": 1465,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "삼각지",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "4호선"
+      },
+      {
+        "stnNm": "동작",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [
+      "0426",
+      "1004",
+      "4123"
+    ],
+    "thrghStns": [
+      "0431"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0432",
+          "stnNo": "432",
+          "stnNm": "총신대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0431",
+          "stnNo": "431",
+          "stnNm": "동작",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4108",
+        "trainDptreTm": "14:16:00",
+        "trainArvlTm": "14:18:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0431",
+          "stnNo": "431",
+          "stnNm": "동작",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0430",
+          "stnNo": "430",
+          "stnNm": "이촌",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4108",
+        "trainDptreTm": "14:19:00",
+        "trainArvlTm": "14:22:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0430",
+          "stnNo": "430",
+          "stnNm": "이촌",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0429",
+          "stnNo": "429",
+          "stnNm": "신용산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4108",
+        "trainDptreTm": "14:22:30",
+        "trainArvlTm": "14:24:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0429",
+          "stnNo": "429",
+          "stnNm": "신용산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0428",
+          "stnNo": "428",
+          "stnNm": "삼각지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4108",
+        "trainDptreTm": "14:25:00",
+        "trainArvlTm": "14:26:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0428",
+          "stnNo": "428",
+          "stnNm": "삼각지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0428",
+          "stnNo": "428",
+          "stnNm": "삼각지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 2070,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0428",
+          "stnNo": "428",
+          "stnNm": "삼각지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0429",
+          "stnNo": "429",
+          "stnNm": "신용산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "사당",
+        "tmnlStnCd": "0433",
+        "upbdnbSe": "하행",
+        "trainno": "4107",
+        "trainDptreTm": "15:00:30",
+        "trainArvlTm": "15:01:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0429",
+          "stnNo": "429",
+          "stnNm": "신용산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0430",
+          "stnNo": "430",
+          "stnNm": "이촌",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "사당",
+        "tmnlStnCd": "0433",
+        "upbdnbSe": "하행",
+        "trainno": "4107",
+        "trainDptreTm": "15:02:00",
+        "trainArvlTm": "15:04:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0430",
+          "stnNo": "430",
+          "stnNm": "이촌",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0431",
+          "stnNo": "431",
+          "stnNm": "동작",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "사당",
+        "tmnlStnCd": "0433",
+        "upbdnbSe": "하행",
+        "trainno": "4107",
+        "trainDptreTm": "15:04:30",
+        "trainArvlTm": "15:07:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0431",
+          "stnNo": "431",
+          "stnNm": "동작",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4120",
+          "stnNo": "920",
+          "stnNm": "동작",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 245,
+        "reqHr": 500,
+        "wtngHr": 20,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4120",
+          "stnNo": "920",
+          "stnNm": "동작",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4121",
+          "stnNo": "921",
+          "stnNm": "구반포",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9128",
+        "trainDptreTm": "15:16:10",
+        "trainArvlTm": "15:17:45",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

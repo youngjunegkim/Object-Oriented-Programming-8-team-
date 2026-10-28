@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2681,
+    "totalReqHr": 581,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "신설동",
+        "dptreLineNm": "2호선 성수지선",
+        "arvlLineNm": "우이신설경전철"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0246"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0250",
+          "stnNo": "211-3",
+          "stnNm": "용두",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "arvlStn": {
+          "stnCd": "0246",
+          "stnNo": "211-4",
+          "stnNm": "신설동",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "0246",
+        "upbdnbSe": "외선",
+        "trainno": "1599",
+        "trainDptreTm": "14:01:30",
+        "trainArvlTm": "14:03:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0246",
+          "stnNo": "211-4",
+          "stnNm": "신설동",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "arvlStn": {
+          "stnCd": "4713",
+          "stnNo": "953",
+          "stnNm": "신설동",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 481,
+        "reqHr": 401,
+        "wtngHr": 19,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4713",
+          "stnNo": "953",
+          "stnNm": "신설동",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4712",
+          "stnNo": "952",
+          "stnNm": "보문",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "북한산우이",
+        "tmnlStnCd": "4701",
+        "upbdnbSe": "하행",
+        "trainno": "1235",
+        "trainDptreTm": "14:10:00",
+        "trainArvlTm": "14:11:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

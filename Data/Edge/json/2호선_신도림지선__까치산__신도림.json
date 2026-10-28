@@ -1,0 +1,131 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 5000,
+    "totalReqHr": 570,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0200",
+          "stnNo": "234-4",
+          "stnNm": "까치산",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "arvlStn": {
+          "stnCd": "0249",
+          "stnNo": "234-3",
+          "stnNm": "신정네거리",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "신도림",
+        "tmnlStnCd": "0234",
+        "upbdnbSe": "외선",
+        "trainno": "5599",
+        "trainDptreTm": "14:05:00",
+        "trainArvlTm": "14:07:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0249",
+          "stnNo": "234-3",
+          "stnNm": "신정네거리",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "arvlStn": {
+          "stnCd": "0248",
+          "stnNo": "234-2",
+          "stnNm": "양천구청",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "stnSctnDstc": 1900,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "신도림",
+        "tmnlStnCd": "0234",
+        "upbdnbSe": "외선",
+        "trainno": "5599",
+        "trainDptreTm": "14:08:00",
+        "trainArvlTm": "14:11:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0248",
+          "stnNo": "234-2",
+          "stnNm": "양천구청",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "arvlStn": {
+          "stnCd": "0247",
+          "stnNo": "234-1",
+          "stnNm": "도림천",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "신도림",
+        "tmnlStnCd": "0234",
+        "upbdnbSe": "외선",
+        "trainno": "5599",
+        "trainDptreTm": "14:11:30",
+        "trainArvlTm": "14:14:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0247",
+          "stnNo": "234-1",
+          "stnNm": "도림천",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "arvlStn": {
+          "stnCd": "0234",
+          "stnNo": "234",
+          "stnNm": "신도림",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "신도림",
+        "tmnlStnCd": "0234",
+        "upbdnbSe": "외선",
+        "trainno": "5599",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

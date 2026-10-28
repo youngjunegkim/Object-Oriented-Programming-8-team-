@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 11368,
+    "totalReqHr": 1117,
+    "totalCardCrg": 0,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "김포공항",
+        "dptreLineNm": "서해선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1980"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "104C",
+          "stnNo": "S12",
+          "stnNm": "능곡",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1980",
+          "stnNo": "S13",
+          "stnNm": "김포공항",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 7400,
+        "reqHr": 540,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:00:30",
+        "trainArvlTm": "14:09:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1980",
+          "stnNo": "S13",
+          "stnNm": "김포공항",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4102",
+          "stnNo": "902",
+          "stnNm": "김포공항",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 368,
+        "reqHr": 307,
+        "wtngHr": 158,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4102",
+          "stnNo": "902",
+          "stnNm": "김포공항",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4101",
+          "stnNo": "901",
+          "stnNm": "개화",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3600,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "개화",
+        "tmnlStnCd": "4101",
+        "upbdnbSe": "하행",
+        "trainno": "C9109",
+        "trainDptreTm": "14:17:15",
+        "trainArvlTm": "14:21:45",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

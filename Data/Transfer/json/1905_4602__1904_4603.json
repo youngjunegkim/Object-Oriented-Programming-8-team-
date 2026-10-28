@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2598,
+    "totalReqHr": 590,
+    "totalCardCrg": 1750,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "회룡",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "의정부경전철"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1905"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1904",
+          "stnNo": "112",
+          "stnNm": "망월사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1905",
+          "stnNo": "111",
+          "stnNm": "회룡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "양주",
+        "tmnlStnCd": "1909",
+        "upbdnbSe": "상행",
+        "trainno": "S88",
+        "trainDptreTm": "14:12:00",
+        "trainArvlTm": "14:14:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1905",
+          "stnNo": "111",
+          "stnNm": "회룡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "4602",
+          "stnNo": "U111",
+          "stnNm": "회룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 498,
+        "reqHr": 415,
+        "wtngHr": 263,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4602",
+          "stnNo": "U111",
+          "stnNm": "회룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4603",
+          "stnNo": "U112",
+          "stnNm": "범골",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 55,
+        "wtngHr": 0,
+        "tmnlStnNm": "탑석",
+        "tmnlStnCd": "4615",
+        "upbdnbSe": "하행",
+        "trainno": "1205",
+        "trainDptreTm": "14:25:18",
+        "trainArvlTm": "14:26:13",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

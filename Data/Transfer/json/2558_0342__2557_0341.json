@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 1765,
+    "totalReqHr": 220,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "오금",
+        "dptreLineNm": "5호선",
+        "arvlLineNm": "3호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2558"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2557",
+          "stnNo": "P551",
+          "stnNm": "방이",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2558",
+          "stnNo": "P552",
+          "stnNm": "오금",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "마천",
+        "tmnlStnCd": "2561",
+        "upbdnbSe": "하행",
+        "trainno": "5609",
+        "trainDptreTm": "14:01:00",
+        "trainArvlTm": "14:01:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2558",
+          "stnNo": "P552",
+          "stnNm": "오금",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0342",
+          "stnNo": "352",
+          "stnNm": "오금",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 65,
+        "reqHr": 130,
+        "wtngHr": 260,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0342",
+          "stnNo": "352",
+          "stnNm": "오금",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0341",
+          "stnNo": "351",
+          "stnNm": "경찰병원",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "대화",
+        "tmnlStnCd": "1958",
+        "upbdnbSe": "상행",
+        "trainno": "3228",
+        "trainDptreTm": "14:08:00",
+        "trainArvlTm": "14:09:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 10200,
+    "totalReqHr": 260,
+    "totalCardCrg": 1650,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2530",
+          "stnNo": "529",
+          "stnNm": "공덕",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2529",
+          "stnNo": "528",
+          "stnNm": "마포",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:00:00",
+        "trainArvlTm": "14:00:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2529",
+          "stnNo": "528",
+          "stnNm": "마포",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2528",
+          "stnNo": "527",
+          "stnNm": "여의나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:02:30",
+        "trainArvlTm": "14:02:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2528",
+          "stnNo": "527",
+          "stnNm": "여의나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2527",
+          "stnNo": "526",
+          "stnNm": "여의도",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:04:10",
+        "trainArvlTm": "14:04:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2527",
+          "stnNo": "526",
+          "stnNm": "여의도",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2526",
+          "stnNo": "525",
+          "stnNm": "신길",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:06:10",
+        "trainArvlTm": "14:06:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2526",
+          "stnNo": "525",
+          "stnNm": "신길",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2525",
+          "stnNo": "524",
+          "stnNm": "영등포시장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:08:10",
+        "trainArvlTm": "14:08:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2525",
+          "stnNo": "524",
+          "stnNm": "영등포시장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2524",
+          "stnNo": "523",
+          "stnNm": "영등포구청",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:09:40",
+        "trainArvlTm": "14:10:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2524",
+          "stnNo": "523",
+          "stnNm": "영등포구청",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2523",
+          "stnNo": "522",
+          "stnNm": "양평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:11:20",
+        "trainArvlTm": "14:11:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2523",
+          "stnNo": "522",
+          "stnNm": "양평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2522",
+          "stnNo": "521",
+          "stnNm": "오목교",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:13:00",
+        "trainArvlTm": "14:13:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2522",
+          "stnNo": "521",
+          "stnNm": "오목교",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2521",
+          "stnNo": "520",
+          "stnNm": "목동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:14:50",
+        "trainArvlTm": "14:15:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2521",
+          "stnNo": "520",
+          "stnNm": "목동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2520",
+          "stnNo": "519",
+          "stnNm": "신정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5114",
+        "trainDptreTm": "14:16:30",
+        "trainArvlTm": "14:16:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

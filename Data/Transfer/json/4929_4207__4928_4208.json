@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 13041,
+    "totalReqHr": 1196,
+    "totalCardCrg": 1650,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "김포공항",
+        "dptreLineNm": "김포도시철도",
+        "arvlLineNm": "공항철도"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4929"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4928",
+          "stnNo": "698",
+          "stnNm": "고촌",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4929",
+          "stnNo": "699",
+          "stnNm": "김포공항",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 5900,
+        "reqHr": 385,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "2233",
+        "trainDptreTm": "14:01:54",
+        "trainArvlTm": "14:08:19",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4929",
+          "stnNo": "699",
+          "stnNm": "김포공항",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4207",
+          "stnNo": "A05",
+          "stnNm": "김포공항",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 541,
+        "reqHr": 451,
+        "wtngHr": 340,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4207",
+          "stnNo": "A05",
+          "stnNm": "김포공항",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4208",
+          "stnNo": "A06",
+          "stnNm": "계양",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 6600,
+        "reqHr": 360,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천공항2터미널",
+        "tmnlStnCd": "4215",
+        "upbdnbSe": "하행",
+        "trainno": "A2087",
+        "trainDptreTm": "14:21:30",
+        "trainArvlTm": "14:27:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

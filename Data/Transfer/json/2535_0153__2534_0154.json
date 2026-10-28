@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2412,
+    "totalReqHr": 648,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "종로3가",
+        "dptreLineNm": "5호선",
+        "arvlLineNm": "1호선 경인선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2535"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2534",
+          "stnNo": "533",
+          "stnNm": "광화문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2535",
+          "stnNo": "534",
+          "stnNm": "종로3가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "마천",
+        "tmnlStnCd": "2561",
+        "upbdnbSe": "하행",
+        "trainno": "5615",
+        "trainDptreTm": "14:02:20",
+        "trainArvlTm": "14:04:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2535",
+          "stnNo": "534",
+          "stnNm": "종로3가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0153",
+          "stnNo": "130",
+          "stnNm": "종로3가",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 312,
+        "reqHr": 458,
+        "wtngHr": 562,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0153",
+          "stnNo": "130",
+          "stnNm": "종로3가",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0154",
+          "stnNo": "129",
+          "stnNm": "종로5가",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "양주",
+        "tmnlStnCd": "1909",
+        "upbdnbSe": "상행",
+        "trainno": "S96",
+        "trainDptreTm": "14:21:00",
+        "trainArvlTm": "14:22:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

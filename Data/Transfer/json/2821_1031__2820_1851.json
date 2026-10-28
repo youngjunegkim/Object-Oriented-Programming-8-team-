@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3316,
+    "totalReqHr": 260,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "복정",
+        "dptreLineNm": "8호선",
+        "arvlLineNm": "수인분당선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2821"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2820",
+          "stnNo": "819",
+          "stnNm": "장지",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2821",
+          "stnNo": "820",
+          "stnNm": "복정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8149",
+        "trainDptreTm": "14:02:30",
+        "trainArvlTm": "14:03:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2821",
+          "stnNo": "820",
+          "stnNm": "복정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1031",
+          "stnNo": "K222",
+          "stnNm": "복정",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 16,
+        "reqHr": 40,
+        "wtngHr": 400,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1031",
+          "stnNo": "K222",
+          "stnNm": "복정",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1851",
+          "stnNo": "K223",
+          "stnNm": "가천대",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "14:11:00",
+        "trainArvlTm": "14:13:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2081,
+    "totalReqHr": 310,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "선릉",
+        "dptreLineNm": "2호선",
+        "arvlLineNm": "수인분당선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0220"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0219",
+          "stnNo": "219",
+          "stnNm": "삼성",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0220",
+          "stnNo": "220",
+          "stnNm": "선릉",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "내선",
+        "trainno": "2250",
+        "trainDptreTm": "14:04:30",
+        "trainArvlTm": "14:06:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0220",
+          "stnNo": "220",
+          "stnNm": "선릉",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1023",
+          "stnNo": "K215",
+          "stnNm": "선릉",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 81,
+        "reqHr": 130,
+        "wtngHr": 500,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1023",
+          "stnNo": "K215",
+          "stnNm": "선릉",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1850",
+          "stnNo": "K214",
+          "stnNm": "선정릉",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "왕십리",
+        "tmnlStnCd": "102C",
+        "upbdnbSe": "상행",
+        "trainno": "K6108",
+        "trainDptreTm": "14:16:30",
+        "trainArvlTm": "14:18:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

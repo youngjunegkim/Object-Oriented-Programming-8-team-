@@ -1,0 +1,103 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 0,
+    "totalReqHr": 1200,
+    "totalCardCrg": 0,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0008",
+          "stnNo": "X108",
+          "stnNm": "수서",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0009",
+          "stnNo": "X109",
+          "stnNm": "성남",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 390,
+        "wtngHr": 0,
+        "tmnlStnNm": "동탄",
+        "tmnlStnCd": "0011",
+        "upbdnbSe": "하행",
+        "trainno": "X0055",
+        "trainDptreTm": "14:00:00",
+        "trainArvlTm": "14:06:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0009",
+          "stnNo": "X109",
+          "stnNm": "성남",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0010",
+          "stnNo": "X110",
+          "stnNm": "구성",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 420,
+        "wtngHr": 0,
+        "tmnlStnNm": "동탄",
+        "tmnlStnCd": "0011",
+        "upbdnbSe": "하행",
+        "trainno": "X0055",
+        "trainDptreTm": "14:07:00",
+        "trainArvlTm": "14:14:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0010",
+          "stnNo": "X110",
+          "stnNm": "구성",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0011",
+          "stnNo": "X111",
+          "stnNm": "동탄",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 390,
+        "wtngHr": 0,
+        "tmnlStnNm": "동탄",
+        "tmnlStnCd": "0011",
+        "upbdnbSe": "하행",
+        "trainno": "X0055",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:21:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

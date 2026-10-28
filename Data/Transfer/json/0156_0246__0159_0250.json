@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2059,
+    "totalReqHr": 585,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "신설동",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "2호선 성수지선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0156"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0159",
+          "stnNo": "127",
+          "stnNm": "동묘앞",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0156",
+          "stnNo": "126",
+          "stnNm": "신설동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "의정부",
+        "tmnlStnCd": "1906",
+        "upbdnbSe": "상행",
+        "trainno": "K92",
+        "trainDptreTm": "14:03:00",
+        "trainArvlTm": "14:04:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0156",
+          "stnNo": "126",
+          "stnNm": "신설동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0246",
+          "stnNo": "211-4",
+          "stnNm": "신설동",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "stnSctnDstc": 159,
+        "reqHr": 405,
+        "wtngHr": 45,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0246",
+          "stnNo": "211-4",
+          "stnNm": "신설동",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "arvlStn": {
+          "stnCd": "0250",
+          "stnNo": "211-3",
+          "stnNm": "용두",
+          "lineNm": "2호선",
+          "brlnNm": "성수지선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "내선",
+        "trainno": "1604",
+        "trainDptreTm": "14:12:00",
+        "trainArvlTm": "14:13:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

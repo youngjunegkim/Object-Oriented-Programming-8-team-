@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2064,
+    "totalReqHr": 307,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "부평구청",
+        "dptreLineNm": "7호선",
+        "arvlLineNm": "인천선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "3761"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "3760",
+          "stnNo": "758",
+          "stnNm": "굴포천",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3761",
+          "stnNo": "759",
+          "stnNm": "부평구청",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "석남",
+        "tmnlStnCd": "3763",
+        "upbdnbSe": "하행",
+        "trainno": "7199",
+        "trainDptreTm": "14:11:10",
+        "trainArvlTm": "14:12:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3761",
+          "stnNo": "759",
+          "stnNm": "부평구청",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3118",
+          "stnNo": "I118",
+          "stnNm": "부평구청",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 164,
+        "reqHr": 137,
+        "wtngHr": 493,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3118",
+          "stnNo": "I118",
+          "stnNm": "부평구청",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3117",
+          "stnNo": "I117",
+          "stnNm": "갈산",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1160",
+        "trainDptreTm": "14:23:00",
+        "trainArvlTm": "14:24:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

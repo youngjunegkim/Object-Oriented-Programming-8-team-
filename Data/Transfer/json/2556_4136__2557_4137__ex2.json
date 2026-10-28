@@ -1,0 +1,148 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 1993,
+    "totalReqHr": 412,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "올림픽공원",
+        "dptreLineNm": "5호선",
+        "arvlLineNm": "5호선"
+      },
+      {
+        "stnNm": "올림픽공원",
+        "dptreLineNm": "5호선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [
+      "2513",
+      "2548",
+      "2816"
+    ],
+    "thrghStns": [
+      "2556"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2557",
+          "stnNo": "P551",
+          "stnNm": "방이",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2556",
+          "stnNo": "P550",
+          "stnNm": "올림픽공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:13:50",
+        "trainArvlTm": "14:15:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2556",
+          "stnNo": "P550",
+          "stnNm": "올림픽공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2556",
+          "stnNo": "P550",
+          "stnNm": "올림픽공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 1865,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2556",
+          "stnNo": "P550",
+          "stnNm": "올림픽공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4136",
+          "stnNo": "936",
+          "stnNm": "올림픽공원",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 93,
+        "reqHr": 232,
+        "wtngHr": 73,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4136",
+          "stnNo": "936",
+          "stnNm": "올림픽공원",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4137",
+          "stnNo": "937",
+          "stnNm": "둔촌오륜",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9116",
+        "trainDptreTm": "14:46:15",
+        "trainArvlTm": "14:47:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

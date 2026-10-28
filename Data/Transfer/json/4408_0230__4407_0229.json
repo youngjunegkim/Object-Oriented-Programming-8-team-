@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2089,
+    "totalReqHr": 504,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "신림",
+        "dptreLineNm": "신림선",
+        "arvlLineNm": "2호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4408"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4407",
+          "stnNo": "S407",
+          "stnNm": "당곡",
+          "lineNm": "신림선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4408",
+          "stnNo": "S408",
+          "stnNm": "신림",
+          "lineNm": "신림선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "관악산",
+        "tmnlStnCd": "4411",
+        "upbdnbSe": "하행",
+        "trainno": "1169",
+        "trainDptreTm": "14:07:30",
+        "trainArvlTm": "14:09:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4408",
+          "stnNo": "S408",
+          "stnNm": "신림",
+          "lineNm": "신림선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0230",
+          "stnNo": "230",
+          "stnNm": "신림",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 389,
+        "reqHr": 324,
+        "wtngHr": 96,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0230",
+          "stnNo": "230",
+          "stnNm": "신림",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0229",
+          "stnNo": "229",
+          "stnNm": "봉천",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2263",
+        "trainDptreTm": "14:16:00",
+        "trainArvlTm": "14:17:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 0,
+    "totalReqHr": 1200,
+    "totalCardCrg": 0,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "9000",
+          "stnNo": "X101",
+          "stnNm": "운정중앙",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "9001",
+          "stnNo": "X102",
+          "stnNm": "킨텍스",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "",
+        "upbdnbSe": "하행",
+        "trainno": "X1129",
+        "trainDptreTm": "14:04:00",
+        "trainArvlTm": "14:08:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "9001",
+          "stnNo": "X102",
+          "stnNm": "킨텍스",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "9002",
+          "stnNo": "X103",
+          "stnNm": "대곡",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "",
+        "upbdnbSe": "하행",
+        "trainno": "X1129",
+        "trainDptreTm": "14:08:30",
+        "trainArvlTm": "14:13:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "9002",
+          "stnNo": "X103",
+          "stnNm": "대곡",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "9004",
+          "stnNo": "X105",
+          "stnNm": "연신내",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 360,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "",
+        "upbdnbSe": "하행",
+        "trainno": "X1129",
+        "trainDptreTm": "14:13:30",
+        "trainArvlTm": "14:19:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "9004",
+          "stnNo": "X105",
+          "stnNm": "연신내",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "",
+          "stnNo": "",
+          "stnNm": "서울역",
+          "lineNm": "GTX-A",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "",
+        "upbdnbSe": "하행",
+        "trainno": "X1129",
+        "trainDptreTm": "14:20:00",
+        "trainArvlTm": "14:25:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

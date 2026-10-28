@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 4452,
+    "totalReqHr": 323,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "별내",
+        "dptreLineNm": "경춘선",
+        "arvlLineNm": "8호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1313"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1312",
+          "stnNo": "P123",
+          "stnNm": "갈매",
+          "lineNm": "경춘선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1313",
+          "stnNo": "P124",
+          "stnNm": "별내",
+          "lineNm": "경춘선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "춘천",
+        "tmnlStnCd": "1329",
+        "upbdnbSe": "하행",
+        "trainno": "K8053",
+        "trainDptreTm": "14:20:00",
+        "trainArvlTm": "14:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1313",
+          "stnNo": "P124",
+          "stnNm": "별내",
+          "lineNm": "경춘선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2805",
+          "stnNo": "804",
+          "stnNm": "별내",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 52,
+        "reqHr": 43,
+        "wtngHr": 467,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2805",
+          "stnNo": "804",
+          "stnNm": "별내",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2806",
+          "stnNo": "805",
+          "stnNm": "다산",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3000,
+        "reqHr": 190,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8165",
+        "trainDptreTm": "14:30:00",
+        "trainArvlTm": "14:33:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

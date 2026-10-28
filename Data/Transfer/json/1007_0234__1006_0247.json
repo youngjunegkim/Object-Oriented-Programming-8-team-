@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 1624,
+    "totalReqHr": 313,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "신도림",
+        "dptreLineNm": "1호선 서동탄행",
+        "arvlLineNm": "2호선 신정지선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1007"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1006",
+          "stnNo": "139",
+          "stnNm": "영등포",
+          "lineNm": "1호선",
+          "brlnNm": "서동탄행"
+        },
+        "arvlStn": {
+          "stnCd": "1007",
+          "stnNo": "140",
+          "stnNm": "신도림",
+          "lineNm": "1호선",
+          "brlnNm": "서동탄행"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "서동탄",
+        "tmnlStnCd": "1749",
+        "upbdnbSe": "하행",
+        "trainno": "K457",
+        "trainDptreTm": "14:00:00",
+        "trainArvlTm": "14:02:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1007",
+          "stnNo": "140",
+          "stnNm": "신도림",
+          "lineNm": "1호선",
+          "brlnNm": "서동탄행"
+        },
+        "arvlStn": {
+          "stnCd": "0234",
+          "stnNo": "234",
+          "stnNm": "신도림",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "stnSctnDstc": 124,
+        "reqHr": 103,
+        "wtngHr": 377,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0234",
+          "stnNo": "234",
+          "stnNm": "신도림",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "arvlStn": {
+          "stnCd": "0247",
+          "stnNo": "234-1",
+          "stnNm": "도림천",
+          "lineNm": "2호선",
+          "brlnNm": "신정지선"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "까치산",
+        "tmnlStnCd": "0200",
+        "upbdnbSe": "내선",
+        "trainno": "5602",
+        "trainDptreTm": "14:10:00",
+        "trainArvlTm": "14:11:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

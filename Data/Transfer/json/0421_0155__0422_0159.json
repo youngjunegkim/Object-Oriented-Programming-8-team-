@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 1494,
+    "totalReqHr": 475,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "동대문",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "1호선 경인선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0421"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0422",
+          "stnNo": "422",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0421",
+          "stnNo": "421",
+          "stnNm": "동대문",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4102",
+        "trainDptreTm": "14:01:30",
+        "trainArvlTm": "14:02:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0421",
+          "stnNo": "421",
+          "stnNm": "동대문",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0155",
+          "stnNo": "128",
+          "stnNm": "동대문",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 194,
+        "reqHr": 325,
+        "wtngHr": 425,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0155",
+          "stnNo": "128",
+          "stnNm": "동대문",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0159",
+          "stnNo": "127",
+          "stnNm": "동묘앞",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "소요산",
+        "tmnlStnCd": "1916",
+        "upbdnbSe": "상행",
+        "trainno": "K94",
+        "trainDptreTm": "14:15:00",
+        "trainArvlTm": "14:16:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

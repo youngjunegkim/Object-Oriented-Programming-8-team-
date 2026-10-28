@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 4804,
+    "totalReqHr": 363,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "금정",
+        "dptreLineNm": "1호선 경부선",
+        "arvlLineNm": "4호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1708"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1709",
+          "stnNo": "P150",
+          "stnNm": "군포",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1708",
+          "stnNo": "P149",
+          "stnNm": "금정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2200,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K648",
+        "trainDptreTm": "14:04:00",
+        "trainArvlTm": "14:07:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1708",
+          "stnNo": "P149",
+          "stnNm": "금정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1458",
+          "stnNo": "443",
+          "stnNm": "금정",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4,
+        "reqHr": 3,
+        "wtngHr": 177,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1458",
+          "stnNo": "443",
+          "stnNm": "금정",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1457",
+          "stnNo": "442",
+          "stnNm": "범계",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4600",
+        "trainDptreTm": "14:10:00",
+        "trainArvlTm": "14:13:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

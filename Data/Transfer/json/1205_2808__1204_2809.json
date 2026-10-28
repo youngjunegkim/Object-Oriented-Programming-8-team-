@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 5052,
+    "totalReqHr": 383,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "구리",
+        "dptreLineNm": "경의선",
+        "arvlLineNm": "8호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1205"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1204",
+          "stnNo": "K122",
+          "stnNm": "양원",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3200,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5075",
+        "trainDptreTm": "14:02:30",
+        "trainArvlTm": "14:06:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 52,
+        "reqHr": 43,
+        "wtngHr": 467,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2809",
+          "stnNo": "808",
+          "stnNm": "장자호수공원",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8159",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

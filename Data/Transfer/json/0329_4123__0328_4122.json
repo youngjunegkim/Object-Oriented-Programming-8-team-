@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2155,
+    "totalReqHr": 471,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "고속터미널",
+        "dptreLineNm": "3호선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0329"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0328",
+          "stnNo": "338",
+          "stnNm": "잠원",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0329",
+          "stnNo": "339",
+          "stnNm": "고속터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3195",
+        "trainDptreTm": "14:03:30",
+        "trainArvlTm": "14:05:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0329",
+          "stnNo": "339",
+          "stnNm": "고속터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4123",
+          "stnNo": "923",
+          "stnNm": "고속터미널",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 155,
+        "reqHr": 301,
+        "wtngHr": 69,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4123",
+          "stnNo": "923",
+          "stnNm": "고속터미널",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4122",
+          "stnNo": "922",
+          "stnNm": "신반포",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "개화",
+        "tmnlStnCd": "4101",
+        "upbdnbSe": "하행",
+        "trainno": "C9117",
+        "trainDptreTm": "14:11:10",
+        "trainArvlTm": "14:12:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

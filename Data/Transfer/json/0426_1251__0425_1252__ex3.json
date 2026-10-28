@@ -1,0 +1,26 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 0,
+    "totalReqHr": 0,
+    "totalCardCrg": 0,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [
+      "4204",
+      "0428",
+      "2619",
+      "4203",
+      "1265"
+    ],
+    "thrghStns": [
+      "0426"
+    ],
+    "schInclYn": "N",
+    "paths": []
+  }
+}

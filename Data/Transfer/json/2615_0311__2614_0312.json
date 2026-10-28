@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2881,
+    "totalReqHr": 567,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "연신내",
+        "dptreLineNm": "6호선",
+        "arvlLineNm": "3호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2615"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2614",
+          "stnNo": "613",
+          "stnNm": "독바위",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2615",
+          "stnNo": "614",
+          "stnNm": "연신내",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "봉화산",
+        "tmnlStnCd": "2648",
+        "upbdnbSe": "하행",
+        "trainno": "6169",
+        "trainDptreTm": "14:05:20",
+        "trainArvlTm": "14:07:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2615",
+          "stnNo": "614",
+          "stnNm": "연신내",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0311",
+          "stnNo": "321",
+          "stnNm": "연신내",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 181,
+        "reqHr": 347,
+        "wtngHr": 103,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0311",
+          "stnNo": "321",
+          "stnNm": "연신내",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0312",
+          "stnNo": "322",
+          "stnNm": "불광",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3209",
+        "trainDptreTm": "14:15:00",
+        "trainArvlTm": "14:16:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

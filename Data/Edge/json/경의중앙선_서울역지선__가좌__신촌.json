@@ -1,0 +1,81 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2843,
+    "totalReqHr": 299,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "가좌",
+        "dptreLineNm": "경의선",
+        "arvlLineNm": "경의선 지선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1265",
+          "stnNo": "K315",
+          "stnNm": "가좌",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1265",
+          "stnNo": "K315",
+          "stnNm": "가좌",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "stnSctnDstc": 143,
+        "reqHr": 119,
+        "wtngHr": 1441,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1265",
+          "stnNo": "K315",
+          "stnNm": "가좌",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "arvlStn": {
+          "stnCd": "1252",
+          "stnNo": "P312",
+          "stnNm": "신촌",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "stnSctnDstc": 2700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "1251",
+        "upbdnbSe": "상행",
+        "trainno": "K2221",
+        "trainDptreTm": "14:36:00",
+        "trainArvlTm": "14:39:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

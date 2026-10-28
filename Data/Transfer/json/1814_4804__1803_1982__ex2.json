@@ -1,0 +1,654 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 42802,
+    "totalReqHr": 4115,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "소사",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "서해선"
+      },
+      {
+        "stnNm": "초지",
+        "dptreLineNm": "서해선",
+        "arvlLineNm": "서해선"
+      }
+    ],
+    "exclTrfstns": [
+      "1812",
+      "1833",
+      "1806",
+      "3118",
+      "3754"
+    ],
+    "thrghStns": [
+      "1814"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1803",
+          "stnNo": "146",
+          "stnNm": "역곡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1814",
+          "stnNo": "147",
+          "stnNm": "소사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K1609",
+        "trainDptreTm": "14:05:00",
+        "trainArvlTm": "14:06:30",
+        "trsitYn": "N",
+        "etrnYn": "Y",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1814",
+          "stnNo": "147",
+          "stnNm": "소사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "4804",
+          "stnNo": "S16",
+          "stnNm": "소사",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 402,
+        "reqHr": 335,
+        "wtngHr": 595,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "Y",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4804",
+          "stnNo": "S16",
+          "stnNm": "소사",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4805",
+          "stnNo": "S17",
+          "stnNm": "소새울",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:22:00",
+        "trainArvlTm": "14:25:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4805",
+          "stnNo": "S17",
+          "stnNm": "소새울",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4806",
+          "stnNo": "S18",
+          "stnNm": "시흥대야",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:25:30",
+        "trainArvlTm": "14:29:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4806",
+          "stnNo": "S18",
+          "stnNm": "시흥대야",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4807",
+          "stnNo": "S19",
+          "stnNm": "신천",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:29:30",
+        "trainArvlTm": "14:31:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4807",
+          "stnNo": "S19",
+          "stnNm": "신천",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4808",
+          "stnNo": "S20",
+          "stnNm": "신현",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3300,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:32:00",
+        "trainArvlTm": "14:36:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4808",
+          "stnNo": "S20",
+          "stnNm": "신현",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4809",
+          "stnNo": "S22",
+          "stnNm": "시흥시청",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3600,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:37:00",
+        "trainArvlTm": "14:42:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4809",
+          "stnNo": "S22",
+          "stnNm": "시흥시청",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4810",
+          "stnNo": "S23",
+          "stnNm": "시흥능곡",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:43:00",
+        "trainArvlTm": "14:45:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4810",
+          "stnNo": "S23",
+          "stnNm": "시흥능곡",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4811",
+          "stnNo": "S24",
+          "stnNm": "달미",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:45:30",
+        "trainArvlTm": "14:48:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4811",
+          "stnNo": "S24",
+          "stnNm": "달미",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4812",
+          "stnNo": "S25",
+          "stnNm": "선부",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:49:00",
+        "trainArvlTm": "14:51:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4812",
+          "stnNo": "S25",
+          "stnNm": "선부",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4813",
+          "stnNo": "S26",
+          "stnNm": "초지",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:52:00",
+        "trainArvlTm": "14:55:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4813",
+          "stnNo": "S26",
+          "stnNm": "초지",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4813",
+          "stnNo": "S26",
+          "stnNm": "초지",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 1320,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4813",
+          "stnNo": "S26",
+          "stnNm": "초지",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4812",
+          "stnNo": "S25",
+          "stnNm": "선부",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:17:00",
+        "trainArvlTm": "15:20:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4812",
+          "stnNo": "S25",
+          "stnNm": "선부",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4811",
+          "stnNo": "S24",
+          "stnNm": "달미",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:20:30",
+        "trainArvlTm": "15:23:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4811",
+          "stnNo": "S24",
+          "stnNm": "달미",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4810",
+          "stnNo": "S23",
+          "stnNm": "시흥능곡",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:23:30",
+        "trainArvlTm": "15:26:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4810",
+          "stnNo": "S23",
+          "stnNm": "시흥능곡",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4809",
+          "stnNo": "S22",
+          "stnNm": "시흥시청",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:27:00",
+        "trainArvlTm": "15:29:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4809",
+          "stnNo": "S22",
+          "stnNm": "시흥시청",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4808",
+          "stnNo": "S20",
+          "stnNm": "신현",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3600,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:29:30",
+        "trainArvlTm": "15:35:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4808",
+          "stnNo": "S20",
+          "stnNm": "신현",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4807",
+          "stnNo": "S19",
+          "stnNm": "신천",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3300,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:35:30",
+        "trainArvlTm": "15:40:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4807",
+          "stnNo": "S19",
+          "stnNm": "신천",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4806",
+          "stnNo": "S18",
+          "stnNm": "시흥대야",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:40:30",
+        "trainArvlTm": "15:42:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4806",
+          "stnNo": "S18",
+          "stnNm": "시흥대야",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4805",
+          "stnNo": "S17",
+          "stnNm": "소새울",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:43:00",
+        "trainArvlTm": "15:46:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4805",
+          "stnNo": "S17",
+          "stnNm": "소새울",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4804",
+          "stnNo": "S16",
+          "stnNm": "소사",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:47:00",
+        "trainArvlTm": "15:50:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4804",
+          "stnNo": "S16",
+          "stnNm": "소사",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1982",
+          "stnNo": "S15",
+          "stnNm": "부천종합운동장",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2700,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "대곡",
+        "tmnlStnCd": "103C",
+        "upbdnbSe": "상행",
+        "trainno": "K7294",
+        "trainDptreTm": "15:50:30",
+        "trainArvlTm": "15:54:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

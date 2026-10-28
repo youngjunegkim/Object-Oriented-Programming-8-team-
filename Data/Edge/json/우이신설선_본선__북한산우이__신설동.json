@@ -1,0 +1,355 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 11000,
+    "totalReqHr": 1060,
+    "totalCardCrg": 1650,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4701",
+          "stnNo": "941",
+          "stnNm": "북한산우이",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4702",
+          "stnNo": "942",
+          "stnNm": "솔밭공원",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 73,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:00:00",
+        "trainArvlTm": "14:01:13",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4702",
+          "stnNo": "942",
+          "stnNm": "솔밭공원",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4703",
+          "stnNo": "943",
+          "stnNm": "4·19민주묘지",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 67,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:01:40",
+        "trainArvlTm": "14:02:47",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4703",
+          "stnNo": "943",
+          "stnNm": "4·19민주묘지",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4704",
+          "stnNo": "944",
+          "stnNm": "가오리",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 77,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:03:15",
+        "trainArvlTm": "14:04:32",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4704",
+          "stnNo": "944",
+          "stnNm": "가오리",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4705",
+          "stnNo": "945",
+          "stnNm": "화계",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 74,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:05:01",
+        "trainArvlTm": "14:06:15",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4705",
+          "stnNo": "945",
+          "stnNm": "화계",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4706",
+          "stnNo": "946",
+          "stnNm": "삼양",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 72,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:06:44",
+        "trainArvlTm": "14:07:56",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4706",
+          "stnNo": "946",
+          "stnNm": "삼양",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4707",
+          "stnNo": "947",
+          "stnNm": "삼양사거리",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:08:25",
+        "trainArvlTm": "14:10:05",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4707",
+          "stnNo": "947",
+          "stnNm": "삼양사거리",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4708",
+          "stnNo": "948",
+          "stnNm": "솔샘",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:10:34",
+        "trainArvlTm": "14:11:54",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4708",
+          "stnNo": "948",
+          "stnNm": "솔샘",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4709",
+          "stnNo": "949",
+          "stnNm": "북한산보국문",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:12:23",
+        "trainArvlTm": "14:14:23",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4709",
+          "stnNo": "949",
+          "stnNm": "북한산보국문",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4710",
+          "stnNo": "950",
+          "stnNm": "정릉",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 105,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:14:53",
+        "trainArvlTm": "14:16:38",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4710",
+          "stnNo": "950",
+          "stnNm": "정릉",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4711",
+          "stnNo": "951",
+          "stnNm": "성신여대입구",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 88,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:17:07",
+        "trainArvlTm": "14:18:35",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4711",
+          "stnNo": "951",
+          "stnNm": "성신여대입구",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4712",
+          "stnNo": "952",
+          "stnNm": "보문",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 86,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:19:19",
+        "trainArvlTm": "14:20:45",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4712",
+          "stnNo": "952",
+          "stnNm": "보문",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4713",
+          "stnNo": "953",
+          "stnNm": "신설동",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 118,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1238",
+        "trainDptreTm": "14:21:24",
+        "trainArvlTm": "14:23:22",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

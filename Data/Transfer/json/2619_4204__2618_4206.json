@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 9886,
+    "totalReqHr": 904,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "디지털미디어시티",
+        "dptreLineNm": "6호선",
+        "arvlLineNm": "공항철도"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2619"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2618",
+          "stnNo": "617",
+          "stnNm": "증산",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2619",
+          "stnNo": "618",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "봉화산",
+        "tmnlStnCd": "2648",
+        "upbdnbSe": "하행",
+        "trainno": "6165",
+        "trainDptreTm": "14:00:00",
+        "trainArvlTm": "14:01:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2619",
+          "stnNo": "618",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4204",
+          "stnNo": "A04",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 186,
+        "reqHr": 404,
+        "wtngHr": 176,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4204",
+          "stnNo": "A04",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4206",
+          "stnNo": "A042",
+          "stnNm": "마곡나루",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 8600,
+        "reqHr": 420,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천공항2터미널",
+        "tmnlStnCd": "4215",
+        "upbdnbSe": "하행",
+        "trainno": "A2087",
+        "trainDptreTm": "14:11:00",
+        "trainArvlTm": "14:18:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 8734,
+    "totalReqHr": 532,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "이매",
+        "dptreLineNm": "경강선",
+        "arvlLineNm": "수인분당선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1502"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1503",
+          "stnNo": "K412",
+          "stnNm": "삼동",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1502",
+          "stnNo": "K411",
+          "stnNm": "이매",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 6900,
+        "reqHr": 300,
+        "wtngHr": 0,
+        "tmnlStnNm": "판교",
+        "tmnlStnCd": "1501",
+        "upbdnbSe": "상행",
+        "trainno": "K7560",
+        "trainDptreTm": "14:15:00",
+        "trainArvlTm": "14:20:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1502",
+          "stnNo": "K411",
+          "stnNm": "이매",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1860",
+          "stnNo": "K227",
+          "stnNm": "이매",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 134,
+        "reqHr": 112,
+        "wtngHr": 188,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1860",
+          "stnNo": "K227",
+          "stnNm": "이매",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1854",
+          "stnNo": "K226",
+          "stnNm": "야탑",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "왕십리",
+        "tmnlStnCd": "102C",
+        "upbdnbSe": "상행",
+        "trainno": "K6114",
+        "trainDptreTm": "14:25:00",
+        "trainArvlTm": "14:27:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

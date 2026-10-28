@@ -1,0 +1,193 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 7000,
+    "totalReqHr": 780,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "가산디지털단지",
+        "dptreLineNm": "1호선 경부선",
+        "arvlLineNm": "1호선 광명셔틀"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1703",
+          "stnNo": "P144",
+          "stnNm": "금천구청",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1714",
+          "stnNo": "P143",
+          "stnNm": "독산",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K646",
+        "trainDptreTm": "14:04:00",
+        "trainArvlTm": "14:06:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1714",
+          "stnNo": "P143",
+          "stnNm": "독산",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1702",
+          "stnNo": "P142",
+          "stnNm": "가산디지털단지",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K646",
+        "trainDptreTm": "14:06:30",
+        "trainArvlTm": "14:08:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1702",
+          "stnNo": "P142",
+          "stnNm": "가산디지털단지",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1702",
+          "stnNo": "P142",
+          "stnNm": "가산디지털단지",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 1380,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1702",
+          "stnNo": "P142",
+          "stnNm": "가산디지털단지",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "arvlStn": {
+          "stnCd": "1714",
+          "stnNo": "P143",
+          "stnNm": "독산",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광명",
+        "tmnlStnCd": "1750",
+        "upbdnbSe": "하행",
+        "trainno": "K7021",
+        "trainDptreTm": "14:31:30",
+        "trainArvlTm": "14:33:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1714",
+          "stnNo": "P143",
+          "stnNm": "독산",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "arvlStn": {
+          "stnCd": "1703",
+          "stnNo": "P144",
+          "stnNm": "금천구청",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광명",
+        "tmnlStnCd": "1750",
+        "upbdnbSe": "하행",
+        "trainno": "K7021",
+        "trainDptreTm": "14:34:00",
+        "trainArvlTm": "14:36:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1703",
+          "stnNo": "P144",
+          "stnNm": "금천구청",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "arvlStn": {
+          "stnCd": "1750",
+          "stnNo": "P144-1",
+          "stnNm": "광명",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 300,
+        "wtngHr": 0,
+        "tmnlStnNm": "광명",
+        "tmnlStnCd": "1750",
+        "upbdnbSe": "하행",
+        "trainno": "K7021",
+        "trainDptreTm": "14:36:30",
+        "trainArvlTm": "14:41:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 7268,
+    "totalReqHr": 814,
+    "totalCardCrg": 3250,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "교대",
+        "dptreLineNm": "2호선",
+        "arvlLineNm": "3호선"
+      },
+      {
+        "stnNm": "양재",
+        "dptreLineNm": "3호선",
+        "arvlLineNm": "신분당선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0222"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0221",
+          "stnNo": "221",
+          "stnNm": "역삼",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0222",
+          "stnNo": "222",
+          "stnNm": "강남",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "내선",
+        "trainno": "2248",
+        "trainDptreTm": "14:03:00",
+        "trainArvlTm": "14:04:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0222",
+          "stnNo": "222",
+          "stnNm": "강남",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0223",
+          "stnNo": "223",
+          "stnNm": "교대",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "내선",
+        "trainno": "2248",
+        "trainDptreTm": "14:04:30",
+        "trainArvlTm": "14:06:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0223",
+          "stnNo": "223",
+          "stnNm": "교대",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0330",
+          "stnNo": "340",
+          "stnNm": "교대",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 75,
+        "reqHr": 57,
+        "wtngHr": 63,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0330",
+          "stnNo": "340",
+          "stnNm": "교대",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0331",
+          "stnNo": "341",
+          "stnNm": "남부터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3195",
+        "trainDptreTm": "14:08:00",
+        "trainArvlTm": "14:09:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0331",
+          "stnNo": "341",
+          "stnNm": "남부터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0332",
+          "stnNo": "342",
+          "stnNm": "양재",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3195",
+        "trainDptreTm": "14:10:00",
+        "trainArvlTm": "14:12:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0332",
+          "stnNo": "342",
+          "stnNm": "양재",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4308",
+          "stnNo": "D8",
+          "stnNm": "양재",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 93,
+        "reqHr": 226,
+        "wtngHr": 22,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4308",
+          "stnNo": "D8",
+          "stnNm": "양재",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4307",
+          "stnNo": "D7",
+          "stnNm": "강남",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 104,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA074",
+        "trainDptreTm": "14:16:08",
+        "trainArvlTm": "14:17:52",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4307",
+          "stnNo": "D7",
+          "stnNm": "강남",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4306",
+          "stnNo": "D6",
+          "stnNm": "신논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 67,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA074",
+        "trainDptreTm": "14:18:27",
+        "trainArvlTm": "14:19:34",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

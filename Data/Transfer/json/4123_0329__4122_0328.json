@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2241,
+    "totalReqHr": 386,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "고속터미널",
+        "dptreLineNm": "9호선",
+        "arvlLineNm": "3호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4123"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4122",
+          "stnNo": "922",
+          "stnNm": "신반포",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4123",
+          "stnNo": "923",
+          "stnNm": "고속터미널",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9114",
+        "trainDptreTm": "14:02:20",
+        "trainArvlTm": "14:03:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4123",
+          "stnNo": "923",
+          "stnNm": "고속터미널",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0329",
+          "stnNo": "339",
+          "stnNm": "고속터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 241,
+        "reqHr": 201,
+        "wtngHr": 1184,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0329",
+          "stnNo": "339",
+          "stnNm": "고속터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0328",
+          "stnNo": "338",
+          "stnNm": "잠원",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "구파발",
+        "tmnlStnCd": "0310",
+        "upbdnbSe": "상행",
+        "trainno": "3226",
+        "trainDptreTm": "14:27:00",
+        "trainArvlTm": "14:28:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

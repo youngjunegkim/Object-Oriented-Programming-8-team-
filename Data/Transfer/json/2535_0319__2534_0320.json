@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 1917,
+    "totalReqHr": 386,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "종로3가",
+        "dptreLineNm": "5호선",
+        "arvlLineNm": "3호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2535"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2534",
+          "stnNo": "533",
+          "stnNm": "광화문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2535",
+          "stnNo": "534",
+          "stnNm": "종로3가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "마천",
+        "tmnlStnCd": "2561",
+        "upbdnbSe": "하행",
+        "trainno": "5615",
+        "trainDptreTm": "14:02:20",
+        "trainArvlTm": "14:04:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2535",
+          "stnNo": "534",
+          "stnNm": "종로3가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0319",
+          "stnNo": "329",
+          "stnNm": "종로3가",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 117,
+        "reqHr": 226,
+        "wtngHr": 224,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0319",
+          "stnNo": "329",
+          "stnNm": "종로3가",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0320",
+          "stnNo": "330",
+          "stnNm": "을지로3가",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3203",
+        "trainDptreTm": "14:11:30",
+        "trainArvlTm": "14:12:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

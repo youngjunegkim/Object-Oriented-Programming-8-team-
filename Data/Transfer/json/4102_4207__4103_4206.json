@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3159,
+    "totalReqHr": 289,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "김포공항",
+        "dptreLineNm": "9호선",
+        "arvlLineNm": "공항철도"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4102"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4103",
+          "stnNo": "903",
+          "stnNm": "공항시장",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4102",
+          "stnNo": "902",
+          "stnNm": "김포공항",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "개화",
+        "tmnlStnCd": "4101",
+        "upbdnbSe": "하행",
+        "trainno": "C9107",
+        "trainDptreTm": "14:04:15",
+        "trainArvlTm": "14:05:45",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4102",
+          "stnNo": "902",
+          "stnNm": "김포공항",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4207",
+          "stnNo": "A05",
+          "stnNm": "김포공항",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 59,
+        "reqHr": 49,
+        "wtngHr": 86,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4207",
+          "stnNo": "A05",
+          "stnNm": "김포공항",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4206",
+          "stnNo": "A042",
+          "stnNm": "마곡나루",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2092",
+        "trainDptreTm": "14:08:00",
+        "trainArvlTm": "14:10:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

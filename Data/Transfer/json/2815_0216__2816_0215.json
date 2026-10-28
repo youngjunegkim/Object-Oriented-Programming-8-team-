@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2390,
+    "totalReqHr": 441,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "잠실",
+        "dptreLineNm": "8호선",
+        "arvlLineNm": "2호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2815"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2816",
+          "stnNo": "815",
+          "stnNm": "석촌",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2815",
+          "stnNo": "814",
+          "stnNm": "잠실",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "별내",
+        "tmnlStnCd": "2805",
+        "upbdnbSe": "상행",
+        "trainno": "8158",
+        "trainDptreTm": "14:02:30",
+        "trainArvlTm": "14:04:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2815",
+          "stnNo": "814",
+          "stnNm": "잠실",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0216",
+          "stnNo": "216",
+          "stnNm": "잠실",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 190,
+        "reqHr": 241,
+        "wtngHr": 99,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0216",
+          "stnNo": "216",
+          "stnNm": "잠실",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0215",
+          "stnNo": "215",
+          "stnNm": "잠실나루",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2249",
+        "trainDptreTm": "14:10:00",
+        "trainArvlTm": "14:11:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 4452,
+    "totalReqHr": 333,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "구리",
+        "dptreLineNm": "8호선",
+        "arvlLineNm": "경의선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2808"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2807",
+          "stnNo": "806",
+          "stnNm": "동구릉",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8157",
+        "trainDptreTm": "14:04:30",
+        "trainArvlTm": "14:05:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 52,
+        "reqHr": 43,
+        "wtngHr": 297,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1204",
+          "stnNo": "K122",
+          "stnNm": "양원",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3200,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5070",
+        "trainDptreTm": "14:11:30",
+        "trainArvlTm": "14:15:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

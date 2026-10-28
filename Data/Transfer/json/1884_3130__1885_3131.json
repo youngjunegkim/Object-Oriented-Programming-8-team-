@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2368,
+    "totalReqHr": 487,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "원인재",
+        "dptreLineNm": "수인분당선",
+        "arvlLineNm": "인천선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1884"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1885",
+          "stnNo": "K266",
+          "stnNm": "연수",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1884",
+          "stnNo": "K265",
+          "stnNm": "원인재",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1800",
+        "upbdnbSe": "상행",
+        "trainno": "K6922",
+        "trainDptreTm": "14:09:00",
+        "trainArvlTm": "14:10:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1884",
+          "stnNo": "K265",
+          "stnNm": "원인재",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3130",
+          "stnNo": "I130",
+          "stnNm": "원인재",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 368,
+        "reqHr": 307,
+        "wtngHr": 383,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3130",
+          "stnNo": "I130",
+          "stnNm": "원인재",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3131",
+          "stnNo": "I131",
+          "stnNm": "동춘",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "송도달빛축제공원",
+        "tmnlStnCd": "3139",
+        "upbdnbSe": "하행",
+        "trainno": "1155",
+        "trainDptreTm": "14:22:00",
+        "trainArvlTm": "14:23:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

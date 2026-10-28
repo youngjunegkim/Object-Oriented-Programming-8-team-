@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3170,
+    "totalReqHr": 578,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "소사",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "서해선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1814"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1804",
+          "stnNo": "148",
+          "stnNm": "부천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1814",
+          "stnNo": "147",
+          "stnNm": "소사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K100",
+        "trainDptreTm": "14:01:30",
+        "trainArvlTm": "14:03:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1814",
+          "stnNo": "147",
+          "stnNm": "소사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "4804",
+          "stnNo": "S16",
+          "stnNm": "소사",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 370,
+        "reqHr": 308,
+        "wtngHr": 832,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4804",
+          "stnNo": "S16",
+          "stnNm": "소사",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4805",
+          "stnNo": "S17",
+          "stnNm": "소새울",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7279",
+        "trainDptreTm": "14:22:00",
+        "trainArvlTm": "14:25:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

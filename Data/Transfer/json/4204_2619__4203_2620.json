@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 4685,
+    "totalReqHr": 694,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "디지털미디어시티",
+        "dptreLineNm": "공항철도",
+        "arvlLineNm": "6호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4204"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4203",
+          "stnNo": "A03",
+          "stnNm": "홍대입구",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4204",
+          "stnNo": "A04",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3400,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천공항2터미널",
+        "tmnlStnCd": "4215",
+        "upbdnbSe": "하행",
+        "trainno": "A2087",
+        "trainDptreTm": "14:07:00",
+        "trainArvlTm": "14:10:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4204",
+          "stnNo": "A04",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2619",
+          "stnNo": "618",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 485,
+        "reqHr": 404,
+        "wtngHr": 1006,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2619",
+          "stnNo": "618",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2620",
+          "stnNo": "619",
+          "stnNm": "월드컵경기장",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "신내",
+        "tmnlStnCd": "2649",
+        "upbdnbSe": "하행",
+        "trainno": "6173",
+        "trainDptreTm": "14:34:00",
+        "trainArvlTm": "14:35:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

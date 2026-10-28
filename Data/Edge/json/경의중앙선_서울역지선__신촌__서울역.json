@@ -1,0 +1,47 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3100,
+    "totalReqHr": 330,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1252",
+          "stnNo": "P312",
+          "stnNm": "신촌",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "arvlStn": {
+          "stnCd": "1251",
+          "stnNo": "P313",
+          "stnNm": "서울역",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "stnSctnDstc": 3100,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "1251",
+        "upbdnbSe": "상행",
+        "trainno": "K2221",
+        "trainDptreTm": "14:39:30",
+        "trainArvlTm": "14:45:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

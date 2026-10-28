@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2778,
+    "totalReqHr": 670,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "노원",
+        "dptreLineNm": "7호선",
+        "arvlLineNm": "4호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2715"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2716",
+          "stnNo": "714",
+          "stnNm": "중계",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2715",
+          "stnNo": "713",
+          "stnNm": "노원",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "도봉산",
+        "tmnlStnCd": "2712",
+        "upbdnbSe": "상행",
+        "trainno": "7178",
+        "trainDptreTm": "14:04:20",
+        "trainArvlTm": "14:05:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2715",
+          "stnNo": "713",
+          "stnNm": "노원",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0411",
+          "stnNo": "411",
+          "stnNm": "노원",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 278,
+        "reqHr": 500,
+        "wtngHr": 240,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0411",
+          "stnNo": "411",
+          "stnNm": "노원",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0412",
+          "stnNo": "412",
+          "stnNm": "창동",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "K4617",
+        "trainDptreTm": "14:18:00",
+        "trainArvlTm": "14:19:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

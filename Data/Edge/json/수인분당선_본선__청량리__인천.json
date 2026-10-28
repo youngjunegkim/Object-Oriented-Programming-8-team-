@@ -1,0 +1,1055 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 45100,
+    "totalReqHr": 4080,
+    "totalCardCrg": 2250,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0158",
+          "stnNo": "124",
+          "stnNm": "청량리",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0157",
+          "stnNo": "125",
+          "stnNm": "제기동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:05:30",
+        "trainArvlTm": "14:08:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0157",
+          "stnNo": "125",
+          "stnNm": "제기동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0156",
+          "stnNo": "126",
+          "stnNm": "신설동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:08:30",
+        "trainArvlTm": "14:10:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0156",
+          "stnNo": "126",
+          "stnNm": "신설동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0159",
+          "stnNo": "127",
+          "stnNm": "동묘앞",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:10:30",
+        "trainArvlTm": "14:12:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0159",
+          "stnNo": "127",
+          "stnNm": "동묘앞",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0155",
+          "stnNo": "128",
+          "stnNm": "동대문",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:12:30",
+        "trainArvlTm": "14:14:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0155",
+          "stnNo": "128",
+          "stnNm": "동대문",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0154",
+          "stnNo": "129",
+          "stnNm": "종로5가",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0154",
+          "stnNo": "129",
+          "stnNm": "종로5가",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0153",
+          "stnNo": "130",
+          "stnNm": "종로3가",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:16:30",
+        "trainArvlTm": "14:18:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0153",
+          "stnNo": "130",
+          "stnNm": "종로3가",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0152",
+          "stnNo": "131",
+          "stnNm": "종각",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:18:30",
+        "trainArvlTm": "14:20:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0152",
+          "stnNo": "131",
+          "stnNm": "종각",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0151",
+          "stnNo": "132",
+          "stnNm": "시청",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:20:30",
+        "trainArvlTm": "14:22:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0151",
+          "stnNo": "132",
+          "stnNm": "시청",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0150",
+          "stnNo": "133",
+          "stnNm": "서울역",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:22:30",
+        "trainArvlTm": "14:24:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0150",
+          "stnNo": "133",
+          "stnNm": "서울역",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1002",
+          "stnNo": "134",
+          "stnNm": "남영",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:25:00",
+        "trainArvlTm": "14:27:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1002",
+          "stnNo": "134",
+          "stnNm": "남영",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1003",
+          "stnNo": "135",
+          "stnNm": "용산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:27:30",
+        "trainArvlTm": "14:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1003",
+          "stnNo": "135",
+          "stnNm": "용산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1004",
+          "stnNo": "136",
+          "stnNm": "노량진",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:30:30",
+        "trainArvlTm": "14:32:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1004",
+          "stnNo": "136",
+          "stnNm": "노량진",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1005",
+          "stnNo": "137",
+          "stnNm": "대방",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:33:00",
+        "trainArvlTm": "14:36:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1005",
+          "stnNo": "137",
+          "stnNm": "대방",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1032",
+          "stnNo": "138",
+          "stnNm": "신길",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:36:30",
+        "trainArvlTm": "14:38:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1032",
+          "stnNo": "138",
+          "stnNm": "신길",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1006",
+          "stnNo": "139",
+          "stnNm": "영등포",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:39:00",
+        "trainArvlTm": "14:40:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1006",
+          "stnNo": "139",
+          "stnNm": "영등포",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1007",
+          "stnNo": "140",
+          "stnNm": "신도림",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:40:30",
+        "trainArvlTm": "14:42:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1007",
+          "stnNo": "140",
+          "stnNm": "신도림",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1701",
+          "stnNo": "141",
+          "stnNm": "구로",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:43:00",
+        "trainArvlTm": "14:45:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1701",
+          "stnNo": "141",
+          "stnNm": "구로",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1813",
+          "stnNo": "142",
+          "stnNm": "구일",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:45:30",
+        "trainArvlTm": "14:47:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1813",
+          "stnNo": "142",
+          "stnNm": "구일",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1801",
+          "stnNo": "143",
+          "stnNm": "개봉",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:48:30",
+        "trainArvlTm": "14:50:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1801",
+          "stnNo": "143",
+          "stnNm": "개봉",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1802",
+          "stnNo": "144",
+          "stnNm": "오류동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:51:00",
+        "trainArvlTm": "14:52:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1802",
+          "stnNo": "144",
+          "stnNm": "오류동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1821",
+          "stnNo": "145",
+          "stnNm": "온수",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1900,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:53:00",
+        "trainArvlTm": "14:55:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1821",
+          "stnNo": "145",
+          "stnNm": "온수",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1803",
+          "stnNo": "146",
+          "stnNm": "역곡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:55:30",
+        "trainArvlTm": "14:58:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1803",
+          "stnNo": "146",
+          "stnNm": "역곡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1814",
+          "stnNo": "147",
+          "stnNm": "소사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "14:58:30",
+        "trainArvlTm": "15:00:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1814",
+          "stnNo": "147",
+          "stnNm": "소사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1804",
+          "stnNo": "148",
+          "stnNm": "부천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:00:30",
+        "trainArvlTm": "15:02:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1804",
+          "stnNo": "148",
+          "stnNm": "부천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1822",
+          "stnNo": "149",
+          "stnNm": "중동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:03:00",
+        "trainArvlTm": "15:04:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1822",
+          "stnNo": "149",
+          "stnNm": "중동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1805",
+          "stnNo": "150",
+          "stnNm": "송내",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:05:00",
+        "trainArvlTm": "15:07:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1805",
+          "stnNo": "150",
+          "stnNm": "송내",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1815",
+          "stnNo": "151",
+          "stnNm": "부개",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:07:30",
+        "trainArvlTm": "15:09:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1815",
+          "stnNo": "151",
+          "stnNm": "부개",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1806",
+          "stnNo": "152",
+          "stnNm": "부평",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:09:30",
+        "trainArvlTm": "15:11:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1806",
+          "stnNo": "152",
+          "stnNm": "부평",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1807",
+          "stnNo": "153",
+          "stnNm": "백운",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:11:30",
+        "trainArvlTm": "15:13:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1807",
+          "stnNo": "153",
+          "stnNm": "백운",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1808",
+          "stnNo": "154",
+          "stnNm": "동암",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:14:00",
+        "trainArvlTm": "15:16:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1808",
+          "stnNo": "154",
+          "stnNm": "동암",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1816",
+          "stnNo": "155",
+          "stnNm": "간석",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:17:00",
+        "trainArvlTm": "15:19:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1816",
+          "stnNo": "155",
+          "stnNm": "간석",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1809",
+          "stnNo": "156",
+          "stnNm": "주안",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:19:30",
+        "trainArvlTm": "15:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1809",
+          "stnNo": "156",
+          "stnNm": "주안",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1823",
+          "stnNo": "157",
+          "stnNm": "도화",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:22:00",
+        "trainArvlTm": "15:24:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1823",
+          "stnNo": "157",
+          "stnNm": "도화",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1810",
+          "stnNo": "158",
+          "stnNm": "제물포",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:24:30",
+        "trainArvlTm": "15:26:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1810",
+          "stnNo": "158",
+          "stnNm": "제물포",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1817",
+          "stnNo": "159",
+          "stnNm": "도원",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:26:30",
+        "trainArvlTm": "15:28:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1817",
+          "stnNo": "159",
+          "stnNm": "도원",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1811",
+          "stnNo": "160",
+          "stnNm": "동인천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:28:30",
+        "trainArvlTm": "15:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1811",
+          "stnNo": "160",
+          "stnNm": "동인천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1812",
+          "stnNo": "161",
+          "stnNm": "인천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K119",
+        "trainDptreTm": "15:30:30",
+        "trainArvlTm": "15:32:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

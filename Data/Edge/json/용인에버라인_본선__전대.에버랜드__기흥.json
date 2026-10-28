@@ -1,0 +1,411 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 18000,
+    "totalReqHr": 1260,
+    "totalCardCrg": 1750,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4517",
+          "stnNo": "Y126",
+          "stnNm": "전대.에버랜드",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4515",
+          "stnNo": "Y125",
+          "stnNm": "둔전",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:00:40",
+        "trainArvlTm": "14:03:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4515",
+          "stnNo": "Y125",
+          "stnNm": "둔전",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4514",
+          "stnNo": "Y123",
+          "stnNm": "보평",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:03:40",
+        "trainArvlTm": "14:04:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4514",
+          "stnNo": "Y123",
+          "stnNm": "보평",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4513",
+          "stnNo": "Y121",
+          "stnNm": "고진",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:04:40",
+        "trainArvlTm": "14:06:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4513",
+          "stnNo": "Y121",
+          "stnNm": "고진",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4512",
+          "stnNo": "Y120",
+          "stnNm": "용인중앙시장",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:06:40",
+        "trainArvlTm": "14:10:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4512",
+          "stnNo": "Y120",
+          "stnNm": "용인중앙시장",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4511",
+          "stnNo": "Y119",
+          "stnNm": "김량장",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:10:40",
+        "trainArvlTm": "14:11:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4511",
+          "stnNo": "Y119",
+          "stnNm": "김량장",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4510",
+          "stnNo": "Y118",
+          "stnNm": "명지대",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:11:40",
+        "trainArvlTm": "14:12:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4510",
+          "stnNo": "Y118",
+          "stnNm": "명지대",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4509",
+          "stnNo": "Y117",
+          "stnNm": "시청.용인대",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:12:40",
+        "trainArvlTm": "14:14:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4509",
+          "stnNo": "Y117",
+          "stnNm": "시청.용인대",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4508",
+          "stnNo": "Y116",
+          "stnNm": "삼가",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:14:40",
+        "trainArvlTm": "14:15:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4508",
+          "stnNo": "Y116",
+          "stnNm": "삼가",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4506",
+          "stnNo": "Y115",
+          "stnNm": "초당",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:15:40",
+        "trainArvlTm": "14:20:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4506",
+          "stnNo": "Y115",
+          "stnNm": "초당",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4505",
+          "stnNo": "Y114",
+          "stnNm": "동백",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:20:40",
+        "trainArvlTm": "14:22:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4505",
+          "stnNo": "Y114",
+          "stnNm": "동백",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4504",
+          "stnNo": "Y113",
+          "stnNm": "어정",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:22:40",
+        "trainArvlTm": "14:24:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4504",
+          "stnNo": "Y113",
+          "stnNm": "어정",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4503",
+          "stnNo": "Y112",
+          "stnNm": "지석",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:24:40",
+        "trainArvlTm": "14:25:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4503",
+          "stnNo": "Y112",
+          "stnNm": "지석",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4502",
+          "stnNo": "Y111",
+          "stnNm": "강남대",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:25:40",
+        "trainArvlTm": "14:27:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4502",
+          "stnNo": "Y111",
+          "stnNm": "강남대",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4501",
+          "stnNo": "Y110",
+          "stnNm": "기흥",
+          "lineNm": "용인경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "기흥",
+        "tmnlStnCd": "4501",
+        "upbdnbSe": "상행",
+        "trainno": "E0204",
+        "trainDptreTm": "14:27:40",
+        "trainArvlTm": "14:28:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

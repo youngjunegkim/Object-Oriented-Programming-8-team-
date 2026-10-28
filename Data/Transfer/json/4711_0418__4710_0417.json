@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2769,
+    "totalReqHr": 349,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "성신여대입구",
+        "dptreLineNm": "우이신설경전철",
+        "arvlLineNm": "4호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4711"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4710",
+          "stnNo": "950",
+          "stnNm": "정릉",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4711",
+          "stnNo": "951",
+          "stnNm": "성신여대입구",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 88,
+        "wtngHr": 0,
+        "tmnlStnNm": "신설동",
+        "tmnlStnCd": "4713",
+        "upbdnbSe": "상행",
+        "trainno": "1232",
+        "trainDptreTm": "14:02:07",
+        "trainArvlTm": "14:03:35",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4711",
+          "stnNo": "951",
+          "stnNm": "성신여대입구",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0418",
+          "stnNo": "418",
+          "stnNm": "성신여대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 169,
+        "reqHr": 141,
+        "wtngHr": 214,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0418",
+          "stnNo": "418",
+          "stnNm": "성신여대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0417",
+          "stnNo": "417",
+          "stnNm": "길음",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4102",
+        "trainDptreTm": "14:09:30",
+        "trainArvlTm": "14:11:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

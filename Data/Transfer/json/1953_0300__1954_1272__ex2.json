@@ -1,0 +1,651 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 35455,
+    "totalReqHr": 3122,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "연신내",
+        "dptreLineNm": "3호선",
+        "arvlLineNm": "6호선"
+      },
+      {
+        "stnNm": "디지털미디어시티",
+        "dptreLineNm": "6호선",
+        "arvlLineNm": "경의선"
+      }
+    ],
+    "exclTrfstns": [
+      "0325",
+      "104C"
+    ],
+    "thrghStns": [
+      "1953"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1954",
+          "stnNo": "313",
+          "stnNm": "백석",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1953",
+          "stnNo": "314",
+          "stnNm": "대곡",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2500,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3213",
+        "trainDptreTm": "14:03:30",
+        "trainArvlTm": "14:06:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1953",
+          "stnNo": "314",
+          "stnNm": "대곡",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1952",
+          "stnNo": "315",
+          "stnNm": "화정",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3213",
+        "trainDptreTm": "14:07:00",
+        "trainArvlTm": "14:09:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1952",
+          "stnNo": "315",
+          "stnNm": "화정",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1951",
+          "stnNo": "316",
+          "stnNm": "원당",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3213",
+        "trainDptreTm": "14:10:00",
+        "trainArvlTm": "14:13:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1951",
+          "stnNo": "316",
+          "stnNm": "원당",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1948",
+          "stnNo": "317",
+          "stnNm": "원흥",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2900,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3213",
+        "trainDptreTm": "14:13:30",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1948",
+          "stnNo": "317",
+          "stnNm": "원흥",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1950",
+          "stnNo": "318",
+          "stnNm": "삼송",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3213",
+        "trainDptreTm": "14:16:30",
+        "trainArvlTm": "14:18:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1950",
+          "stnNo": "318",
+          "stnNm": "삼송",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0309",
+          "stnNo": "319",
+          "stnNm": "지축",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3213",
+        "trainDptreTm": "14:19:00",
+        "trainArvlTm": "14:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0309",
+          "stnNo": "319",
+          "stnNm": "지축",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0310",
+          "stnNo": "320",
+          "stnNm": "구파발",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3213",
+        "trainDptreTm": "14:22:00",
+        "trainArvlTm": "14:25:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0310",
+          "stnNo": "320",
+          "stnNm": "구파발",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0311",
+          "stnNo": "321",
+          "stnNm": "연신내",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오금",
+        "tmnlStnCd": "0342",
+        "upbdnbSe": "하행",
+        "trainno": "3213",
+        "trainDptreTm": "14:25:30",
+        "trainArvlTm": "14:27:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0311",
+          "stnNo": "321",
+          "stnNm": "연신내",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2615",
+          "stnNo": "614",
+          "stnNm": "연신내",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 181,
+        "reqHr": 347,
+        "wtngHr": 893,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2615",
+          "stnNo": "614",
+          "stnNm": "연신내",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2616",
+          "stnNo": "615",
+          "stnNm": "구산",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "신내",
+        "tmnlStnCd": "2649",
+        "upbdnbSe": "하행",
+        "trainno": "6179",
+        "trainDptreTm": "14:48:10",
+        "trainArvlTm": "14:49:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2616",
+          "stnNo": "615",
+          "stnNm": "구산",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2611",
+          "stnNo": "610",
+          "stnNm": "응암",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "신내",
+        "tmnlStnCd": "2649",
+        "upbdnbSe": "하행",
+        "trainno": "6179",
+        "trainDptreTm": "14:50:00",
+        "trainArvlTm": "14:52:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2611",
+          "stnNo": "610",
+          "stnNm": "응암",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2617",
+          "stnNo": "616",
+          "stnNm": "새절",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "신내",
+        "tmnlStnCd": "2649",
+        "upbdnbSe": "하행",
+        "trainno": "6179",
+        "trainDptreTm": "14:52:30",
+        "trainArvlTm": "14:53:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2617",
+          "stnNo": "616",
+          "stnNm": "새절",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2618",
+          "stnNo": "617",
+          "stnNm": "증산",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "신내",
+        "tmnlStnCd": "2649",
+        "upbdnbSe": "하행",
+        "trainno": "6179",
+        "trainDptreTm": "14:54:20",
+        "trainArvlTm": "14:55:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2618",
+          "stnNo": "617",
+          "stnNm": "증산",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2619",
+          "stnNo": "618",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "신내",
+        "tmnlStnCd": "2649",
+        "upbdnbSe": "하행",
+        "trainno": "6179",
+        "trainDptreTm": "14:56:00",
+        "trainArvlTm": "14:57:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2619",
+          "stnNo": "618",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1266",
+          "stnNo": "K316",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 174,
+        "reqHr": 145,
+        "wtngHr": 405,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1266",
+          "stnNo": "K316",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1267",
+          "stnNo": "K317",
+          "stnNm": "수색",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5070",
+        "trainDptreTm": "15:06:30",
+        "trainArvlTm": "15:08:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1267",
+          "stnNo": "K317",
+          "stnNm": "수색",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1268",
+          "stnNo": "K318",
+          "stnNm": "한국항공대",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3400,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5070",
+        "trainDptreTm": "15:08:30",
+        "trainArvlTm": "15:11:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1268",
+          "stnNo": "K318",
+          "stnNm": "한국항공대",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1269",
+          "stnNo": "K319",
+          "stnNm": "강매",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2500,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5070",
+        "trainDptreTm": "15:12:00",
+        "trainArvlTm": "15:14:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1269",
+          "stnNo": "K319",
+          "stnNm": "강매",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1270",
+          "stnNo": "K320",
+          "stnNm": "행신",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5070",
+        "trainDptreTm": "15:15:00",
+        "trainArvlTm": "15:16:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1270",
+          "stnNo": "K320",
+          "stnNm": "행신",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1271",
+          "stnNo": "K321",
+          "stnNm": "능곡",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5070",
+        "trainDptreTm": "15:17:00",
+        "trainArvlTm": "15:19:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1271",
+          "stnNo": "K321",
+          "stnNm": "능곡",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0300",
+          "stnNo": "K322",
+          "stnNm": "대곡",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5070",
+        "trainDptreTm": "15:20:30",
+        "trainArvlTm": "15:23:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0300",
+          "stnNo": "K322",
+          "stnNm": "대곡",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1272",
+          "stnNo": "K323",
+          "stnNm": "곡산",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5070",
+        "trainDptreTm": "15:23:30",
+        "trainArvlTm": "15:26:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

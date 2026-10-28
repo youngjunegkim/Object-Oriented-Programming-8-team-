@@ -1,0 +1,635 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 55100,
+    "totalReqHr": 3450,
+    "totalCardCrg": 2450,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1019",
+          "stnNo": "119",
+          "stnNm": "광운대",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1020",
+          "stnNo": "118",
+          "stnNm": "월계",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:16:30",
+        "trainArvlTm": "14:18:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1020",
+          "stnNo": "118",
+          "stnNm": "월계",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1021",
+          "stnNo": "117",
+          "stnNm": "녹천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:18:30",
+        "trainArvlTm": "14:20:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1021",
+          "stnNo": "117",
+          "stnNm": "녹천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1022",
+          "stnNo": "116",
+          "stnNm": "창동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:21:00",
+        "trainArvlTm": "14:22:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1022",
+          "stnNo": "116",
+          "stnNm": "창동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1901",
+          "stnNo": "115",
+          "stnNm": "방학",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:23:00",
+        "trainArvlTm": "14:25:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1901",
+          "stnNo": "115",
+          "stnNm": "방학",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1902",
+          "stnNo": "114",
+          "stnNm": "도봉",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:25:30",
+        "trainArvlTm": "14:27:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1902",
+          "stnNo": "114",
+          "stnNm": "도봉",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1903",
+          "stnNo": "113",
+          "stnNm": "도봉산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:27:30",
+        "trainArvlTm": "14:29:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1903",
+          "stnNo": "113",
+          "stnNm": "도봉산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1904",
+          "stnNo": "112",
+          "stnNm": "망월사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:29:30",
+        "trainArvlTm": "14:32:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1904",
+          "stnNo": "112",
+          "stnNm": "망월사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1905",
+          "stnNo": "111",
+          "stnNm": "회룡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:32:30",
+        "trainArvlTm": "14:34:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1905",
+          "stnNo": "111",
+          "stnNm": "회룡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1906",
+          "stnNo": "110",
+          "stnNm": "의정부",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:35:00",
+        "trainArvlTm": "14:37:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1906",
+          "stnNo": "110",
+          "stnNm": "의정부",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1907",
+          "stnNo": "109",
+          "stnNm": "가능",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:38:00",
+        "trainArvlTm": "14:40:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1907",
+          "stnNo": "109",
+          "stnNm": "가능",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1908",
+          "stnNo": "108",
+          "stnNm": "녹양",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:40:30",
+        "trainArvlTm": "14:42:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1908",
+          "stnNo": "108",
+          "stnNm": "녹양",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1909",
+          "stnNo": "107",
+          "stnNm": "양주",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:42:30",
+        "trainArvlTm": "14:44:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1909",
+          "stnNo": "107",
+          "stnNm": "양주",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1910",
+          "stnNo": "106",
+          "stnNm": "덕계",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 5300,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:45:00",
+        "trainArvlTm": "14:49:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1910",
+          "stnNo": "106",
+          "stnNm": "덕계",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1911",
+          "stnNo": "105",
+          "stnNm": "덕정",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 2900,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:50:00",
+        "trainArvlTm": "14:53:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1911",
+          "stnNo": "105",
+          "stnNm": "덕정",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1912",
+          "stnNo": "104",
+          "stnNm": "지행",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 5600,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:53:30",
+        "trainArvlTm": "14:58:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1912",
+          "stnNo": "104",
+          "stnNm": "지행",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1913",
+          "stnNo": "103",
+          "stnNm": "동두천중앙",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:58:30",
+        "trainArvlTm": "15:00:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1913",
+          "stnNo": "103",
+          "stnNm": "동두천중앙",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1914",
+          "stnNo": "102",
+          "stnNm": "보산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "15:00:30",
+        "trainArvlTm": "15:02:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1914",
+          "stnNo": "102",
+          "stnNm": "보산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1915",
+          "stnNo": "101",
+          "stnNm": "동두천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "15:03:00",
+        "trainArvlTm": "15:05:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1915",
+          "stnNo": "101",
+          "stnNm": "동두천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1916",
+          "stnNo": "100",
+          "stnNm": "소요산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "15:07:00",
+        "trainArvlTm": "15:09:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1916",
+          "stnNo": "100",
+          "stnNm": "소요산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1917",
+          "stnNo": "100-1",
+          "stnNm": "청산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 5800,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "15:10:00",
+        "trainArvlTm": "15:14:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1917",
+          "stnNo": "100-1",
+          "stnNm": "청산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1918",
+          "stnNo": "100-2",
+          "stnNm": "전곡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 3300,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "15:15:00",
+        "trainArvlTm": "15:18:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1918",
+          "stnNo": "100-2",
+          "stnNm": "전곡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1919",
+          "stnNo": "100-3",
+          "stnNm": "연천",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 8700,
+        "reqHr": 450,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "15:18:30",
+        "trainArvlTm": "15:26:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

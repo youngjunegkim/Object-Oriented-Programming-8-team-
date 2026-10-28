@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2646,
+    "totalReqHr": 420,
+    "totalCardCrg": 1750,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "회룡",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "의정부경전철"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1905"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1906",
+          "stnNo": "110",
+          "stnNm": "의정부",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1905",
+          "stnNo": "111",
+          "stnNm": "회룡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K123",
+        "trainDptreTm": "14:06:00",
+        "trainArvlTm": "14:08:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1905",
+          "stnNo": "111",
+          "stnNm": "회룡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "4602",
+          "stnNo": "U111",
+          "stnNm": "회룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 246,
+        "reqHr": 205,
+        "wtngHr": 263,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4602",
+          "stnNo": "U111",
+          "stnNm": "회룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4601",
+          "stnNo": "U110",
+          "stnNm": "발곡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1200",
+        "trainDptreTm": "14:15:48",
+        "trainArvlTm": "14:17:23",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

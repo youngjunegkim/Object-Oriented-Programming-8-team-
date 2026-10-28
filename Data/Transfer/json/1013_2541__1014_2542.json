@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3632,
+    "totalReqHr": 713,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "왕십리",
+        "dptreLineNm": "경의선",
+        "arvlLineNm": "5호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1013"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1014",
+          "stnNo": "K117",
+          "stnNm": "청량리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1013",
+          "stnNo": "K116",
+          "stnNm": "왕십리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5062",
+        "trainDptreTm": "14:18:30",
+        "trainArvlTm": "14:22:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1013",
+          "stnNo": "K116",
+          "stnNm": "왕십리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2541",
+          "stnNo": "540",
+          "stnNm": "왕십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 532,
+        "reqHr": 443,
+        "wtngHr": 357,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2541",
+          "stnNo": "540",
+          "stnNm": "왕십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2542",
+          "stnNo": "541",
+          "stnNm": "마장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "하남검단산",
+        "tmnlStnCd": "2566",
+        "upbdnbSe": "하행",
+        "trainno": "5103",
+        "trainDptreTm": "14:35:20",
+        "trainArvlTm": "14:36:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}
