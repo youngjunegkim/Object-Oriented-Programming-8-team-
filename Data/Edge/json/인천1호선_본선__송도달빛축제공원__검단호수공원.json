@@ -1,0 +1,915 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 37100,
+    "totalReqHr": 2940,
+    "totalCardCrg": 2150,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "3139",
+          "stnNo": "I139",
+          "stnNm": "송도달빛축제공원",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3138",
+          "stnNo": "I138",
+          "stnNm": "국제업무지구",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:01:00",
+        "trainArvlTm": "14:02:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3138",
+          "stnNo": "I138",
+          "stnNm": "국제업무지구",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3137",
+          "stnNo": "I137",
+          "stnNm": "센트럴파크",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:03:00",
+        "trainArvlTm": "14:04:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3137",
+          "stnNo": "I137",
+          "stnNm": "센트럴파크",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3136",
+          "stnNo": "I136",
+          "stnNm": "인천대입구",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:05:00",
+        "trainArvlTm": "14:06:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3136",
+          "stnNo": "I136",
+          "stnNm": "인천대입구",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3135",
+          "stnNo": "I135",
+          "stnNm": "지식정보단지",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:06:30",
+        "trainArvlTm": "14:07:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3135",
+          "stnNo": "I135",
+          "stnNm": "지식정보단지",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3134",
+          "stnNo": "I134",
+          "stnNm": "테크노파크",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:08:00",
+        "trainArvlTm": "14:10:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3134",
+          "stnNo": "I134",
+          "stnNm": "테크노파크",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3133",
+          "stnNo": "I133",
+          "stnNm": "캠퍼스타운",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:10:30",
+        "trainArvlTm": "14:11:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3133",
+          "stnNo": "I133",
+          "stnNm": "캠퍼스타운",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3132",
+          "stnNo": "I132",
+          "stnNm": "동막",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:12:00",
+        "trainArvlTm": "14:14:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3132",
+          "stnNo": "I132",
+          "stnNm": "동막",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3131",
+          "stnNo": "I131",
+          "stnNm": "동춘",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3131",
+          "stnNo": "I131",
+          "stnNm": "동춘",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3130",
+          "stnNo": "I130",
+          "stnNm": "원인재",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:16:30",
+        "trainArvlTm": "14:18:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3130",
+          "stnNo": "I130",
+          "stnNm": "원인재",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3129",
+          "stnNo": "I129",
+          "stnNm": "신연수",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:18:30",
+        "trainArvlTm": "14:19:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3129",
+          "stnNo": "I129",
+          "stnNm": "신연수",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3128",
+          "stnNo": "I128",
+          "stnNm": "선학",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:20:00",
+        "trainArvlTm": "14:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3128",
+          "stnNo": "I128",
+          "stnNm": "선학",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3127",
+          "stnNo": "I127",
+          "stnNm": "문학경기장",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:22:00",
+        "trainArvlTm": "14:23:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3127",
+          "stnNo": "I127",
+          "stnNm": "문학경기장",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3126",
+          "stnNo": "I126",
+          "stnNm": "인천터미널",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:23:30",
+        "trainArvlTm": "14:24:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3126",
+          "stnNo": "I126",
+          "stnNm": "인천터미널",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3125",
+          "stnNo": "I125",
+          "stnNm": "예술회관",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:25:00",
+        "trainArvlTm": "14:26:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3125",
+          "stnNo": "I125",
+          "stnNm": "예술회관",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3124",
+          "stnNo": "I124",
+          "stnNm": "인천시청",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:26:30",
+        "trainArvlTm": "14:28:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3124",
+          "stnNo": "I124",
+          "stnNm": "인천시청",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3123",
+          "stnNo": "I123",
+          "stnNm": "간석오거리",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:28:30",
+        "trainArvlTm": "14:31:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3123",
+          "stnNo": "I123",
+          "stnNm": "간석오거리",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3122",
+          "stnNo": "I122",
+          "stnNm": "부평삼거리",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:31:30",
+        "trainArvlTm": "14:33:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3122",
+          "stnNo": "I122",
+          "stnNm": "부평삼거리",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3121",
+          "stnNo": "I121",
+          "stnNm": "동수",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:33:30",
+        "trainArvlTm": "14:35:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3121",
+          "stnNo": "I121",
+          "stnNm": "동수",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3120",
+          "stnNo": "I120",
+          "stnNm": "부평",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:35:30",
+        "trainArvlTm": "14:37:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3120",
+          "stnNo": "I120",
+          "stnNm": "부평",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3119",
+          "stnNo": "I119",
+          "stnNm": "부평시장",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:37:30",
+        "trainArvlTm": "14:38:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3119",
+          "stnNo": "I119",
+          "stnNm": "부평시장",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3118",
+          "stnNo": "I118",
+          "stnNm": "부평구청",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:39:00",
+        "trainArvlTm": "14:40:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3118",
+          "stnNo": "I118",
+          "stnNm": "부평구청",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3117",
+          "stnNo": "I117",
+          "stnNm": "갈산",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:41:00",
+        "trainArvlTm": "14:42:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3117",
+          "stnNo": "I117",
+          "stnNm": "갈산",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3116",
+          "stnNo": "I116",
+          "stnNm": "작전",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:43:00",
+        "trainArvlTm": "14:44:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3116",
+          "stnNo": "I116",
+          "stnNm": "작전",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3115",
+          "stnNo": "I115",
+          "stnNm": "경인교대입구",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:45:00",
+        "trainArvlTm": "14:46:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3115",
+          "stnNo": "I115",
+          "stnNm": "경인교대입구",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3114",
+          "stnNo": "I114",
+          "stnNm": "계산",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:46:30",
+        "trainArvlTm": "14:48:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3114",
+          "stnNo": "I114",
+          "stnNm": "계산",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3113",
+          "stnNo": "I113",
+          "stnNm": "임학",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:48:30",
+        "trainArvlTm": "14:50:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3113",
+          "stnNo": "I113",
+          "stnNm": "임학",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3112",
+          "stnNo": "I112",
+          "stnNm": "박촌",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:50:30",
+        "trainArvlTm": "14:52:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3112",
+          "stnNo": "I112",
+          "stnNm": "박촌",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3111",
+          "stnNo": "I111",
+          "stnNm": "귤현",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:52:30",
+        "trainArvlTm": "14:55:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3111",
+          "stnNo": "I111",
+          "stnNm": "귤현",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3110",
+          "stnNo": "I110",
+          "stnNm": "계양",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:55:30",
+        "trainArvlTm": "14:57:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3110",
+          "stnNo": "I110",
+          "stnNm": "계양",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3109",
+          "stnNo": null,
+          "stnNm": "아라",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4000,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "14:57:30",
+        "trainArvlTm": "15:01:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3109",
+          "stnNo": null,
+          "stnNm": "아라",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3108",
+          "stnNo": null,
+          "stnNm": "신검단중앙",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "15:02:00",
+        "trainArvlTm": "15:04:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3108",
+          "stnNo": null,
+          "stnNm": "신검단중앙",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3107",
+          "stnNo": null,
+          "stnNm": "검단호수공원",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1164",
+        "trainDptreTm": "15:04:30",
+        "trainArvlTm": "15:05:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

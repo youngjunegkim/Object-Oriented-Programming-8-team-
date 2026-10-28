@@ -1,0 +1,327 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 54800,
+    "totalReqHr": 2700,
+    "totalCardCrg": 2450,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1501",
+          "stnNo": "K409",
+          "stnNm": "판교",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1512",
+          "stnNo": "K410",
+          "stnNm": "성남",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:12:00",
+        "trainArvlTm": "14:14:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1512",
+          "stnNo": "K410",
+          "stnNm": "성남",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1502",
+          "stnNo": "K411",
+          "stnNm": "이매",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1502",
+          "stnNo": "K411",
+          "stnNm": "이매",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1503",
+          "stnNo": "K412",
+          "stnNm": "삼동",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 6900,
+        "reqHr": 300,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:16:30",
+        "trainArvlTm": "14:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1503",
+          "stnNo": "K412",
+          "stnNm": "삼동",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1504",
+          "stnNo": "K413",
+          "stnNm": "경기광주",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4900,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:22:00",
+        "trainArvlTm": "14:26:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1504",
+          "stnNo": "K413",
+          "stnNm": "경기광주",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1505",
+          "stnNo": "K414",
+          "stnNm": "초월",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 5000,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:27:00",
+        "trainArvlTm": "14:31:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1505",
+          "stnNo": "K414",
+          "stnNm": "초월",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1506",
+          "stnNo": "K415",
+          "stnNm": "곤지암",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4900,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:31:30",
+        "trainArvlTm": "14:35:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1506",
+          "stnNo": "K415",
+          "stnNm": "곤지암",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1507",
+          "stnNo": "K416",
+          "stnNm": "신둔도예촌",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 6900,
+        "reqHr": 300,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:36:00",
+        "trainArvlTm": "14:41:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1507",
+          "stnNo": "K416",
+          "stnNm": "신둔도예촌",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1508",
+          "stnNo": "K417",
+          "stnNm": "이천",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 7400,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:41:30",
+        "trainArvlTm": "14:47:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1508",
+          "stnNo": "K417",
+          "stnNm": "이천",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1509",
+          "stnNo": "K418",
+          "stnNm": "부발",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4500,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:47:30",
+        "trainArvlTm": "14:51:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1509",
+          "stnNo": "K418",
+          "stnNm": "부발",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1510",
+          "stnNo": "K419",
+          "stnNm": "세종대왕릉",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 7400,
+        "reqHr": 360,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:51:30",
+        "trainArvlTm": "14:57:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1510",
+          "stnNo": "K419",
+          "stnNm": "세종대왕릉",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1511",
+          "stnNo": "K420",
+          "stnNm": "여주",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 5400,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:58:00",
+        "trainArvlTm": "15:02:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

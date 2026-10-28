@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3442,
+    "totalReqHr": 532,
+    "totalCardCrg": 0,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "이촌",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "경의선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0430"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0429",
+          "stnNo": "429",
+          "stnNm": "신용산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0430",
+          "stnNo": "430",
+          "stnNm": "이촌",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "K4609",
+        "trainDptreTm": "14:05:00",
+        "trainArvlTm": "14:07:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0430",
+          "stnNo": "430",
+          "stnNm": "이촌",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1008",
+          "stnNo": "K111",
+          "stnNm": "이촌",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 242,
+        "reqHr": 202,
+        "wtngHr": 308,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1008",
+          "stnNo": "K111",
+          "stnNm": "이촌",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "100C",
+          "stnNo": "K110",
+          "stnNm": "용산",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1900,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5060",
+        "trainDptreTm": "14:15:30",
+        "trainArvlTm": "14:19:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

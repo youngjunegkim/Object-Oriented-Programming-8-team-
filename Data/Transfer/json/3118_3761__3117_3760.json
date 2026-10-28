@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2042,
+    "totalReqHr": 288,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "부평구청",
+        "dptreLineNm": "인천선",
+        "arvlLineNm": "7호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "3118"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "3117",
+          "stnNo": "I117",
+          "stnNm": "갈산",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3118",
+          "stnNo": "I118",
+          "stnNm": "부평구청",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "송도달빛축제공원",
+        "tmnlStnCd": "3139",
+        "upbdnbSe": "하행",
+        "trainno": "1157",
+        "trainDptreTm": "14:06:30",
+        "trainArvlTm": "14:08:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3118",
+          "stnNo": "I118",
+          "stnNm": "부평구청",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3761",
+          "stnNo": "759",
+          "stnNm": "부평구청",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 142,
+        "reqHr": 118,
+        "wtngHr": 692,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3761",
+          "stnNo": "759",
+          "stnNm": "부평구청",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3760",
+          "stnNo": "758",
+          "stnNm": "굴포천",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "도봉산",
+        "tmnlStnCd": "2712",
+        "upbdnbSe": "상행",
+        "trainno": "7214",
+        "trainDptreTm": "14:21:30",
+        "trainArvlTm": "14:22:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2155 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 77006,
+    "totalReqHr": 5193,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "김포공항",
+        "dptreLineNm": "5호선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2556"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2557",
+          "stnNo": "P551",
+          "stnNm": "방이",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2556",
+          "stnNo": "P550",
+          "stnNm": "올림픽공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:13:50",
+        "trainArvlTm": "14:15:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2556",
+          "stnNo": "P550",
+          "stnNm": "올림픽공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2555",
+          "stnNo": "P549",
+          "stnNm": "둔촌동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:15:40",
+        "trainArvlTm": "14:17:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2555",
+          "stnNo": "P549",
+          "stnNm": "둔촌동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2550",
+          "stnNo": "549",
+          "stnNm": "길동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:17:50",
+        "trainArvlTm": null,
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "Y"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2550",
+          "stnNo": "549",
+          "stnNm": "길동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2549",
+          "stnNo": "548",
+          "stnNm": "강동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 40,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:19:40",
+        "trainArvlTm": "14:20:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2549",
+          "stnNo": "548",
+          "stnNm": "강동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2548",
+          "stnNo": "547",
+          "stnNm": "천호",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:21:30",
+        "trainArvlTm": "14:22:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2548",
+          "stnNo": "547",
+          "stnNm": "천호",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2547",
+          "stnNo": "546",
+          "stnNm": "광나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:24:10",
+        "trainArvlTm": "14:24:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2547",
+          "stnNo": "546",
+          "stnNm": "광나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2546",
+          "stnNo": "545",
+          "stnNm": "아차산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:26:20",
+        "trainArvlTm": "14:26:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2546",
+          "stnNo": "545",
+          "stnNm": "아차산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2545",
+          "stnNo": "544",
+          "stnNm": "군자",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 40,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:28:10",
+        "trainArvlTm": "14:28:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2545",
+          "stnNo": "544",
+          "stnNm": "군자",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2544",
+          "stnNo": "543",
+          "stnNm": "장한평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:30:30",
+        "trainArvlTm": "14:31:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2544",
+          "stnNo": "543",
+          "stnNm": "장한평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2543",
+          "stnNo": "542",
+          "stnNm": "답십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:32:40",
+        "trainArvlTm": "14:33:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2543",
+          "stnNo": "542",
+          "stnNm": "답십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2542",
+          "stnNo": "541",
+          "stnNm": "마장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:34:50",
+        "trainArvlTm": "14:35:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2542",
+          "stnNo": "541",
+          "stnNm": "마장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2541",
+          "stnNo": "540",
+          "stnNm": "왕십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:36:10",
+        "trainArvlTm": "14:36:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2541",
+          "stnNo": "540",
+          "stnNm": "왕십리",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2540",
+          "stnNo": "539",
+          "stnNm": "행당",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:37:50",
+        "trainArvlTm": "14:38:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2540",
+          "stnNo": "539",
+          "stnNm": "행당",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2539",
+          "stnNo": "538",
+          "stnNm": "신금호",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:39:30",
+        "trainArvlTm": "14:39:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2539",
+          "stnNo": "538",
+          "stnNm": "신금호",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2538",
+          "stnNo": "537",
+          "stnNm": "청구",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:41:20",
+        "trainArvlTm": "14:41:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2538",
+          "stnNo": "537",
+          "stnNm": "청구",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2537",
+          "stnNo": "536",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 40,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:43:10",
+        "trainArvlTm": "14:43:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2537",
+          "stnNo": "536",
+          "stnNm": "동대문역사문화공원",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2536",
+          "stnNo": "535",
+          "stnNm": "을지로4가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:45:20",
+        "trainArvlTm": "14:45:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2536",
+          "stnNo": "535",
+          "stnNm": "을지로4가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2535",
+          "stnNo": "534",
+          "stnNm": "종로3가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:47:30",
+        "trainArvlTm": "14:48:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2535",
+          "stnNo": "534",
+          "stnNm": "종로3가",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2534",
+          "stnNo": "533",
+          "stnNm": "광화문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:49:40",
+        "trainArvlTm": "14:50:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2534",
+          "stnNo": "533",
+          "stnNm": "광화문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2533",
+          "stnNo": "532",
+          "stnNm": "서대문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:51:40",
+        "trainArvlTm": "14:52:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2533",
+          "stnNo": "532",
+          "stnNm": "서대문",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2532",
+          "stnNo": "531",
+          "stnNm": "충정로",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:53:10",
+        "trainArvlTm": "14:53:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2532",
+          "stnNo": "531",
+          "stnNm": "충정로",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2531",
+          "stnNo": "530",
+          "stnNm": "애오개",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:55:00",
+        "trainArvlTm": "14:55:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2531",
+          "stnNo": "530",
+          "stnNm": "애오개",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2530",
+          "stnNo": "529",
+          "stnNm": "공덕",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 40,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:56:40",
+        "trainArvlTm": "14:57:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2530",
+          "stnNo": "529",
+          "stnNm": "공덕",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2529",
+          "stnNo": "528",
+          "stnNm": "마포",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "14:58:30",
+        "trainArvlTm": "14:59:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2529",
+          "stnNo": "528",
+          "stnNm": "마포",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2528",
+          "stnNo": "527",
+          "stnNm": "여의나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:01:00",
+        "trainArvlTm": "15:01:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2528",
+          "stnNo": "527",
+          "stnNm": "여의나루",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2527",
+          "stnNo": "526",
+          "stnNm": "여의도",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:02:40",
+        "trainArvlTm": "15:03:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2527",
+          "stnNo": "526",
+          "stnNm": "여의도",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2526",
+          "stnNo": "525",
+          "stnNm": "신길",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:04:40",
+        "trainArvlTm": "15:05:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2526",
+          "stnNo": "525",
+          "stnNm": "신길",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2525",
+          "stnNo": "524",
+          "stnNm": "영등포시장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:06:40",
+        "trainArvlTm": "15:07:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2525",
+          "stnNo": "524",
+          "stnNm": "영등포시장",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2524",
+          "stnNo": "523",
+          "stnNm": "영등포구청",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:08:10",
+        "trainArvlTm": "15:08:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2524",
+          "stnNo": "523",
+          "stnNm": "영등포구청",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2523",
+          "stnNo": "522",
+          "stnNm": "양평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:09:50",
+        "trainArvlTm": "15:10:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2523",
+          "stnNo": "522",
+          "stnNm": "양평",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2522",
+          "stnNo": "521",
+          "stnNm": "오목교",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:11:30",
+        "trainArvlTm": "15:12:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2522",
+          "stnNo": "521",
+          "stnNm": "오목교",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2521",
+          "stnNo": "520",
+          "stnNm": "목동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:13:20",
+        "trainArvlTm": "15:13:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2521",
+          "stnNo": "520",
+          "stnNm": "목동",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2520",
+          "stnNo": "519",
+          "stnNm": "신정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:15:00",
+        "trainArvlTm": "15:15:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2520",
+          "stnNo": "519",
+          "stnNm": "신정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2519",
+          "stnNo": "518",
+          "stnNm": "까치산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:17:10",
+        "trainArvlTm": "15:17:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2519",
+          "stnNo": "518",
+          "stnNm": "까치산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2518",
+          "stnNo": "517",
+          "stnNm": "화곡",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:19:10",
+        "trainArvlTm": "15:19:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2518",
+          "stnNo": "517",
+          "stnNm": "화곡",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2517",
+          "stnNo": "516",
+          "stnNm": "우장산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:21:10",
+        "trainArvlTm": "15:21:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2517",
+          "stnNo": "516",
+          "stnNm": "우장산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2516",
+          "stnNo": "515",
+          "stnNm": "발산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:23:10",
+        "trainArvlTm": "15:23:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2516",
+          "stnNo": "515",
+          "stnNm": "발산",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2515",
+          "stnNo": "514",
+          "stnNm": "마곡",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 20,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:25:20",
+        "trainArvlTm": "15:25:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2515",
+          "stnNo": "514",
+          "stnNm": "마곡",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2514",
+          "stnNo": "513",
+          "stnNm": "송정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:27:10",
+        "trainArvlTm": "15:27:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2514",
+          "stnNo": "513",
+          "stnNm": "송정",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2513",
+          "stnNo": "512",
+          "stnNm": "김포공항",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 30,
+        "wtngHr": 0,
+        "tmnlStnNm": "방화",
+        "tmnlStnCd": "2511",
+        "upbdnbSe": "상행",
+        "trainno": "5600",
+        "trainDptreTm": "15:29:50",
+        "trainArvlTm": "15:30:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2513",
+          "stnNo": "512",
+          "stnNm": "김포공항",
+          "lineNm": "5호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4102",
+          "stnNo": "902",
+          "stnNm": "김포공항",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 106,
+        "reqHr": 213,
+        "wtngHr": 257,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4102",
+          "stnNo": "902",
+          "stnNm": "김포공항",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4103",
+          "stnNo": "903",
+          "stnNm": "공항시장",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:38:10",
+        "trainArvlTm": "15:39:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4103",
+          "stnNo": "903",
+          "stnNm": "공항시장",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4104",
+          "stnNo": "904",
+          "stnNm": "신방화",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 75,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:40:05",
+        "trainArvlTm": "15:41:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4104",
+          "stnNo": "904",
+          "stnNm": "신방화",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4105",
+          "stnNo": "905",
+          "stnNm": "마곡나루",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:41:45",
+        "trainArvlTm": "15:43:35",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4105",
+          "stnNo": "905",
+          "stnNm": "마곡나루",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4106",
+          "stnNo": "906",
+          "stnNm": "양천향교",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 140,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:44:05",
+        "trainArvlTm": "15:46:25",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4106",
+          "stnNo": "906",
+          "stnNm": "양천향교",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4107",
+          "stnNo": "907",
+          "stnNm": "가양",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 125,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:46:50",
+        "trainArvlTm": "15:48:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4107",
+          "stnNo": "907",
+          "stnNm": "가양",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4108",
+          "stnNo": "908",
+          "stnNm": "증미",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:51:30",
+        "trainArvlTm": "15:53:05",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4108",
+          "stnNo": "908",
+          "stnNm": "증미",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4109",
+          "stnNo": "909",
+          "stnNm": "등촌",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:53:30",
+        "trainArvlTm": "15:55:05",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4109",
+          "stnNo": "909",
+          "stnNm": "등촌",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4110",
+          "stnNo": "910",
+          "stnNm": "염창",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:55:30",
+        "trainArvlTm": "15:57:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4110",
+          "stnNo": "910",
+          "stnNm": "염창",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4111",
+          "stnNo": "911",
+          "stnNm": "신목동",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:57:40",
+        "trainArvlTm": "15:59:15",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4111",
+          "stnNo": "911",
+          "stnNm": "신목동",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4112",
+          "stnNo": "912",
+          "stnNm": "선유도",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 115,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "15:59:40",
+        "trainArvlTm": "16:01:35",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4112",
+          "stnNo": "912",
+          "stnNm": "선유도",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4113",
+          "stnNo": "913",
+          "stnNm": "당산",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:02:00",
+        "trainArvlTm": "16:03:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4113",
+          "stnNo": "913",
+          "stnNm": "당산",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4114",
+          "stnNo": "914",
+          "stnNm": "국회의사당",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:04:10",
+        "trainArvlTm": "16:06:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4114",
+          "stnNo": "914",
+          "stnNm": "국회의사당",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4115",
+          "stnNo": "915",
+          "stnNm": "여의도",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:06:45",
+        "trainArvlTm": "16:08:25",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4115",
+          "stnNo": "915",
+          "stnNm": "여의도",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4116",
+          "stnNo": "916",
+          "stnNm": "샛강",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:08:55",
+        "trainArvlTm": "16:10:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4116",
+          "stnNo": "916",
+          "stnNm": "샛강",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4117",
+          "stnNo": "917",
+          "stnNm": "노량진",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:10:55",
+        "trainArvlTm": "16:12:45",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4117",
+          "stnNo": "917",
+          "stnNm": "노량진",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4118",
+          "stnNo": "918",
+          "stnNm": "노들",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:13:15",
+        "trainArvlTm": "16:15:05",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4118",
+          "stnNo": "918",
+          "stnNm": "노들",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4119",
+          "stnNo": "919",
+          "stnNm": "흑석",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:15:30",
+        "trainArvlTm": "16:17:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4119",
+          "stnNo": "919",
+          "stnNm": "흑석",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4120",
+          "stnNo": "920",
+          "stnNm": "동작",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 135,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:17:35",
+        "trainArvlTm": "16:19:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4120",
+          "stnNo": "920",
+          "stnNm": "동작",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4121",
+          "stnNo": "921",
+          "stnNm": "구반포",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:22:25",
+        "trainArvlTm": "16:24:05",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4121",
+          "stnNo": "921",
+          "stnNm": "구반포",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4122",
+          "stnNo": "922",
+          "stnNm": "신반포",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 85,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:24:30",
+        "trainArvlTm": "16:25:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4122",
+          "stnNo": "922",
+          "stnNm": "신반포",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4123",
+          "stnNo": "923",
+          "stnNm": "고속터미널",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:26:20",
+        "trainArvlTm": "16:27:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4123",
+          "stnNo": "923",
+          "stnNm": "고속터미널",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4124",
+          "stnNo": "924",
+          "stnNm": "사평",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:28:25",
+        "trainArvlTm": "16:30:15",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4124",
+          "stnNo": "924",
+          "stnNm": "사평",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4125",
+          "stnNo": "925",
+          "stnNm": "신논현",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:30:40",
+        "trainArvlTm": "16:32:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4125",
+          "stnNo": "925",
+          "stnNm": "신논현",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4126",
+          "stnNo": "926",
+          "stnNm": "언주",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:32:50",
+        "trainArvlTm": "16:34:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4126",
+          "stnNo": "926",
+          "stnNm": "언주",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4127",
+          "stnNo": "927",
+          "stnNm": "선정릉",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 85,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:34:45",
+        "trainArvlTm": "16:36:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4127",
+          "stnNo": "927",
+          "stnNm": "선정릉",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4128",
+          "stnNo": "928",
+          "stnNm": "삼성중앙",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:36:40",
+        "trainArvlTm": "16:38:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4128",
+          "stnNo": "928",
+          "stnNm": "삼성중앙",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4129",
+          "stnNo": "929",
+          "stnNm": "봉은사",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:38:45",
+        "trainArvlTm": "16:40:20",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4129",
+          "stnNo": "929",
+          "stnNm": "봉은사",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4130",
+          "stnNo": "930",
+          "stnNm": "종합운동장",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 130,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:40:50",
+        "trainArvlTm": "16:43:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4130",
+          "stnNo": "930",
+          "stnNm": "종합운동장",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4131",
+          "stnNo": "931",
+          "stnNm": "삼전",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:43:30",
+        "trainArvlTm": "16:46:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4131",
+          "stnNo": "931",
+          "stnNm": "삼전",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4132",
+          "stnNo": "932",
+          "stnNm": "석촌고분",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:46:25",
+        "trainArvlTm": "16:47:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4132",
+          "stnNo": "932",
+          "stnNm": "석촌고분",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4133",
+          "stnNo": "933",
+          "stnNm": "석촌",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 85,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:48:20",
+        "trainArvlTm": "16:49:45",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4133",
+          "stnNo": "933",
+          "stnNm": "석촌",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4134",
+          "stnNo": "934",
+          "stnNm": "송파나루",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 105,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:50:15",
+        "trainArvlTm": "16:52:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4134",
+          "stnNo": "934",
+          "stnNm": "송파나루",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4135",
+          "stnNo": "935",
+          "stnNm": "한성백제",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 85,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:54:35",
+        "trainArvlTm": "16:56:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4135",
+          "stnNo": "935",
+          "stnNm": "한성백제",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4136",
+          "stnNo": "936",
+          "stnNm": "올림픽공원",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 125,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:56:25",
+        "trainArvlTm": "16:58:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4136",
+          "stnNo": "936",
+          "stnNm": "올림픽공원",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4137",
+          "stnNo": "937",
+          "stnNm": "둔촌오륜",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 100,
+        "wtngHr": 0,
+        "tmnlStnNm": "중앙보훈병원",
+        "tmnlStnCd": "4138",
+        "upbdnbSe": "상행",
+        "trainno": "C9140",
+        "trainDptreTm": "16:59:00",
+        "trainArvlTm": "17:00:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

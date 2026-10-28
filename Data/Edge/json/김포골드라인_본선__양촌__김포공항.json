@@ -1,0 +1,271 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 23400,
+    "totalReqHr": 1663,
+    "totalCardCrg": 1850,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4920",
+          "stnNo": "690",
+          "stnNm": "양촌",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4921",
+          "stnNo": "691",
+          "stnNm": "구래",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 122,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:06:28",
+        "trainArvlTm": "14:08:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4921",
+          "stnNo": "691",
+          "stnNm": "구래",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4922",
+          "stnNo": "692",
+          "stnNm": "마산",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 159,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:09:10",
+        "trainArvlTm": "14:11:49",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4922",
+          "stnNo": "692",
+          "stnNm": "마산",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4923",
+          "stnNo": "693",
+          "stnNm": "장기",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 197,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:12:17",
+        "trainArvlTm": "14:15:34",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4923",
+          "stnNo": "693",
+          "stnNm": "장기",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4924",
+          "stnNo": "694",
+          "stnNm": "운양",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:16:04",
+        "trainArvlTm": "14:18:04",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4924",
+          "stnNo": "694",
+          "stnNm": "운양",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4925",
+          "stnNo": "695",
+          "stnNm": "걸포북변",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3400,
+        "reqHr": 211,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:18:34",
+        "trainArvlTm": "14:22:05",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4925",
+          "stnNo": "695",
+          "stnNm": "걸포북변",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4926",
+          "stnNo": "696",
+          "stnNm": "사우",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 131,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:22:35",
+        "trainArvlTm": "14:24:46",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4926",
+          "stnNo": "696",
+          "stnNm": "사우",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4927",
+          "stnNo": "697",
+          "stnNm": "풍무",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 105,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:25:16",
+        "trainArvlTm": "14:27:01",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4927",
+          "stnNo": "697",
+          "stnNm": "풍무",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4928",
+          "stnNo": "698",
+          "stnNm": "고촌",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3600,
+        "reqHr": 233,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:27:31",
+        "trainArvlTm": "14:31:24",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4928",
+          "stnNo": "698",
+          "stnNm": "고촌",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4929",
+          "stnNo": "699",
+          "stnNm": "김포공항",
+          "lineNm": "김포도시철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 5900,
+        "reqHr": 385,
+        "wtngHr": 0,
+        "tmnlStnNm": "김포공항",
+        "tmnlStnCd": "4929",
+        "upbdnbSe": "상행",
+        "trainno": "3243",
+        "trainDptreTm": "14:31:54",
+        "trainArvlTm": "14:38:19",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

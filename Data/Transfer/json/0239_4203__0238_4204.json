@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 4855,
+    "totalReqHr": 811,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "홍대입구",
+        "dptreLineNm": "2호선",
+        "arvlLineNm": "공항철도"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0239"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0238",
+          "stnNo": "238",
+          "stnNm": "합정",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0239",
+          "stnNo": "239",
+          "stnNm": "홍대입구",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "내선",
+        "trainno": "2236",
+        "trainDptreTm": "14:04:30",
+        "trainArvlTm": "14:06:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0239",
+          "stnNo": "239",
+          "stnNm": "홍대입구",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4203",
+          "stnNo": "A03",
+          "stnNm": "홍대입구",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 355,
+        "reqHr": 511,
+        "wtngHr": 329,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4203",
+          "stnNo": "A03",
+          "stnNm": "홍대입구",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4204",
+          "stnNo": "A04",
+          "stnNm": "디지털미디어시티",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3400,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천공항2터미널",
+        "tmnlStnCd": "4215",
+        "upbdnbSe": "하행",
+        "trainno": "A2089",
+        "trainDptreTm": "14:20:00",
+        "trainArvlTm": "14:23:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

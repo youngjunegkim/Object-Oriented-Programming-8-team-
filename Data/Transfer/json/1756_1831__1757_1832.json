@@ -1,0 +1,704 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 52642,
+    "totalReqHr": 3781,
+    "totalCardCrg": 0,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "금정",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "1호선 경부선"
+      },
+      {
+        "stnNm": "수원",
+        "dptreLineNm": "1호선 경부선",
+        "arvlLineNm": "수인분당선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1756"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:07:30",
+        "trainArvlTm": "14:09:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:09:30",
+        "trainArvlTm": "14:11:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1754",
+          "stnNo": "448",
+          "stnNm": "상록수",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:12:00",
+        "trainArvlTm": "14:13:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1754",
+          "stnNo": "448",
+          "stnNm": "상록수",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1753",
+          "stnNo": "447",
+          "stnNm": "반월",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:14:00",
+        "trainArvlTm": "14:17:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1753",
+          "stnNo": "447",
+          "stnNm": "반월",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1752",
+          "stnNo": "446",
+          "stnNm": "대야미",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:17:30",
+        "trainArvlTm": "14:19:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1752",
+          "stnNo": "446",
+          "stnNm": "대야미",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1763",
+          "stnNo": "445",
+          "stnNm": "수리산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:20:00",
+        "trainArvlTm": "14:23:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1763",
+          "stnNo": "445",
+          "stnNm": "수리산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1751",
+          "stnNo": "444",
+          "stnNm": "산본",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:23:30",
+        "trainArvlTm": "14:25:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1751",
+          "stnNo": "444",
+          "stnNm": "산본",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1458",
+          "stnNo": "443",
+          "stnNm": "금정",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:25:30",
+        "trainArvlTm": "14:29:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1458",
+          "stnNo": "443",
+          "stnNm": "금정",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1708",
+          "stnNo": "P149",
+          "stnNm": "금정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 136,
+        "reqHr": 113,
+        "wtngHr": 787,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1708",
+          "stnNo": "P149",
+          "stnNm": "금정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1709",
+          "stnNo": "P150",
+          "stnNm": "군포",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2200,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K659",
+        "trainDptreTm": "14:44:30",
+        "trainArvlTm": "14:47:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1709",
+          "stnNo": "P150",
+          "stnNm": "군포",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1729",
+          "stnNo": "P151",
+          "stnNm": "당정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K659",
+        "trainDptreTm": "14:48:00",
+        "trainArvlTm": "14:49:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1729",
+          "stnNo": "P151",
+          "stnNm": "당정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1710",
+          "stnNo": "P152",
+          "stnNm": "의왕",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K659",
+        "trainDptreTm": "14:50:00",
+        "trainArvlTm": "14:52:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1710",
+          "stnNo": "P152",
+          "stnNm": "의왕",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1711",
+          "stnNo": "P153",
+          "stnNm": "성균관대",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2900,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K659",
+        "trainDptreTm": "14:52:30",
+        "trainArvlTm": "14:55:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1711",
+          "stnNo": "P153",
+          "stnNm": "성균관대",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1712",
+          "stnNo": "P154",
+          "stnNm": "화서",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K659",
+        "trainDptreTm": "14:56:00",
+        "trainArvlTm": "14:58:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1712",
+          "stnNo": "P154",
+          "stnNm": "화서",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1713",
+          "stnNo": "P155",
+          "stnNm": "수원",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K659",
+        "trainDptreTm": "14:59:00",
+        "trainArvlTm": "15:01:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1713",
+          "stnNo": "P155",
+          "stnNm": "수원",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1846",
+          "stnNo": "K245",
+          "stnNm": "수원",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 406,
+        "reqHr": 338,
+        "wtngHr": 142,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1846",
+          "stnNo": "K245",
+          "stnNm": "수원",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1873",
+          "stnNo": "K246",
+          "stnNm": "고색",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2700,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "15:09:30",
+        "trainArvlTm": "15:13:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1873",
+          "stnNo": "K246",
+          "stnNm": "고색",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1874",
+          "stnNo": "K247",
+          "stnNm": "오목천",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "15:13:30",
+        "trainArvlTm": "15:15:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1874",
+          "stnNo": "K247",
+          "stnNm": "오목천",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1875",
+          "stnNo": "K248",
+          "stnNm": "어천",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 5100,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "15:16:00",
+        "trainArvlTm": "15:20:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1875",
+          "stnNo": "K248",
+          "stnNm": "어천",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1876",
+          "stnNo": "K249",
+          "stnNm": "야목",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "15:20:30",
+        "trainArvlTm": "15:23:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1876",
+          "stnNo": "K249",
+          "stnNm": "야목",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1877",
+          "stnNo": "K250",
+          "stnNm": "사리",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4700,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "15:23:30",
+        "trainArvlTm": "15:27:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1877",
+          "stnNo": "K250",
+          "stnNm": "사리",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1830",
+          "stnNo": "K251",
+          "stnNm": "한대앞",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2200,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "15:28:30",
+        "trainArvlTm": "15:31:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1830",
+          "stnNo": "K251",
+          "stnNm": "한대앞",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1831",
+          "stnNo": "K252",
+          "stnNm": "중앙",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "15:32:00",
+        "trainArvlTm": "15:34:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1831",
+          "stnNo": "K252",
+          "stnNm": "중앙",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1832",
+          "stnNo": "K253",
+          "stnNm": "고잔",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "15:34:30",
+        "trainArvlTm": "15:36:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

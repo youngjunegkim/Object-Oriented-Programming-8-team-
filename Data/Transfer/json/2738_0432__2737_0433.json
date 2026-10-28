@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2271,
+    "totalReqHr": 408,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "이수",
+        "dptreLineNm": "7호선",
+        "arvlLineNm": "4호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2738"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2737",
+          "stnNo": "735",
+          "stnNm": "내방",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2738",
+          "stnNo": "736",
+          "stnNm": "이수",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "온수",
+        "tmnlStnCd": "2752",
+        "upbdnbSe": "하행",
+        "trainno": "7213",
+        "trainDptreTm": "14:04:40",
+        "trainArvlTm": "14:06:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2738",
+          "stnNo": "736",
+          "stnNm": "이수",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0432",
+          "stnNo": "432",
+          "stnNm": "총신대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 171,
+        "reqHr": 228,
+        "wtngHr": 602,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0432",
+          "stnNo": "432",
+          "stnNm": "총신대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0433",
+          "stnNo": "433",
+          "stnNm": "사당",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "사당",
+        "tmnlStnCd": "0433",
+        "upbdnbSe": "하행",
+        "trainno": "4099",
+        "trainDptreTm": "14:20:00",
+        "trainArvlTm": "14:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

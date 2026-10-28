@@ -1,0 +1,314 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 10148,
+    "totalReqHr": 780,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "복정",
+        "dptreLineNm": "수인분당선",
+        "arvlLineNm": "8호선"
+      },
+      {
+        "stnNm": "가락시장",
+        "dptreLineNm": "8호선",
+        "arvlLineNm": "8호선"
+      }
+    ],
+    "exclTrfstns": [
+      "1853"
+    ],
+    "thrghStns": [
+      "1031"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1030",
+          "stnNo": "K221",
+          "stnNm": "수서",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1031",
+          "stnNo": "K222",
+          "stnNm": "복정",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3200,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6559",
+        "trainDptreTm": "14:07:00",
+        "trainArvlTm": "14:10:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1031",
+          "stnNo": "K222",
+          "stnNm": "복정",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2821",
+          "stnNo": "820",
+          "stnNm": "복정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 48,
+        "reqHr": 40,
+        "wtngHr": 400,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2821",
+          "stnNo": "820",
+          "stnNm": "복정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2820",
+          "stnNo": "819",
+          "stnNm": "장지",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "별내",
+        "tmnlStnCd": "2805",
+        "upbdnbSe": "상행",
+        "trainno": "8164",
+        "trainDptreTm": "14:17:50",
+        "trainArvlTm": "14:19:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2820",
+          "stnNo": "819",
+          "stnNm": "장지",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2819",
+          "stnNo": "818",
+          "stnNm": "문정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "별내",
+        "tmnlStnCd": "2805",
+        "upbdnbSe": "상행",
+        "trainno": "8164",
+        "trainDptreTm": "14:19:30",
+        "trainArvlTm": "14:20:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2819",
+          "stnNo": "818",
+          "stnNm": "문정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2818",
+          "stnNo": "817",
+          "stnNm": "가락시장",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "별내",
+        "tmnlStnCd": "2805",
+        "upbdnbSe": "상행",
+        "trainno": "8164",
+        "trainDptreTm": "14:21:20",
+        "trainArvlTm": "14:22:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2818",
+          "stnNo": "817",
+          "stnNm": "가락시장",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2818",
+          "stnNo": "817",
+          "stnNm": "가락시장",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 510,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2818",
+          "stnNo": "817",
+          "stnNm": "가락시장",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2819",
+          "stnNo": "818",
+          "stnNm": "문정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8157",
+        "trainDptreTm": "14:31:00",
+        "trainArvlTm": "14:32:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2819",
+          "stnNo": "818",
+          "stnNm": "문정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2820",
+          "stnNo": "819",
+          "stnNm": "장지",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8157",
+        "trainDptreTm": "14:32:50",
+        "trainArvlTm": "14:34:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2820",
+          "stnNo": "819",
+          "stnNm": "장지",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2821",
+          "stnNo": "820",
+          "stnNm": "복정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8157",
+        "trainDptreTm": "14:34:30",
+        "trainArvlTm": "14:35:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2821",
+          "stnNo": "820",
+          "stnNm": "복정",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2828",
+          "stnNo": "821",
+          "stnNm": "남위례",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8157",
+        "trainDptreTm": "14:36:10",
+        "trainArvlTm": "14:38:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

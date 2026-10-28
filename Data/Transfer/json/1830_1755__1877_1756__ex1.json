@@ -1,0 +1,113 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3836,
+    "totalReqHr": 330,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "한대앞",
+        "dptreLineNm": "수인분당선",
+        "arvlLineNm": "4호선"
+      }
+    ],
+    "exclTrfstns": [
+      "1831"
+    ],
+    "thrghStns": [
+      "1830"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1877",
+          "stnNo": "K250",
+          "stnNm": "사리",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1830",
+          "stnNo": "K251",
+          "stnNm": "한대앞",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2200,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1891",
+        "upbdnbSe": "하행",
+        "trainno": "K6553",
+        "trainDptreTm": "14:09:30",
+        "trainArvlTm": "14:12:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1830",
+          "stnNo": "K251",
+          "stnNm": "한대앞",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 36,
+        "reqHr": 30,
+        "wtngHr": 330,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "K4601",
+        "trainDptreTm": "14:18:30",
+        "trainArvlTm": "14:20:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 4125,
+    "totalReqHr": 744,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "도봉산",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "7호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1903"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1904",
+          "stnNo": "112",
+          "stnNm": "망월사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1903",
+          "stnNo": "113",
+          "stnNm": "도봉산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "S121",
+        "trainDptreTm": "14:00:00",
+        "trainArvlTm": "14:02:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1903",
+          "stnNo": "113",
+          "stnNm": "도봉산",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "2712",
+          "stnNo": "710",
+          "stnNm": "도봉산",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 425,
+        "reqHr": 354,
+        "wtngHr": 696,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2712",
+          "stnNo": "710",
+          "stnNm": "도봉산",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2711",
+          "stnNo": "709",
+          "stnNm": "장암",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7180",
+        "trainDptreTm": "14:19:30",
+        "trainArvlTm": "14:24:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

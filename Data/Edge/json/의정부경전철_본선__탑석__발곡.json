@@ -1,0 +1,411 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 10600,
+    "totalReqHr": 801,
+    "totalCardCrg": 1850,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4615",
+          "stnNo": "U125",
+          "stnNm": "탑석",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4614",
+          "stnNo": "U124",
+          "stnNm": "송산",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 500,
+        "reqHr": 34,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:03:29",
+        "trainArvlTm": "14:04:03",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4614",
+          "stnNo": "U124",
+          "stnNm": "송산",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4613",
+          "stnNo": "U123",
+          "stnNm": "어룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 42,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:04:33",
+        "trainArvlTm": "14:05:15",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4613",
+          "stnNo": "U123",
+          "stnNm": "어룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4612",
+          "stnNo": "U122",
+          "stnNm": "곤제",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 62,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:05:45",
+        "trainArvlTm": "14:06:47",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4612",
+          "stnNo": "U122",
+          "stnNm": "곤제",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4611",
+          "stnNo": "U121",
+          "stnNm": "효자",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 57,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:07:17",
+        "trainArvlTm": "14:08:14",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4611",
+          "stnNo": "U121",
+          "stnNm": "효자",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4610",
+          "stnNo": "U120",
+          "stnNm": "경기도청북부청사",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 42,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:08:44",
+        "trainArvlTm": "14:09:26",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4610",
+          "stnNo": "U120",
+          "stnNm": "경기도청북부청사",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4609",
+          "stnNo": "U119",
+          "stnNm": "새말",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 46,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:09:56",
+        "trainArvlTm": "14:10:42",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4609",
+          "stnNo": "U119",
+          "stnNm": "새말",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4608",
+          "stnNo": "U118",
+          "stnNm": "동오",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 43,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:11:12",
+        "trainArvlTm": "14:11:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4608",
+          "stnNo": "U118",
+          "stnNm": "동오",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4607",
+          "stnNo": "U117",
+          "stnNm": "의정부중앙",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 58,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:12:28",
+        "trainArvlTm": "14:13:26",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4607",
+          "stnNo": "U117",
+          "stnNm": "의정부중앙",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4606",
+          "stnNo": "U115",
+          "stnNm": "흥선",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 65,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:13:56",
+        "trainArvlTm": "14:15:01",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4606",
+          "stnNo": "U115",
+          "stnNm": "흥선",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4605",
+          "stnNo": "U114",
+          "stnNm": "의정부시청",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 56,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:15:31",
+        "trainArvlTm": "14:16:27",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4605",
+          "stnNo": "U114",
+          "stnNm": "의정부시청",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4604",
+          "stnNo": "U113",
+          "stnNm": "경전철의정부",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 72,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:16:57",
+        "trainArvlTm": "14:18:09",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4604",
+          "stnNo": "U113",
+          "stnNm": "경전철의정부",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4603",
+          "stnNo": "U112",
+          "stnNm": "범골",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 57,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:18:39",
+        "trainArvlTm": "14:19:36",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4603",
+          "stnNo": "U112",
+          "stnNm": "범골",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4602",
+          "stnNo": "U111",
+          "stnNm": "회룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 72,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:20:06",
+        "trainArvlTm": "14:21:18",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4602",
+          "stnNo": "U111",
+          "stnNm": "회룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4601",
+          "stnNo": "U110",
+          "stnNm": "발곡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 95,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1202",
+        "trainDptreTm": "14:21:48",
+        "trainArvlTm": "14:23:23",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

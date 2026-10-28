@@ -1,0 +1,75 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 5800,
+    "totalReqHr": 540,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1251",
+          "stnNo": "P313",
+          "stnNm": "서울역",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "arvlStn": {
+          "stnCd": "1252",
+          "stnNo": "P312",
+          "stnNm": "신촌",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "stnSctnDstc": 3100,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "하행",
+        "trainno": "K2506",
+        "trainDptreTm": "14:20:00",
+        "trainArvlTm": "14:25:30",
+        "trsitYn": "N",
+        "etrnYn": "Y",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1252",
+          "stnNo": "P312",
+          "stnNm": "신촌",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "arvlStn": {
+          "stnCd": "1265",
+          "stnNo": "K315",
+          "stnNm": "가좌",
+          "lineNm": "경의선",
+          "brlnNm": "지선"
+        },
+        "stnSctnDstc": 2700,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "하행",
+        "trainno": "K2506",
+        "trainDptreTm": "14:26:00",
+        "trainArvlTm": "14:29:30",
+        "trsitYn": "N",
+        "etrnYn": "Y",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 0,
+    "totalReqHr": 300,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1750",
+          "stnNo": "P144-1",
+          "stnNm": "광명",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "arvlStn": {
+          "stnCd": "1703",
+          "stnNo": "P144",
+          "stnNm": "금천구청",
+          "lineNm": "1호선",
+          "brlnNm": "광명셔틀"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 300,
+        "wtngHr": 0,
+        "tmnlStnNm": "영등포",
+        "tmnlStnCd": "1006",
+        "upbdnbSe": "상행",
+        "trainno": "K7020",
+        "trainDptreTm": "14:28:00",
+        "trainArvlTm": "14:33:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

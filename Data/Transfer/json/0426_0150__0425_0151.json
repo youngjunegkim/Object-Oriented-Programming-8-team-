@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2159,
+    "totalReqHr": 430,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "서울역",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "1호선 경인선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0426"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0425",
+          "stnNo": "425",
+          "stnNm": "회현",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0426",
+          "stnNo": "426",
+          "stnNm": "서울역",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "사당",
+        "tmnlStnCd": "0433",
+        "upbdnbSe": "하행",
+        "trainno": "4099",
+        "trainDptreTm": "14:03:30",
+        "trainArvlTm": "14:05:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0426",
+          "stnNo": "426",
+          "stnNm": "서울역",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0150",
+          "stnNo": "133",
+          "stnNm": "서울역",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 159,
+        "reqHr": 220,
+        "wtngHr": 980,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0150",
+          "stnNo": "133",
+          "stnNm": "서울역",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0151",
+          "stnNo": "132",
+          "stnNm": "시청",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "동두천",
+        "tmnlStnCd": "1915",
+        "upbdnbSe": "상행",
+        "trainno": "K98",
+        "trainDptreTm": "14:25:00",
+        "trainArvlTm": "14:27:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

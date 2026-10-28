@@ -1,0 +1,183 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2836,
+    "totalReqHr": 210,
+    "totalCardCrg": 0,
+    "trsitNmtm": 3,
+    "trfstnNms": [
+      {
+        "stnNm": "중앙",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "4호선"
+      },
+      {
+        "stnNm": "중앙",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "4호선"
+      },
+      {
+        "stnNm": "고잔",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "수인분당선"
+      }
+    ],
+    "exclTrfstns": [
+      "1458",
+      "1713",
+      "1759",
+      "1830",
+      "1758"
+    ],
+    "thrghStns": [
+      "1756"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4608",
+        "trainDptreTm": "14:31:30",
+        "trainArvlTm": "14:33:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 2400,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 2400,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "오이도",
+        "tmnlStnCd": "1762",
+        "upbdnbSe": "하행",
+        "trainno": "K4611",
+        "trainDptreTm": "15:13:00",
+        "trainArvlTm": "15:14:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1832",
+          "stnNo": "K253",
+          "stnNm": "고잔",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 36,
+        "reqHr": 30,
+        "wtngHr": 1290,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

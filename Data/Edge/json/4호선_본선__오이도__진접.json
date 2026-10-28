@@ -1,0 +1,1458 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 83498,
+    "totalReqHr": 6958,
+    "totalCardCrg": 2750,
+    "trsitNmtm": 2,
+    "trfstnNms": [
+      {
+        "stnNm": "금정",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "1호선 경부선"
+      },
+      {
+        "stnNm": "동대문",
+        "dptreLineNm": "1호선 경부선",
+        "arvlLineNm": "4호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1762",
+          "stnNo": "456",
+          "stnNm": "오이도",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1761",
+          "stnNo": "455",
+          "stnNm": "정왕",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:05:00",
+        "trainArvlTm": "14:07:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1761",
+          "stnNo": "455",
+          "stnNm": "정왕",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1760",
+          "stnNo": "454",
+          "stnNm": "신길온천",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2900,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:08:00",
+        "trainArvlTm": "14:10:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1760",
+          "stnNo": "454",
+          "stnNm": "신길온천",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1759",
+          "stnNo": "453",
+          "stnNm": "안산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2200,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:11:00",
+        "trainArvlTm": "14:13:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1759",
+          "stnNo": "453",
+          "stnNm": "안산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1758",
+          "stnNo": "452",
+          "stnNm": "초지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1758",
+          "stnNo": "452",
+          "stnNm": "초지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:17:00",
+        "trainArvlTm": "14:19:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1757",
+          "stnNo": "451",
+          "stnNm": "고잔",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:19:30",
+        "trainArvlTm": "14:21:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1756",
+          "stnNo": "450",
+          "stnNm": "중앙",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:21:30",
+        "trainArvlTm": "14:23:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1755",
+          "stnNo": "449",
+          "stnNm": "한대앞",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1754",
+          "stnNo": "448",
+          "stnNm": "상록수",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:24:00",
+        "trainArvlTm": "14:25:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1754",
+          "stnNo": "448",
+          "stnNm": "상록수",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1753",
+          "stnNo": "447",
+          "stnNm": "반월",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3700,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:26:00",
+        "trainArvlTm": "14:29:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1753",
+          "stnNo": "447",
+          "stnNm": "반월",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1752",
+          "stnNo": "446",
+          "stnNm": "대야미",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:29:30",
+        "trainArvlTm": "14:31:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1752",
+          "stnNo": "446",
+          "stnNm": "대야미",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1763",
+          "stnNo": "445",
+          "stnNm": "수리산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:32:00",
+        "trainArvlTm": "14:35:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1763",
+          "stnNo": "445",
+          "stnNm": "수리산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1751",
+          "stnNo": "444",
+          "stnNm": "산본",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:35:30",
+        "trainArvlTm": "14:37:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1751",
+          "stnNo": "444",
+          "stnNm": "산본",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1458",
+          "stnNo": "443",
+          "stnNm": "금정",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4606",
+        "trainDptreTm": "14:37:30",
+        "trainArvlTm": "14:41:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1458",
+          "stnNo": "443",
+          "stnNm": "금정",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1708",
+          "stnNo": "P149",
+          "stnNm": "금정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 4,
+        "reqHr": 3,
+        "wtngHr": 297,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1708",
+          "stnNo": "P149",
+          "stnNm": "금정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1707",
+          "stnNo": "P148",
+          "stnNm": "명학",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "14:46:30",
+        "trainArvlTm": "14:48:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1707",
+          "stnNo": "P148",
+          "stnNm": "명학",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1706",
+          "stnNo": "P147",
+          "stnNm": "안양",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2200,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "14:49:00",
+        "trainArvlTm": "14:51:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1706",
+          "stnNo": "P147",
+          "stnNm": "안양",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1705",
+          "stnNo": "P146",
+          "stnNm": "관악",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "14:52:00",
+        "trainArvlTm": "14:54:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1705",
+          "stnNo": "P146",
+          "stnNm": "관악",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1704",
+          "stnNo": "P145",
+          "stnNm": "석수",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1900,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "14:55:00",
+        "trainArvlTm": "14:57:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1704",
+          "stnNo": "P145",
+          "stnNm": "석수",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1703",
+          "stnNo": "P144",
+          "stnNm": "금천구청",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "14:57:30",
+        "trainArvlTm": "15:00:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1703",
+          "stnNo": "P144",
+          "stnNm": "금천구청",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1714",
+          "stnNo": "P143",
+          "stnNm": "독산",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:00:30",
+        "trainArvlTm": "15:02:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1714",
+          "stnNo": "P143",
+          "stnNm": "독산",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1702",
+          "stnNo": "P142",
+          "stnNm": "가산디지털단지",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:03:00",
+        "trainArvlTm": "15:05:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1702",
+          "stnNo": "P142",
+          "stnNm": "가산디지털단지",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1701",
+          "stnNo": "141",
+          "stnNm": "구로",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:05:30",
+        "trainArvlTm": "15:09:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1701",
+          "stnNo": "141",
+          "stnNm": "구로",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1007",
+          "stnNo": "140",
+          "stnNm": "신도림",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:10:30",
+        "trainArvlTm": "15:12:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1007",
+          "stnNo": "140",
+          "stnNm": "신도림",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1006",
+          "stnNo": "139",
+          "stnNm": "영등포",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:13:00",
+        "trainArvlTm": "15:15:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1006",
+          "stnNo": "139",
+          "stnNm": "영등포",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1032",
+          "stnNo": "138",
+          "stnNm": "신길",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:15:30",
+        "trainArvlTm": "15:17:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1032",
+          "stnNo": "138",
+          "stnNm": "신길",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1005",
+          "stnNo": "137",
+          "stnNm": "대방",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:18:00",
+        "trainArvlTm": "15:19:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1005",
+          "stnNo": "137",
+          "stnNm": "대방",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1004",
+          "stnNo": "136",
+          "stnNm": "노량진",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:19:30",
+        "trainArvlTm": "15:21:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1004",
+          "stnNo": "136",
+          "stnNm": "노량진",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1003",
+          "stnNo": "135",
+          "stnNm": "용산",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:22:00",
+        "trainArvlTm": "15:25:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1003",
+          "stnNo": "135",
+          "stnNm": "용산",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1002",
+          "stnNo": "134",
+          "stnNm": "남영",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:25:30",
+        "trainArvlTm": "15:27:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1002",
+          "stnNo": "134",
+          "stnNm": "남영",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0150",
+          "stnNo": "133",
+          "stnNm": "서울역",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:28:00",
+        "trainArvlTm": "15:30:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0150",
+          "stnNo": "133",
+          "stnNm": "서울역",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0151",
+          "stnNo": "132",
+          "stnNm": "시청",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1100,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:31:00",
+        "trainArvlTm": "15:33:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0151",
+          "stnNo": "132",
+          "stnNm": "시청",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0152",
+          "stnNo": "131",
+          "stnNm": "종각",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:33:30",
+        "trainArvlTm": "15:35:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0152",
+          "stnNo": "131",
+          "stnNm": "종각",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0153",
+          "stnNo": "130",
+          "stnNm": "종로3가",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:36:00",
+        "trainArvlTm": "15:37:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0153",
+          "stnNo": "130",
+          "stnNm": "종로3가",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0154",
+          "stnNo": "129",
+          "stnNm": "종로5가",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:38:00",
+        "trainArvlTm": "15:39:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0154",
+          "stnNo": "129",
+          "stnNm": "종로5가",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0155",
+          "stnNo": "128",
+          "stnNm": "동대문",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "광운대",
+        "tmnlStnCd": "1019",
+        "upbdnbSe": "상행",
+        "trainno": "K652",
+        "trainDptreTm": "15:40:00",
+        "trainArvlTm": "15:41:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0155",
+          "stnNo": "128",
+          "stnNm": "동대문",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0421",
+          "stnNo": "421",
+          "stnNm": "동대문",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 194,
+        "reqHr": 325,
+        "wtngHr": 515,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0421",
+          "stnNo": "421",
+          "stnNm": "동대문",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0420",
+          "stnNo": "420",
+          "stnNm": "혜화",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "15:55:30",
+        "trainArvlTm": "15:57:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0420",
+          "stnNo": "420",
+          "stnNm": "혜화",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0419",
+          "stnNo": "419",
+          "stnNm": "한성대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "15:58:00",
+        "trainArvlTm": "15:59:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0419",
+          "stnNo": "419",
+          "stnNm": "한성대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0418",
+          "stnNo": "418",
+          "stnNm": "성신여대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:00:00",
+        "trainArvlTm": "16:01:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0418",
+          "stnNo": "418",
+          "stnNm": "성신여대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0417",
+          "stnNo": "417",
+          "stnNm": "길음",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:02:00",
+        "trainArvlTm": "16:04:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0417",
+          "stnNo": "417",
+          "stnNm": "길음",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0416",
+          "stnNo": "416",
+          "stnNm": "미아사거리",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:04:30",
+        "trainArvlTm": "16:06:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0416",
+          "stnNo": "416",
+          "stnNm": "미아사거리",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0415",
+          "stnNo": "415",
+          "stnNm": "미아",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:07:00",
+        "trainArvlTm": "16:09:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0415",
+          "stnNo": "415",
+          "stnNm": "미아",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0414",
+          "stnNo": "414",
+          "stnNm": "수유",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:09:30",
+        "trainArvlTm": "16:11:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0414",
+          "stnNo": "414",
+          "stnNm": "수유",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0413",
+          "stnNo": "413",
+          "stnNm": "쌍문",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:11:30",
+        "trainArvlTm": "16:13:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0413",
+          "stnNo": "413",
+          "stnNm": "쌍문",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0412",
+          "stnNo": "412",
+          "stnNm": "창동",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1300,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:14:00",
+        "trainArvlTm": "16:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0412",
+          "stnNo": "412",
+          "stnNm": "창동",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0411",
+          "stnNo": "411",
+          "stnNm": "노원",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:16:30",
+        "trainArvlTm": "16:18:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0411",
+          "stnNo": "411",
+          "stnNm": "노원",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0410",
+          "stnNo": "410",
+          "stnNm": "상계",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:18:30",
+        "trainArvlTm": "16:20:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0410",
+          "stnNo": "410",
+          "stnNm": "상계",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0409",
+          "stnNo": "409",
+          "stnNm": "불암산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:20:30",
+        "trainArvlTm": "16:23:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0409",
+          "stnNo": "409",
+          "stnNm": "불암산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0408",
+          "stnNo": "408",
+          "stnNm": "별내별가람",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4400,
+        "reqHr": 300,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:23:30",
+        "trainArvlTm": "16:28:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0408",
+          "stnNo": "408",
+          "stnNm": "별내별가람",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0406",
+          "stnNo": "406",
+          "stnNm": "오남",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 7700,
+        "reqHr": 390,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:29:00",
+        "trainArvlTm": "16:35:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0406",
+          "stnNo": "406",
+          "stnNm": "오남",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0405",
+          "stnNo": "405",
+          "stnNm": "진접",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "진접",
+        "tmnlStnCd": "0405",
+        "upbdnbSe": "상행",
+        "trainno": "4118",
+        "trainDptreTm": "16:36:00",
+        "trainArvlTm": "16:38:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

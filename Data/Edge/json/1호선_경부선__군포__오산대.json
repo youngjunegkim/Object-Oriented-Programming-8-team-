@@ -1,0 +1,271 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 24100,
+    "totalReqHr": 1410,
+    "totalCardCrg": 1850,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1709",
+          "stnNo": "P150",
+          "stnNm": "군포",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1729",
+          "stnNo": "P151",
+          "stnNm": "당정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:22:30",
+        "trainArvlTm": "14:24:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1729",
+          "stnNo": "P151",
+          "stnNm": "당정",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1710",
+          "stnNo": "P152",
+          "stnNm": "의왕",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:24:30",
+        "trainArvlTm": "14:26:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1710",
+          "stnNo": "P152",
+          "stnNm": "의왕",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1711",
+          "stnNo": "P153",
+          "stnNm": "성균관대",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2900,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:27:00",
+        "trainArvlTm": "14:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1711",
+          "stnNo": "P153",
+          "stnNm": "성균관대",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1712",
+          "stnNo": "P154",
+          "stnNm": "화서",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:30:30",
+        "trainArvlTm": "14:33:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1712",
+          "stnNo": "P154",
+          "stnNm": "화서",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1713",
+          "stnNo": "P155",
+          "stnNm": "수원",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:33:30",
+        "trainArvlTm": "14:36:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1713",
+          "stnNo": "P155",
+          "stnNm": "수원",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1715",
+          "stnNo": "P156",
+          "stnNm": "세류",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2900,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:36:30",
+        "trainArvlTm": "14:39:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1715",
+          "stnNo": "P156",
+          "stnNm": "세류",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1716",
+          "stnNo": "P157",
+          "stnNm": "병점",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 4300,
+        "reqHr": 240,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:40:00",
+        "trainArvlTm": "14:44:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1716",
+          "stnNo": "P157",
+          "stnNm": "병점",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1717",
+          "stnNo": "P158",
+          "stnNm": "세마",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:45:00",
+        "trainArvlTm": "14:47:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1717",
+          "stnNo": "P158",
+          "stnNm": "세마",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "1718",
+          "stnNo": "P159",
+          "stnNm": "오산대",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 2700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K657",
+        "trainDptreTm": "14:48:00",
+        "trainArvlTm": "14:50:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

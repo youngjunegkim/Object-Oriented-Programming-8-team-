@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3105,
+    "totalReqHr": 606,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "당산",
+        "dptreLineNm": "2호선",
+        "arvlLineNm": "9호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0237"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0238",
+          "stnNo": "238",
+          "stnNm": "합정",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0237",
+          "stnNo": "237",
+          "stnNm": "당산",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2265",
+        "trainDptreTm": "14:02:00",
+        "trainArvlTm": "14:04:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0237",
+          "stnNo": "237",
+          "stnNm": "당산",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4113",
+          "stnNo": "913",
+          "stnNm": "당산",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 105,
+        "reqHr": 346,
+        "wtngHr": 149,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4113",
+          "stnNo": "913",
+          "stnNm": "당산",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4112",
+          "stnNo": "912",
+          "stnNm": "선유도",
+          "lineNm": "9호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 110,
+        "wtngHr": 0,
+        "tmnlStnNm": "개화",
+        "tmnlStnCd": "4101",
+        "upbdnbSe": "하행",
+        "trainno": "C9113",
+        "trainDptreTm": "14:12:45",
+        "trainArvlTm": "14:14:35",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

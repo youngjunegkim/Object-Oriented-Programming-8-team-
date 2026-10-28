@@ -1,0 +1,7 @@
+{
+  "header": {
+    "resultCode": "10",
+    "resultMsg": "출발역명 또는 도착역명이 존재하지 않습니다."
+  },
+  "body": null
+}

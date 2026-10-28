@@ -1,0 +1,384 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 7318,
+    "totalReqHr": 1244,
+    "totalCardCrg": 2250,
+    "trsitNmtm": 4,
+    "trfstnNms": [
+      {
+        "stnNm": "강남",
+        "dptreLineNm": "2호선",
+        "arvlLineNm": "2호선"
+      },
+      {
+        "stnNm": "선릉",
+        "dptreLineNm": "2호선",
+        "arvlLineNm": "수인분당선"
+      },
+      {
+        "stnNm": "강남구청",
+        "dptreLineNm": "수인분당선",
+        "arvlLineNm": "7호선"
+      },
+      {
+        "stnNm": "논현",
+        "dptreLineNm": "7호선",
+        "arvlLineNm": "신분당선"
+      }
+    ],
+    "exclTrfstns": [
+      "0223",
+      "0332",
+      "4312",
+      "0218",
+      "4125"
+    ],
+    "thrghStns": [
+      "0222"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0221",
+          "stnNo": "221",
+          "stnNm": "역삼",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0222",
+          "stnNo": "222",
+          "stnNm": "강남",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "내선",
+        "trainno": "2248",
+        "trainDptreTm": "14:03:00",
+        "trainArvlTm": "14:04:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0222",
+          "stnNo": "222",
+          "stnNm": "강남",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0222",
+          "stnNo": "222",
+          "stnNm": "강남",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 1200,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0222",
+          "stnNo": "222",
+          "stnNm": "강남",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0221",
+          "stnNo": "221",
+          "stnNm": "역삼",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2259",
+        "trainDptreTm": "14:24:00",
+        "trainArvlTm": "14:25:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0221",
+          "stnNo": "221",
+          "stnNm": "역삼",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0220",
+          "stnNo": "220",
+          "stnNm": "선릉",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "성수",
+        "tmnlStnCd": "0211",
+        "upbdnbSe": "외선",
+        "trainno": "2259",
+        "trainDptreTm": "14:25:30",
+        "trainArvlTm": "14:27:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0220",
+          "stnNo": "220",
+          "stnNm": "선릉",
+          "lineNm": "2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1023",
+          "stnNo": "K215",
+          "stnNm": "선릉",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 81,
+        "reqHr": 126,
+        "wtngHr": 144,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1023",
+          "stnNo": "K215",
+          "stnNm": "선릉",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1850",
+          "stnNo": "K214",
+          "stnNm": "선정릉",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "왕십리",
+        "tmnlStnCd": "102C",
+        "upbdnbSe": "상행",
+        "trainno": "K6110",
+        "trainDptreTm": "14:31:30",
+        "trainArvlTm": "14:33:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1850",
+          "stnNo": "K214",
+          "stnNm": "선정릉",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1849",
+          "stnNo": "K213",
+          "stnNm": "강남구청",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "왕십리",
+        "tmnlStnCd": "102C",
+        "upbdnbSe": "상행",
+        "trainno": "K6110",
+        "trainDptreTm": "14:33:30",
+        "trainArvlTm": "14:34:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1849",
+          "stnNo": "K213",
+          "stnNm": "강남구청",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2732",
+          "stnNo": "730",
+          "stnNm": "강남구청",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 257,
+        "reqHr": 214,
+        "wtngHr": 266,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2732",
+          "stnNo": "730",
+          "stnNm": "강남구청",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2733",
+          "stnNo": "731",
+          "stnNm": "학동",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "온수",
+        "tmnlStnCd": "2752",
+        "upbdnbSe": "하행",
+        "trainno": "7229",
+        "trainDptreTm": "14:42:30",
+        "trainArvlTm": "14:43:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2733",
+          "stnNo": "731",
+          "stnNm": "학동",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2734",
+          "stnNo": "732",
+          "stnNm": "논현",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "온수",
+        "tmnlStnCd": "2752",
+        "upbdnbSe": "하행",
+        "trainno": "7229",
+        "trainDptreTm": "14:44:10",
+        "trainArvlTm": "14:45:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2734",
+          "stnNo": "732",
+          "stnNm": "논현",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4305",
+          "stnNo": "D5",
+          "stnNm": "논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 80,
+        "reqHr": 324,
+        "wtngHr": 182,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4305",
+          "stnNo": "D5",
+          "stnNm": "논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4306",
+          "stnNo": "D6",
+          "stnNm": "신논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "광교",
+        "tmnlStnCd": "4319",
+        "upbdnbSe": "하행",
+        "trainno": "GW080",
+        "trainDptreTm": "14:53:56",
+        "trainArvlTm": "14:55:06",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

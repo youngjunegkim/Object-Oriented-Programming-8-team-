@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2018,
+    "totalReqHr": 387,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "종로3가",
+        "dptreLineNm": "1호선 경부선",
+        "arvlLineNm": "3호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0153"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0154",
+          "stnNo": "129",
+          "stnNm": "종로5가",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0153",
+          "stnNo": "130",
+          "stnNm": "종로3가",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "천안",
+        "tmnlStnCd": "1728",
+        "upbdnbSe": "하행",
+        "trainno": "K1929",
+        "trainDptreTm": "14:06:00",
+        "trainArvlTm": "14:07:30",
+        "trsitYn": "N",
+        "etrnYn": "Y",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0153",
+          "stnNo": "130",
+          "stnNm": "종로3가",
+          "lineNm": "1호선",
+          "brlnNm": "경부선"
+        },
+        "arvlStn": {
+          "stnCd": "0319",
+          "stnNo": "329",
+          "stnNm": "종로3가",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 118,
+        "reqHr": 207,
+        "wtngHr": 393,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "Y",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0319",
+          "stnNo": "329",
+          "stnNm": "종로3가",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0318",
+          "stnNo": "328",
+          "stnNm": "안국",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "구파발",
+        "tmnlStnCd": "0310",
+        "upbdnbSe": "상행",
+        "trainno": "3218K",
+        "trainDptreTm": "14:17:30",
+        "trainArvlTm": "14:19:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

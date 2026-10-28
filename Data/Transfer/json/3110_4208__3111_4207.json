@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 7751,
+    "totalReqHr": 659,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "계양",
+        "dptreLineNm": "인천선",
+        "arvlLineNm": "공항철도"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "3110"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "3111",
+          "stnNo": "I111",
+          "stnNm": "귤현",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3110",
+          "stnNo": "I110",
+          "stnNm": "계양",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단호수공원",
+        "tmnlStnCd": "3107",
+        "upbdnbSe": "상행",
+        "trainno": "1152",
+        "trainDptreTm": "14:01:30",
+        "trainArvlTm": "14:03:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3110",
+          "stnNo": "I110",
+          "stnNm": "계양",
+          "lineNm": "인천선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4208",
+          "stnNo": "A06",
+          "stnNm": "계양",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 251,
+        "reqHr": 209,
+        "wtngHr": 121,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4208",
+          "stnNo": "A06",
+          "stnNm": "계양",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4207",
+          "stnNo": "A05",
+          "stnNm": "김포공항",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 6600,
+        "reqHr": 360,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A3060",
+        "trainDptreTm": "14:08:30",
+        "trainArvlTm": "14:14:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

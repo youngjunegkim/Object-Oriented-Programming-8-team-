@@ -1,0 +1,113 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2827,
+    "totalReqHr": 626,
+    "totalCardCrg": 0,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "청량리",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "경의선"
+      }
+    ],
+    "exclTrfstns": [
+      "1015"
+    ],
+    "thrghStns": [
+      "0158"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0157",
+          "stnNo": "125",
+          "stnNm": "제기동",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "0158",
+          "stnNo": "124",
+          "stnNm": "청량리",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1000,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "연천",
+        "tmnlStnCd": "1919",
+        "upbdnbSe": "상행",
+        "trainno": "K816",
+        "trainDptreTm": "14:02:30",
+        "trainArvlTm": "14:04:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0158",
+          "stnNo": "124",
+          "stnNm": "청량리",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1014",
+          "stnNo": "K117",
+          "stnNm": "청량리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 427,
+        "reqHr": 356,
+        "wtngHr": 1324,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1014",
+          "stnNo": "K117",
+          "stnNm": "청량리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "101C",
+          "stnNo": "K118",
+          "stnNm": "회기",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "용문",
+        "tmnlStnCd": "1219",
+        "upbdnbSe": "하행",
+        "trainno": "K5079",
+        "trainDptreTm": "14:32:00",
+        "trainArvlTm": "14:35:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

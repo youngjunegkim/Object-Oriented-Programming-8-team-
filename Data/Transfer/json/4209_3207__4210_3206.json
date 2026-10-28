@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 7139,
+    "totalReqHr": 779,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "검암",
+        "dptreLineNm": "공항철도",
+        "arvlLineNm": "인천2호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4209"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4210",
+          "stnNo": "A071",
+          "stnNm": "청라국제도시",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4209",
+          "stnNo": "A07",
+          "stnNm": "검암",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 4800,
+        "reqHr": 270,
+        "wtngHr": 0,
+        "tmnlStnNm": "서울역",
+        "tmnlStnCd": "4201",
+        "upbdnbSe": "상행",
+        "trainno": "A2094",
+        "trainDptreTm": "14:04:30",
+        "trainArvlTm": "14:09:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4209",
+          "stnNo": "A07",
+          "stnNm": "검암",
+          "lineNm": "공항철도",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3207",
+          "stnNo": "I207",
+          "stnNm": "검암",
+          "lineNm": "인천2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 539,
+        "reqHr": 449,
+        "wtngHr": 113,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "3207",
+          "stnNo": "I207",
+          "stnNm": "검암",
+          "lineNm": "인천2호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "3206",
+          "stnNo": "I206",
+          "stnNm": "독정",
+          "lineNm": "인천2호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 60,
+        "wtngHr": 0,
+        "tmnlStnNm": "검단오류",
+        "tmnlStnCd": "3201",
+        "upbdnbSe": "상행",
+        "trainno": "A319",
+        "trainDptreTm": "14:18:22",
+        "trainArvlTm": "14:19:22",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

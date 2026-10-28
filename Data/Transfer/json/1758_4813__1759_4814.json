@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 3751,
+    "totalReqHr": 699,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "초지",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "서해선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1758"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1759",
+          "stnNo": "453",
+          "stnNm": "안산",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1758",
+          "stnNo": "452",
+          "stnNm": "초지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "불암산",
+        "tmnlStnCd": "0409",
+        "upbdnbSe": "상행",
+        "trainno": "4604",
+        "trainDptreTm": "14:02:30",
+        "trainArvlTm": "14:04:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1758",
+          "stnNo": "452",
+          "stnNm": "초지",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4813",
+          "stnNo": "S26",
+          "stnNm": "초지",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 551,
+        "reqHr": 459,
+        "wtngHr": 591,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4813",
+          "stnNo": "S26",
+          "stnNm": "초지",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4814",
+          "stnNo": "S27",
+          "stnNm": "시우",
+          "lineNm": "서해선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "원시",
+        "tmnlStnCd": "4815",
+        "upbdnbSe": "하행",
+        "trainno": "K7275",
+        "trainDptreTm": "14:22:00",
+        "trainArvlTm": "14:24:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

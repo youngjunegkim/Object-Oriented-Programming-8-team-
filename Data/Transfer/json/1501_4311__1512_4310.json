@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 8970,
+    "totalReqHr": 541,
+    "totalCardCrg": 2550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "판교",
+        "dptreLineNm": "경강선",
+        "arvlLineNm": "신분당선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1501"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1512",
+          "stnNo": "K410",
+          "stnNm": "성남",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1501",
+          "stnNo": "K409",
+          "stnNm": "판교",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "판교",
+        "tmnlStnCd": "1501",
+        "upbdnbSe": "상행",
+        "trainno": "K7558",
+        "trainDptreTm": "14:01:30",
+        "trainArvlTm": "14:03:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1501",
+          "stnNo": "K409",
+          "stnNm": "판교",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4311",
+          "stnNo": "D11",
+          "stnNm": "판교",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 70,
+        "reqHr": 58,
+        "wtngHr": 473,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4311",
+          "stnNo": "D11",
+          "stnNm": "판교",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4310",
+          "stnNo": "D10",
+          "stnNm": "청계산입구",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 8200,
+        "reqHr": 363,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA075",
+        "trainDptreTm": "14:12:21",
+        "trainArvlTm": "14:18:24",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

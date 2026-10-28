@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2978,
+    "totalReqHr": 524,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "성신여대입구",
+        "dptreLineNm": "4호선",
+        "arvlLineNm": "우이신설경전철"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "0418"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "0417",
+          "stnNo": "417",
+          "stnNm": "길음",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0418",
+          "stnNo": "418",
+          "stnNm": "성신여대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "사당",
+        "tmnlStnCd": "0433",
+        "upbdnbSe": "하행",
+        "trainno": "4101",
+        "trainDptreTm": "14:00:30",
+        "trainArvlTm": "14:02:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0418",
+          "stnNo": "418",
+          "stnNm": "성신여대입구",
+          "lineNm": "4호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4711",
+          "stnNo": "951",
+          "stnNm": "성신여대입구",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 378,
+        "reqHr": 315,
+        "wtngHr": 92,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4711",
+          "stnNo": "951",
+          "stnNm": "성신여대입구",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4710",
+          "stnNo": "950",
+          "stnNm": "정릉",
+          "lineNm": "우이신설경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 89,
+        "wtngHr": 0,
+        "tmnlStnNm": "북한산우이",
+        "tmnlStnCd": "4701",
+        "upbdnbSe": "하행",
+        "trainno": "1233",
+        "trainDptreTm": "14:09:17",
+        "trainArvlTm": "14:10:46",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

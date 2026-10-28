@@ -1,0 +1,347 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 15604,
+    "totalReqHr": 1216,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 3,
+    "trfstnNms": [
+      {
+        "stnNm": "별내",
+        "dptreLineNm": "경춘선",
+        "arvlLineNm": "8호선"
+      },
+      {
+        "stnNm": "구리",
+        "dptreLineNm": "8호선",
+        "arvlLineNm": "경의선"
+      },
+      {
+        "stnNm": "망우",
+        "dptreLineNm": "경의선",
+        "arvlLineNm": "경의선"
+      }
+    ],
+    "exclTrfstns": [
+      "1309"
+    ],
+    "thrghStns": [
+      "1310"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1311",
+          "stnNo": "P122",
+          "stnNm": "신내",
+          "lineNm": "경춘선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1312",
+          "stnNo": "P123",
+          "stnNm": "갈매",
+          "lineNm": "경춘선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2600,
+        "reqHr": 180,
+        "wtngHr": 0,
+        "tmnlStnNm": "춘천",
+        "tmnlStnCd": "1329",
+        "upbdnbSe": "하행",
+        "trainno": "K8055",
+        "trainDptreTm": "14:36:30",
+        "trainArvlTm": "14:39:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1312",
+          "stnNo": "P123",
+          "stnNm": "갈매",
+          "lineNm": "경춘선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1313",
+          "stnNo": "P124",
+          "stnNm": "별내",
+          "lineNm": "경춘선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "춘천",
+        "tmnlStnCd": "1329",
+        "upbdnbSe": "하행",
+        "trainno": "K8055",
+        "trainDptreTm": "14:40:00",
+        "trainArvlTm": "14:41:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1313",
+          "stnNo": "P124",
+          "stnNm": "별내",
+          "lineNm": "경춘선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2805",
+          "stnNo": "804",
+          "stnNm": "별내",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 52,
+        "reqHr": 43,
+        "wtngHr": 227,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2805",
+          "stnNo": "804",
+          "stnNm": "별내",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2806",
+          "stnNo": "805",
+          "stnNm": "다산",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3000,
+        "reqHr": 190,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8169",
+        "trainDptreTm": "14:46:00",
+        "trainArvlTm": "14:49:10",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2806",
+          "stnNo": "805",
+          "stnNm": "다산",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2807",
+          "stnNo": "806",
+          "stnNm": "동구릉",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 140,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8169",
+        "trainDptreTm": "14:49:40",
+        "trainArvlTm": "14:52:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2807",
+          "stnNo": "806",
+          "stnNm": "동구릉",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "모란",
+        "tmnlStnCd": "2827",
+        "upbdnbSe": "하행",
+        "trainno": "8169",
+        "trainDptreTm": "14:52:30",
+        "trainArvlTm": "14:53:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2808",
+          "stnNo": "807",
+          "stnNm": "구리",
+          "lineNm": "8호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 52,
+        "reqHr": 43,
+        "wtngHr": 837,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1205",
+          "stnNo": "K123",
+          "stnNm": "구리",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1204",
+          "stnNo": "K122",
+          "stnNm": "양원",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3200,
+        "reqHr": 210,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5072",
+        "trainDptreTm": "15:08:30",
+        "trainArvlTm": "15:12:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1204",
+          "stnNo": "K122",
+          "stnNm": "양원",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1203",
+          "stnNo": "K121",
+          "stnNm": "망우",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5072",
+        "trainDptreTm": "15:12:30",
+        "trainArvlTm": "15:15:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1203",
+          "stnNo": "K121",
+          "stnNm": "망우",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1203",
+          "stnNo": "K121",
+          "stnNm": "망우",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 0,
+        "wtngHr": 810,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1203",
+          "stnNo": "K121",
+          "stnNm": "망우",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1202",
+          "stnNo": "K120",
+          "stnNm": "상봉",
+          "lineNm": "경의선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 600,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "문산",
+        "tmnlStnCd": "1284",
+        "upbdnbSe": "상행",
+        "trainno": "K5074",
+        "trainDptreTm": "15:28:30",
+        "trainArvlTm": "15:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

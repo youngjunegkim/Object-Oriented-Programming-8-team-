@@ -1,0 +1,439 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 33500,
+    "totalReqHr": 2094,
+    "totalCardCrg": 4250,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4319",
+          "stnNo": "D19",
+          "stnNm": "광교",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4318",
+          "stnNo": "D18",
+          "stnNm": "광교중앙",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2000,
+        "reqHr": 176,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:04:50",
+        "trainArvlTm": "14:07:46",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4318",
+          "stnNo": "D18",
+          "stnNm": "광교중앙",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4317",
+          "stnNo": "D17",
+          "stnNm": "상현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2400,
+        "reqHr": 165,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:08:11",
+        "trainArvlTm": "14:10:56",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4317",
+          "stnNo": "D17",
+          "stnNm": "상현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4316",
+          "stnNo": "D16",
+          "stnNm": "성복",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 154,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:11:21",
+        "trainArvlTm": "14:13:55",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4316",
+          "stnNo": "D16",
+          "stnNm": "성복",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4315",
+          "stnNo": "D15",
+          "stnNm": "수지구청",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 127,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:14:20",
+        "trainArvlTm": "14:16:27",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4315",
+          "stnNo": "D15",
+          "stnNm": "수지구청",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4314",
+          "stnNo": "D14",
+          "stnNm": "동천",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2100,
+        "reqHr": 142,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:16:57",
+        "trainArvlTm": "14:19:19",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4314",
+          "stnNo": "D14",
+          "stnNm": "동천",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4313",
+          "stnNo": "D13",
+          "stnNm": "미금",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1700,
+        "reqHr": 132,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:19:49",
+        "trainArvlTm": "14:22:01",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4313",
+          "stnNo": "D13",
+          "stnNm": "미금",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4312",
+          "stnNo": "D12",
+          "stnNm": "정자",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1800,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:22:31",
+        "trainArvlTm": "14:24:31",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4312",
+          "stnNo": "D12",
+          "stnNm": "정자",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4311",
+          "stnNo": "D11",
+          "stnNm": "판교",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 3100,
+        "reqHr": 160,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:25:06",
+        "trainArvlTm": "14:27:46",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4311",
+          "stnNo": "D11",
+          "stnNm": "판교",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4310",
+          "stnNo": "D10",
+          "stnNm": "청계산입구",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 8200,
+        "reqHr": 363,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:28:21",
+        "trainArvlTm": "14:34:24",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4310",
+          "stnNo": "D10",
+          "stnNm": "청계산입구",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4309",
+          "stnNo": "D9",
+          "stnNm": "양재시민의숲",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 2900,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:34:49",
+        "trainArvlTm": "14:37:19",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4309",
+          "stnNo": "D9",
+          "stnNm": "양재시민의숲",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4308",
+          "stnNo": "D8",
+          "stnNm": "양재",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1600,
+        "reqHr": 104,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:37:49",
+        "trainArvlTm": "14:39:33",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4308",
+          "stnNo": "D8",
+          "stnNm": "양재",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4307",
+          "stnNo": "D7",
+          "stnNm": "강남",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1500,
+        "reqHr": 104,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:40:08",
+        "trainArvlTm": "14:41:52",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4307",
+          "stnNo": "D7",
+          "stnNm": "강남",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4306",
+          "stnNo": "D6",
+          "stnNm": "신논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 67,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:42:27",
+        "trainArvlTm": "14:43:34",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4306",
+          "stnNo": "D6",
+          "stnNm": "신논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4305",
+          "stnNo": "D5",
+          "stnNm": "논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 65,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:44:09",
+        "trainArvlTm": "14:45:14",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4305",
+          "stnNo": "D5",
+          "stnNm": "논현",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4304",
+          "stnNo": "D4",
+          "stnNm": "신사",
+          "lineNm": "신분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 65,
+        "wtngHr": 0,
+        "tmnlStnNm": "신사",
+        "tmnlStnCd": "4304",
+        "upbdnbSe": "상행",
+        "trainno": "SA077",
+        "trainDptreTm": "14:45:49",
+        "trainArvlTm": "14:46:54",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

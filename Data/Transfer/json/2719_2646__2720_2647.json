@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 1846,
+    "totalReqHr": 289,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "태릉입구",
+        "dptreLineNm": "7호선",
+        "arvlLineNm": "6호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2719"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2720",
+          "stnNo": "718",
+          "stnNm": "먹골",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2719",
+          "stnNo": "717",
+          "stnNm": "태릉입구",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "장암",
+        "tmnlStnCd": "2711",
+        "upbdnbSe": "상행",
+        "trainno": "7180",
+        "trainDptreTm": "14:03:30",
+        "trainArvlTm": "14:04:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2719",
+          "stnNo": "717",
+          "stnNm": "태릉입구",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2646",
+          "stnNo": "645",
+          "stnNm": "태릉입구",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 46,
+        "reqHr": 139,
+        "wtngHr": 201,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2646",
+          "stnNo": "645",
+          "stnNm": "태릉입구",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2647",
+          "stnNo": "646",
+          "stnNm": "화랑대",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 80,
+        "wtngHr": 0,
+        "tmnlStnNm": "신내",
+        "tmnlStnCd": "2649",
+        "upbdnbSe": "하행",
+        "trainno": "6155",
+        "trainDptreTm": "14:10:20",
+        "trainArvlTm": "14:11:40",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

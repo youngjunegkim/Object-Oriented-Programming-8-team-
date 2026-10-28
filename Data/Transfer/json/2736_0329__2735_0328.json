@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2269,
+    "totalReqHr": 439,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "고속터미널",
+        "dptreLineNm": "7호선",
+        "arvlLineNm": "3호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "2736"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "2735",
+          "stnNo": "733",
+          "stnNm": "반포",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2736",
+          "stnNo": "734",
+          "stnNm": "고속터미널",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 900,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "석남",
+        "tmnlStnCd": "3763",
+        "upbdnbSe": "하행",
+        "trainno": "7215",
+        "trainDptreTm": "14:05:30",
+        "trainArvlTm": "14:07:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2736",
+          "stnNo": "734",
+          "stnNm": "고속터미널",
+          "lineNm": "7호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0329",
+          "stnNo": "339",
+          "stnNm": "고속터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 169,
+        "reqHr": 259,
+        "wtngHr": 941,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "0329",
+          "stnNo": "339",
+          "stnNm": "고속터미널",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "0328",
+          "stnNo": "338",
+          "stnNm": "잠원",
+          "lineNm": "3호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1200,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "구파발",
+        "tmnlStnCd": "0310",
+        "upbdnbSe": "상행",
+        "trainno": "3226",
+        "trainDptreTm": "14:27:00",
+        "trainArvlTm": "14:28:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

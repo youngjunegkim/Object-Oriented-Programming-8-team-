@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2346,
+    "totalReqHr": 427,
+    "totalCardCrg": 1750,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "회룡",
+        "dptreLineNm": "의정부경전철",
+        "arvlLineNm": "1호선 경인선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "4602"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "4603",
+          "stnNo": "U112",
+          "stnNm": "범골",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "4602",
+          "stnNo": "U111",
+          "stnNm": "회룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 700,
+        "reqHr": 72,
+        "wtngHr": 0,
+        "tmnlStnNm": "발곡",
+        "tmnlStnCd": "4601",
+        "upbdnbSe": "상행",
+        "trainno": "1196",
+        "trainDptreTm": "14:02:06",
+        "trainArvlTm": "14:03:18",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "4602",
+          "stnNo": "U111",
+          "stnNm": "회룡",
+          "lineNm": "의정부경전철",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1905",
+          "stnNo": "111",
+          "stnNm": "회룡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 246,
+        "reqHr": 205,
+        "wtngHr": 107,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1905",
+          "stnNo": "111",
+          "stnNm": "회룡",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1904",
+          "stnNo": "112",
+          "stnNm": "망월사",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 150,
+        "wtngHr": 0,
+        "tmnlStnNm": "인천",
+        "tmnlStnCd": "1812",
+        "upbdnbSe": "하행",
+        "trainno": "K123",
+        "trainDptreTm": "14:08:30",
+        "trainArvlTm": "14:11:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

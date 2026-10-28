@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2582,
+    "totalReqHr": 508,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "석계",
+        "dptreLineNm": "1호선 경인선",
+        "arvlLineNm": "6호선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1018"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1017",
+          "stnNo": "121",
+          "stnNm": "신이문",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "1018",
+          "stnNo": "120",
+          "stnNm": "석계",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 120,
+        "wtngHr": 0,
+        "tmnlStnNm": "동두천",
+        "tmnlStnCd": "1915",
+        "upbdnbSe": "상행",
+        "trainno": "K1614",
+        "trainDptreTm": "14:01:30",
+        "trainArvlTm": "14:03:30",
+        "trsitYn": "N",
+        "etrnYn": "Y",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1018",
+          "stnNo": "120",
+          "stnNm": "석계",
+          "lineNm": "1호선",
+          "brlnNm": "경인선"
+        },
+        "arvlStn": {
+          "stnCd": "2645",
+          "stnNo": "644",
+          "stnNm": "석계",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 382,
+        "reqHr": 318,
+        "wtngHr": 472,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "Y",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "2645",
+          "stnNo": "644",
+          "stnNm": "석계",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "2646",
+          "stnNo": "645",
+          "stnNm": "태릉입구",
+          "lineNm": "6호선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 70,
+        "wtngHr": 0,
+        "tmnlStnNm": "봉화산",
+        "tmnlStnCd": "2648",
+        "upbdnbSe": "하행",
+        "trainno": "6157",
+        "trainDptreTm": "14:16:40",
+        "trainArvlTm": "14:17:50",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 2350,
+    "totalReqHr": 305,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 1,
+    "trfstnNms": [
+      {
+        "stnNm": "이매",
+        "dptreLineNm": "경강선",
+        "arvlLineNm": "수인분당선"
+      }
+    ],
+    "exclTrfstns": [],
+    "thrghStns": [
+      "1502"
+    ],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1512",
+          "stnNo": "K410",
+          "stnNm": "성남",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1502",
+          "stnNo": "K411",
+          "stnNm": "이매",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 800,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "여주",
+        "tmnlStnCd": "1511",
+        "upbdnbSe": "하행",
+        "trainno": "K7561",
+        "trainDptreTm": "14:14:30",
+        "trainArvlTm": "14:16:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1502",
+          "stnNo": "K411",
+          "stnNm": "이매",
+          "lineNm": "경강선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1860",
+          "stnNo": "K227",
+          "stnNm": "이매",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 150,
+        "reqHr": 125,
+        "wtngHr": 625,
+        "tmnlStnNm": null,
+        "tmnlStnCd": null,
+        "upbdnbSe": null,
+        "trainno": null,
+        "trainDptreTm": null,
+        "trainArvlTm": null,
+        "trsitYn": "Y",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      },
+      {
+        "dptreStn": {
+          "stnCd": "1860",
+          "stnNo": "K227",
+          "stnNm": "이매",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "arvlStn": {
+          "stnCd": "1855",
+          "stnNo": "K228",
+          "stnNm": "서현",
+          "lineNm": "수인분당선",
+          "brlnNm": null
+        },
+        "stnSctnDstc": 1400,
+        "reqHr": 90,
+        "wtngHr": 0,
+        "tmnlStnNm": "죽전",
+        "tmnlStnCd": "1862",
+        "upbdnbSe": "하행",
+        "trainno": "K6127",
+        "trainDptreTm": "14:28:30",
+        "trainArvlTm": "14:30:00",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}

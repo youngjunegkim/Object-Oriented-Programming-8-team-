@@ -1,0 +1,47 @@
+{
+  "header": {
+    "resultCode": "00",
+    "resultMsg": "성공"
+  },
+  "body": {
+    "searchType": "transfer",
+    "totalDstc": 0,
+    "totalReqHr": 330,
+    "totalCardCrg": 1550,
+    "trsitNmtm": 0,
+    "trfstnNms": [],
+    "exclTrfstns": [],
+    "thrghStns": [],
+    "schInclYn": "N",
+    "paths": [
+      {
+        "dptreStn": {
+          "stnCd": "1716",
+          "stnNo": "P157",
+          "stnNm": "병점",
+          "lineNm": "1호선",
+          "brlnNm": "서동탄행"
+        },
+        "arvlStn": {
+          "stnCd": "1749",
+          "stnNo": "P157-1",
+          "stnNm": "서동탄",
+          "lineNm": "1호선",
+          "brlnNm": "서동탄행"
+        },
+        "stnSctnDstc": 0,
+        "reqHr": 330,
+        "wtngHr": 0,
+        "tmnlStnNm": "서동탄",
+        "tmnlStnCd": "1749",
+        "upbdnbSe": "하행",
+        "trainno": "K453",
+        "trainDptreTm": "14:08:00",
+        "trainArvlTm": "14:13:30",
+        "trsitYn": "N",
+        "etrnYn": "N",
+        "nonstopYn": "N"
+      }
+    ]
+  }
+}
