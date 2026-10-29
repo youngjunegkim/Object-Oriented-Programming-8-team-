@@ -2,7 +2,7 @@
 
 - 역 하나 = (호선, 역코드). 같은 이름이라도 호선이 다르면 다른 역이다.
 - 간선은 방향이 있다 (A→B, B→A를 각각 한 행). 시간은 초, 거리는 미터 그대로 둔다.
-- congestion(혼잡도)은 빈칸으로 두고 나중에 별도 스크립트로 채운다.
+- 혼잡도는 시간대별이라 여기 두지 않고 build_congestion.py가 Data/Congestion/에 따로 만든다.
 - API 원본 오류는 apply_fixes()에서 사람이 보정하고 note 컬럼에 사유를 남긴다 (Data/README.md 참고).
 """
 import csv
@@ -57,7 +57,7 @@ def main():
                 "line": r["line"], "branch": r["branch"],
                 "from_code": dpt["stnCd"], "from_name": dpt["stnNm"],
                 "to_code": arv["stnCd"], "to_name": arv["stnNm"],
-                "seconds": seg["reqHr"], "meters": seg["stnSctnDstc"], "congestion": "", "note": "",
+                "seconds": seg["reqHr"], "meters": seg["stnSctnDstc"], "note": "",
             }
             if key in edges and (edges[key]["seconds"], edges[key]["meters"]) != (row["seconds"], row["meters"]):
                 conflicts.append((edges[key], row))
@@ -74,7 +74,7 @@ def main():
               ["station_code", "station_no", "name", "line", "api_line", "branch"],
               lambda s: {**s, "branch": "/".join(sorted(branches[s["station_code"]]))})
     write_csv(EDGE_CSV, list(edges.values()),
-              ["line", "branch", "from_code", "from_name", "to_code", "to_name", "seconds", "meters", "congestion", "note"])
+              ["line", "branch", "from_code", "from_name", "to_code", "to_name", "seconds", "meters", "note"])
 
     report(records, stations, edges, api_line_of, skipped, wrong_line, conflicts, fixes)
 
@@ -90,7 +90,7 @@ def apply_fixes(edges):
     for (a, a_name, b, b_name, sec) in [(GANGDONG, "강동", DUNCHON, "둔촌동", t_out), (DUNCHON, "둔촌동", GANGDONG, "강동", t_in)]:
         edges[(a, b)] = {
             "line": "5호선", "branch": "마천선", "from_code": a, "from_name": a_name, "to_code": b, "to_name": b_name,
-            "seconds": sec, "meters": 0, "congestion": "", "note": "fix:branch-merge",
+            "seconds": sec, "meters": 0, "note": "fix:branch-merge",
         }
         fixes.append(f"5호선 {a_name}→{b_name}: 가짜 경유 합침 {sec}초")
 
