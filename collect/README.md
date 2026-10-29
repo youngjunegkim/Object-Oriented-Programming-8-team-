@@ -3,7 +3,7 @@
 서울교통공사 최단경로 API로 지하철 데이터를 수집해 `../Data/`에 CSV로 만드는 코드.
 인증키는 `../.env`의 `SERVICE_KEY`에서 읽는다.
 
-실행 순서: `fetch_lines.py` → `build_edges.py` → `fetch_transfers.py` → `build_transfers.py`
+실행 순서: `fetch_lines.py` → `build_edges.py` → `fetch_transfers.py` → `build_transfers.py` → `build_congestion.py`
 (이미 받은 응답은 캐시에서 읽으므로 다시 실행해도 API를 다시 호출하지 않는다)
 
 ## 파일
@@ -29,3 +29,7 @@ API 오류 보정을 적용하고 역 목록과의 차이를 리포트한다.
 **build_transfers.py**
 `Data/Transfer/json/` → `transfers.csv`.
 API가 빠뜨린 방향 조합과 서울역 수동 입력값을 채운다.
+
+**build_congestion.py**
+`Data/Congestion/raw/`(실측 xlsx) + edges·transfers → `congestion.csv`, `generated_basis.csv`.
+실측을 간선에 붙이고, 없는 간선은 3도심 거리·방향 그룹의 실측 평균으로 생성한다. 인증키가 필요 없다.
