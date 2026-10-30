@@ -5,7 +5,7 @@
 
 | 메서드 | 읽는 파일 | 돌려주는 것 |
 |---|---|---|
-| `load_distance()` | `Data/Edge/edges.csv` | 호선별로 (역명, 소요시간, 거리)를 역 순서대로 |
+| `load_distance()` | `Data/Edge/edges.csv` | 호선별로 (역명, 소요시간, 거리) |
 | `load_congestion()` | `Data/Congestion/congestion.csv` | 호선, 역 코드, 방향에 따른 시간별 혼잡도 |
 | `load_transfers()` | `Data/Transfer/transfers.csv` | 환승역별 호선 간 환승 소요시간 (방향별) |
 | `load_stations()` | `Data/Station/stations.csv` | 역 목록 |
@@ -57,7 +57,7 @@ loader = CongestionDataLoader(congestion_path=CONGESTION_II_CSV)  # 실험판
 - **역 코드는 문자열이다.** `"0222"`의 앞자리 0을 지키려고 숫자로 바꾸지 않는다.
   역 코드는 노선마다 다르다. 서울역 1호선 `"0150"`, 4호선은 다른 코드.
 - **역 코드(`station_code`)와 노선도 역번호(`station_no`)는 다르다.** 다른 CSV는 모두 역 코드로 역을 가리킨다.
-- **같은 이름 ≠ 같은 역.** 신촌(2호선)과 신촌(경의중앙선)은 다른 역이다. 역은 이름이 아니라 코드로 찾는다.
+- **같은 이름 ≠ 같은 역.** 양평(5호선, 서울 영등포구)과 양평(경의중앙선, 경기도 양평군)은 다른 역이다. 역은 이름이 아니라 코드로 찾는다.
 - **시간은 초, 거리는 미터, 혼잡도는 %.** 혼잡도는 100을 넘을 수 있다(최대 169.9).
 - **빈칸은 `None`.** 거리를 모르는 구간, 운행이 없는 시간대가 해당한다. 계산 전에 `None`인지 확인해야 한다.
 - 반환값은 매번 파일을 새로 읽어 만든 것이라 받은 쪽에서 고쳐도 된다.
@@ -66,7 +66,7 @@ loader = CongestionDataLoader(congestion_path=CONGESTION_II_CSV)  # 실험판
 
 ## load_distance()
 
-호선별 탑승 구간을 역 순서대로 돌려준다. 23개 호선, 구간 1,516개.
+호선별 탑승 구간을 돌려준다. 23개 호선, 구간 1,516개.
 
 ```python
 distance = loader.load_distance()   # {호선: [구간, ...]}
@@ -89,13 +89,9 @@ distance["2호선"][0]
 
 **방향이 있다.** A→B와 B→A가 각각 한 구간이다. 6호선 응암순환만 한 방향으로 운행한다.
 
-**순서**: 지선마다 한쪽 끝역 → 반대쪽 끝역, 이어서 되돌아오는 방향. 순환선은 한 바퀴씩.
-
-```
-1호선 = [본선 연천→…→구로] [본선 구로→…→연천] [경부선 …] [경인선 …] …
-```
-
-CSV 행 순서는 보정 행이 끝에 붙어 있어 순서대로가 아니다. 로더가 역을 따라가며 다시 정렬한다.
+**순서**: 호선 안의 구간 순서는 CSV에 적힌 순서 그대로다. 대체로 노선을 따라가지만,
+나중에 보정해 추가한 구간 9개(1호선 1개, 5호선 5개, 경의중앙선 3개)는 그 호선 목록의 끝에 붙어 있다.
+그래프를 만들거나 경로를 찾을 때는 순서가 상관없으므로 따로 정렬하지 않는다.
 
 전체 구간만 필요하면 이렇게 쓴다.
 
@@ -193,8 +189,19 @@ def transfer_seconds(transfers, prev_code, from_code, to_code, next_code):
     return None   # 그런 환승 없음
 ```
 
-키를 역 이름이 아니라 역 코드 쌍으로 둔 이유: 신촌·양평처럼 이름만 같은 다른 역이 있고,
-총신대입구(7호선)/이수(4호선)처럼 이름이 달라도 환승역인 경우가 있기 때문이다. 환승 가능 여부는 이 CSV가 기준이다.
+키를 역 이름이 아니라 역 코드 쌍으로 둔 이유: 이름으로 묶으면 두 방향으로 틀릴 수 있다.
+
+| 경우 | 예 | 이름으로 묶으면 |
+|---|---|---|
+| 이름은 같은데 다른 역 | 양평 5호선(`2523`, 서울 영등포구) / 양평 경의중앙선(`1217`, 경기도 양평군) | 수십 km 떨어진 두 역 사이에 없는 환승이 생긴다 |
+| 이름은 다른데 같은 역 | 총신대입구 4호선(`0432`) / 이수 7호선(`2738`) | 다른 역으로 보여서 실제로 되는 환승이 빠진다 |
+
+```python
+transfers[("2738", "0432")]       # 이수 → 총신대입구 환승 목록
+transfers.get(("2523", "1217"))   # None (환승 아님)
+```
+
+환승 가능 여부는 이름으로 추측하지 않고 이 CSV에 적힌 코드 쌍을 기준으로 한다.
 
 ---
 
@@ -230,11 +237,11 @@ stations[0]
 
 | 검사 | 메시지 예 |
 |---|---|
-| 필수 열이 없음 | `edges.csv: 필수 열 없음 ['seconds']` |
-| 같은 키가 두 번 | `stations.csv:15: ('station_code',) = ('0150',) 중복 (2줄과 같음)` |
-| 숫자가 아닌 값 | `edges.csv:8: seconds 값 'abc'은 정수가 아님` |
-| 알 수 없는 요일·source | `congestion.csv:4: 알 수 없는 요일 '공휴일'` |
-| 구간에 요일 행이 빠짐 | `congestion.csv: 구간 ('2호선', '0222', '0221')에 요일 ['일요일'] 행이 없음` |
+| 필수 열이 없음 | `edges.csv: 필요한 열이 없다 ['seconds']` |
+| 같은 키가 두 번 | `edges.csv:4: 2번째 줄과 겹친다 {'line': '1호선', 'branch': '본선', 'from_code': '1919', 'to_code': '1918'}` |
+| 숫자가 아닌 값 | `edges.csv:3: 'seconds' 칸의 값 'abc'을 읽을 수 없다 (정수여야 한다)` |
+| 알 수 없는 요일·source | `congestion.csv:2: 'day' 칸의 값 '공휴일'을 읽을 수 없다 (['평일', '토요일', '일요일'] 중 하나여야 한다)` |
+| 구간에 요일 행이 빠짐 | `congestion.csv: ('2호선', '0222', '0221') 구간에 ['일요일'] 줄이 없다` |
 
 중복 검사 키:
 - 역: `station_code`
@@ -247,10 +254,35 @@ stations[0]
 ## 다른 클래스와의 관계
 
 ```
-CSV ──▶ CongestionDataLoader ──▶ SubwayGraph.build()
+CSV ──▶ CongestionDataLoader ──▶ SubwayGraph.build(loader)
                                    ├─ Station / Vertex   ← load_stations()
                                    ├─ RideEdge           ← load_distance() + load_congestion()
                                    └─ TransferEdge       ← load_transfers()
 ```
 
 로더는 객체를 모르고, 객체는 CSV를 모른다. 둘 사이는 위의 딕셔너리 형식으로만 주고받는다.
+`SubwayGraph`는 로더를 안에서 만들지 말고 밖에서 받도록 만들면 된다.
+
+```python
+class SubwayGraph:
+    def build(self, loader):
+        stations = loader.load_stations()
+        ...
+
+graph.build(CongestionDataLoader())                                   # 기본 혼잡도
+graph.build(CongestionDataLoader(congestion_path=CONGESTION_II_CSV))  # 실험판
+```
+
+---
+
+## SOLID 적용
+
+| 원칙 | 적용한 곳 |
+|---|---|
+| **S** 단일 책임 | 로더는 "CSV → 파이썬 자료"만 한다. 엑셀 가공(`collect/`), 객체 생성(`SubwayGraph`), 혼잡도 조회(`RideEdge`)는 다른 클래스 몫이다. 로더 안에서도 CSV 공통 처리(`_read_table`)를 클래스 밖 함수로 떼어 메서드는 "어떤 파일을 어떤 모양으로"만 담는다. |
+| **O** 개방-폐쇄 | 파일마다 "열 이름: 변환 규칙" 표(`EDGE_COLUMNS` 등)를 두었다. 열이 바뀌면 표만 고치고 메서드는 그대로 둔다. 혼잡도 파일·데이터 폴더는 생성자 인자라 코드 수정 없이 바꾼다. |
+| **L** 리스코프 치환 | 로더는 상속을 쓰지 않아 해당하지 않는다. 이 원칙은 `Edge` → `RideEdge`·`TransferEdge`에서 지킨다. |
+| **I** 인터페이스 분리 | 메서드를 데이터 종류별로 나눠 필요한 것만 부른다. 혼잡도만 필요한 쪽은 `load_congestion()`만 쓰면 된다. `RideEdge`·`TransferEdge`는 로더를 아예 몰라도 된다. |
+| **D** 의존 역전 | 로더는 객체가 아닌 기본 자료형(dict, list)을 돌려주므로, 그래프·간선 클래스가 CSV 파일 경로나 열 이름에 묶이지 않는다. `SubwayGraph`가 로더를 밖에서 받으면 기본판·실험판을 코드 수정 없이 바꿔 끼울 수 있다. |
+
+클래스를 억지로 늘리지 않았다. 클래스는 `CongestionDataLoader` 하나이고, 나머지 도우미는 함수로 두었다.
