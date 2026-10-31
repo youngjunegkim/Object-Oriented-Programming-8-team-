@@ -21,7 +21,7 @@ https://object-oriented-programming-8-team.vercel.app/
 
 | 클래스                   | 역할                                                        | 주요 메서드                                                                          |
 | ------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| CongestionDataLoader     | 혼잡도·역간거리·환승시간 데이터를 읽고 역 이름 정규화       | load_congestion, load_distance, load_transfers                                       |
+| CongestionDataLoader     | 혼잡도·역간거리·환승시간 데이터를 읽고 역 이름 정규화       | load_congestion, load_distance, load_transfers, load_station, _read_table, csv 값변환 메서드                                       |
 | Station                  | 역 하나, 호선별 Vertex를 묶어 관리                          | add_vertex                                                                           |
 | Vertex                   | 한 역의 한 호선 정점, 출발 Edge 보관                        | add_edge                                                                             |
 | Edge                     | 두 Vertex를 잇는 구간 (부모 클래스)                         | cost                                                                                 |
