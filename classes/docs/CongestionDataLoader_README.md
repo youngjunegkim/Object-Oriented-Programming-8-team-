@@ -1,7 +1,7 @@
 # CongestionDataLoader
 
 `Data/`에 있는 가공 완료 CSV 4종을 읽어 파이썬 딕셔너리·리스트로 돌려주는 클래스.
-코드: [`data_loader.py`](data_loader.py)
+코드: [`data_loader.py`](../data_loader.py)
 
 | 메서드 | 읽는 파일 | 돌려주는 것 |
 |---|---|---|
