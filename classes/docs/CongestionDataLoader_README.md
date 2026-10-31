@@ -1,288 +1,268 @@
 # CongestionDataLoader
 
-`Data/`에 있는 가공 완료 CSV 4종을 읽어 파이썬 딕셔너리·리스트로 돌려주는 클래스.
-코드: [`data_loader.py`](../data_loader.py)
+**역할: 준비된 CSV를 읽어, 다른 클래스에서 사용할 리스트와 딕셔너리로 바꾼다.**
+코드: [data_loader.py](../data_loader.py)
 
-| 메서드 | 읽는 파일 | 돌려주는 것 |
+| 메서드 | 읽는 데이터 | 반환 자료형 |
 |---|---|---|
-| `load_distance()` | `Data/Edge/edges.csv` | 호선별로 (역명, 소요시간, 거리) |
-| `load_congestion()` | `Data/Congestion/congestion.csv` | 호선, 역 코드, 방향에 따른 시간별 혼잡도 |
-| `load_transfers()` | `Data/Transfer/transfers.csv` | 환승역별 호선 간 환승 소요시간 (방향별) |
-| `load_stations()` | `Data/Station/stations.csv` | 역 목록 |
+| `load_stations()` | 호선별 역 정보 | **리스트** |
+| `load_distance()` | 방향별 탑승 구간의 시간·거리 | **딕셔너리** |
+| `load_transfers()` | 방향별 환승 시간·거리 | **딕셔너리** |
+| `load_congestion()` | 구간·요일·시간대별 혼잡도 | **딕셔너리** |
 
----
+로딩 메서드는 전체 데이터를 반환한다. 아래 사용 예시는 그 결과에서 **필요한 값 하나만 골라 출력**한다. 반환 자료형과 선택한 값의 자료형은 다를 수 있다.
 
-## 하는 일 / 하지 않는 일
+## 사용 준비
 
-**하는 일**: CSV 읽기 → 필수 열·중복 검사 → 자료형 변환(숫자, 빈칸 → `None`)
-
-**하지 않는 일**
-- 원본 xlsx 가공, 혼잡도 생성 → `collect/` 코드가 이미 해서 CSV로 만들어 두었다
-- `Station`, `Vertex`, `Edge` 객체 생성 → `SubwayGraph.build()`가 로더 결과를 받아 만든다
-- 혼잡도 조회·시간대 계산 → `RideEdge`가 한다
-
-로더는 "파일 → 파이썬 자료"까지만 책임진다. 그래서 CSV 형식이 바뀌어도 로더만 고치면 된다.
-
----
-
-## 사용법
+프로젝트 최상위의 실행 파일에서 아래 코드를 작성한다. 이어지는 예시들도 이 코드 다음에 실행한다.
 
 ```python
 from classes import CongestionDataLoader
 
 loader = CongestionDataLoader()
-
-distance   = loader.load_distance()
-congestion = loader.load_congestion()
-transfers  = loader.load_transfers()
-stations   = loader.load_stations()
 ```
 
-### 혼잡도 파일 고르기
+`CongestionDataLoader(...)`가 실행되면 생성자 `__init__()`가 파일 경로를 저장한다. CSV는 각 로딩 메서드를 호출할 때 읽는다.
 
-기본판과 실험판(`Congestion_II`, 역별 승하차 인원 차이를 더 반영한 생성값)은 둘 중 하나만 쓴다.
+| 생성자 입력 인자 | 의미 | 생략하면 |
+|---|---|---|
+| `data_dir` | 역·구간·환승 CSV가 들어 있는 기준 폴더 | 프로젝트의 Data 폴더 사용 |
+| `congestion_path` | 사용할 혼잡도 CSV 경로 | Congestion/congestion.csv 사용 |
+
+실험판 Congestion_II를 선택하려면:
 
 ```python
 from classes.data_loader import CONGESTION_II_CSV
 
-loader = CongestionDataLoader(congestion_path=CONGESTION_II_CSV)  # 실험판
+loader = CongestionDataLoader(congestion_path=CONGESTION_II_CSV)
 ```
 
-실측값은 두 파일이 같고 생성값만 다르다. 다른 데이터 폴더를 쓰려면 `CongestionDataLoader(data_dir="경로")`.
+생성 결과는 **로더 객체**다. 두 경로 인자는 독립적이므로 다른 데이터 폴더를 쓸 때는 혼잡도 경로도 지정한다.
 
----
+## 1. load_stations() — 역 정보 읽기
 
-## 공통 규칙
+호선별 역 정보를 리스트로 반환한다. Station·Vertex 객체를 직접 만들지는 않는다.
 
-- **역 코드는 문자열이다.** `"0222"`의 앞자리 0을 지키려고 숫자로 바꾸지 않는다.
-  역 코드는 노선마다 다르다. 서울역 1호선 `"0150"`, 4호선은 다른 코드.
-- **역 코드(`station_code`)와 노선도 역번호(`station_no`)는 다르다.** 다른 CSV는 모두 역 코드로 역을 가리킨다.
-- **같은 이름 ≠ 같은 역.** 양평(5호선, 서울 영등포구)과 양평(경의중앙선, 경기도 양평군)은 다른 역이다. 역은 이름이 아니라 코드로 찾는다.
-- **시간은 초, 거리는 미터, 혼잡도는 %.** 혼잡도는 100을 넘을 수 있다(최대 169.9).
-- **빈칸은 `None`.** 거리를 모르는 구간, 운행이 없는 시간대가 해당한다. 계산 전에 `None`인지 확인해야 한다.
-- 반환값은 매번 파일을 새로 읽어 만든 것이라 받은 쪽에서 고쳐도 된다.
+- **입력 인자:** 없음. Station/stations.csv를 읽는다.
+- **반환값: 리스트.** 각 항목은 역코드·역 이름·호선 등을 담은 **딕셔너리**다.
 
----
-
-## load_distance()
-
-호선별 탑승 구간을 돌려준다. 23개 호선, 구간 1,516개.
-
-```python
-distance = loader.load_distance()   # {호선: [구간, ...]}
-
-distance["2호선"][0]
-# {'line': '2호선', 'branch': '순환선',
-#  'from_code': '0201', 'from_name': '시청',
-#  'to_code': '0243', 'to_name': '충정로',
-#  'seconds': 90, 'meters': 1100, 'note': None}
-```
-
-| 키 | 자료형 | 뜻 |
+| 접근 방법 | 자료형 | 의미 |
 |---|---|---|
-| `line`, `branch` | str | 노선, 지선 (본선, 경부선, 성수지선 등) |
-| `from_code`, `from_name` | str | 출발역 코드, 이름 |
-| `to_code`, `to_name` | str | 도착역 코드, 이름 |
-| `seconds` | int | 열차 소요시간 (초) |
-| `meters` | int 또는 None | 거리 (미터). 16개 구간은 None |
-| `note` | str 또는 None | 보정한 값이면 `"fix:..."` |
+| `stations` | 리스트 | 전체 호선별 역 정보 |
+| `stations[0]` | 딕셔너리 | 첫 번째 역 정보 |
+| `stations[0]["name"]` | 문자열 | 첫 번째 역의 이름 |
 
-**방향이 있다.** A→B와 B→A가 각각 한 구간이다. 6호선 응암순환만 한 방향으로 운행한다.
-
-**순서**: 호선 안의 구간 순서는 CSV에 적힌 순서 그대로다. 대체로 노선을 따라가지만,
-나중에 보정해 추가한 구간 9개(1호선 1개, 5호선 5개, 경의중앙선 3개)는 그 호선 목록의 끝에 붙어 있다.
-그래프를 만들거나 경로를 찾을 때는 순서가 상관없으므로 따로 정렬하지 않는다.
-
-전체 구간만 필요하면 이렇게 쓴다.
+**사용 예시: 첫 번째 역의 이름 하나를 조회한다.**
 
 ```python
-for line, edges in distance.items():
-    for e in edges:
-        ...
+stations = loader.load_stations()
+print(stations[0]["name"])
 ```
 
----
+**실행 결과: 문자열 하나가 출력된다.**
 
-## load_congestion()
-
-구간·요일별 30분 단위 혼잡도. 구간 1,516개 × 요일 3개.
-
-```python
-congestion = loader.load_congestion()   # {(호선, 출발역 코드, 도착역 코드): {요일: {...}}}
-
-day = congestion[("2호선", "0222", "0221")]["평일"]   # 강남 → 역삼, 평일
-day["source"]            # 'measured'
-day["values"]["08:00"]   # 46.1
-day["values"]["08:30"]   # 42.9
+```text
+서울역
 ```
 
+역 정보의 항목: `station_code`, `station_no`, `name`, `line`, `api_line`, `branch`.
+같은 물리적 역이라도 호선이 다르면 별도 항목이다. 실제 역 묶음은 SubwayGraph에서 결정한다.
+
+## 2. load_distance() — 탑승 구간 읽기
+
+출발역→도착역별 소요시간·거리를 호선별로 묶는다. 반대 방향은 별도 구간이다.
+
+- **입력 인자:** 없음. Edge/edges.csv를 읽는다.
+- **반환값: 딕셔너리.** 호선 이름이 키이고, 값은 구간 정보 **리스트**다. 각 구간은 **딕셔너리**다.
+
+| 접근 방법 | 자료형 | 의미 |
+|---|---|---|
+| `distance` | 딕셔너리 | 호선별 탑승 구간 |
+| `distance["2호선"]` | 리스트 | 2호선의 구간들 |
+| `distance["2호선"][0]` | 딕셔너리 | 2호선의 첫 번째 구간 |
+
+**사용 예시: 2호선 첫 번째 구간의 소요시간 하나를 조회한다.** 현재 데이터의 첫 구간은 시청→충정로다.
+
 ```python
-{
-    ("2호선", "0222", "0221"): {
-        "평일":   {"source": "measured", "values": {"05:30": 22.2, ..., "08:00": 46.1, ..., "00:30": ...}},
-        "토요일": {"source": ..., "values": {...}},
-        "일요일": {"source": ..., "values": {...}},
+distance = loader.load_distance()
+section = distance["2호선"][0]
+print(section["seconds"])
+```
+
+**실행 결과: 정수 하나가 출력되며, 단위는 초다.**
+
+```text
+90
+```
+
+구간 정보의 항목: `line`, `branch`, `from_code`, `from_name`, `to_code`, `to_name`, `seconds`, `meters`, `note`.
+목록은 CSV 순서이며, 화면에 표시할 노선 순서 정렬은 별도로 해야 한다.
+
+## 3. load_transfers() — 환승 구간 읽기
+
+같은 역에서 호선을 바꾸는 정보를 역코드 쌍으로 묶는다. 들어온 방향과 나갈 방향에 따라 다른 환승시간을 보존한다.
+
+- **입력 인자:** 없음. Transfer/transfers.csv를 읽는다.
+- **반환값: 딕셔너리.** `(내리는 역코드, 타는 역코드)`가 키이고, 값은 방향별 환승 정보 **리스트**다. 각 환승 정보는 **딕셔너리**다.
+
+| 접근 방법 | 자료형 | 의미 |
+|---|---|---|
+| `transfers` | 딕셔너리 | 전체 환승 정보 |
+| `transfers[("0340", "2818")]` | 리스트 | 가락시장 3호선→8호선의 방향별 환승들 |
+| `transfers[("0340", "2818")][0]` | 딕셔너리 | 첫 번째 방향 조합의 환승 정보 |
+
+**사용 예시: 가락시장 3호선→8호선 환승 중, 수서에서 들어와 송파 방향으로 나가는 조건의 시간 하나만 조회한다.**
+
+```python
+transfers = loader.load_transfers()
+for transfer in transfers[("0340", "2818")]:
+    if transfer["from_prev_code"] == "0339" and transfer["to_next_code"] == "2817":
+        print(transfer["seconds"])
+        break
+```
+
+**실행 결과: 정수 하나가 출력되며, 단위는 초다.**
+
+```text
+122
+```
+
+이 값은 **수서에서 가락시장 3호선에 도착해, 8호선 송파 방향으로 환승할 때 122초**라는 뜻이다.
+탐색 코드가 `from_prev_code`와 `to_next_code`를 비교해 실제 방향에 맞는 환승을 선택해야 한다.
+그 밖에 출발·도착 역코드·역명·호선, 방향 표기, 시간·거리·보정 메모도 보존한다.
+
+## 4. load_congestion() — 혼잡도 읽기
+
+혼잡도를 방향이 있는 구간→요일→시간대 순서로 찾을 수 있게 정리한다. 추정 공식이나 경로 평균을 계산하는 메서드는 아니다.
+
+- **입력 인자:** 없음. 생성자에서 선택한 혼잡도 CSV를 읽는다.
+- **반환값: 딕셔너리.** `(호선, 출발역코드, 도착역코드)`가 키이고, 값은 요일별 **딕셔너리**다.
+
+| 접근 방법 | 자료형 | 의미 |
+|---|---|---|
+| `congestion` | 딕셔너리 | 전체 구간 혼잡도 |
+| `congestion[("2호선", "0222", "0221")]` | 딕셔너리 | 강남→역삼의 요일별 정보 |
+| `section["평일"]` | 딕셔너리 | 평일의 출처와 시간대별 혼잡도 |
+| `weekday["values"]` | 딕셔너리 | 시간대별 혼잡도 |
+| `weekday["values"]["08:00"]` | 실수 또는 None | 해당 시간대 혼잡도, 없으면 None |
+| `weekday["source"]` | 문자열 | 실측·생성 출처 |
+
+**사용 예시: 강남→역삼, 평일, 08:00 시간대의 혼잡도 하나만 조회한다.**
+
+```python
+congestion = loader.load_congestion()
+section = congestion[("2호선", "0222", "0221")]
+weekday = section["평일"]
+print(weekday["values"]["08:00"])
+```
+
+**실행 결과: 실수 하나가 출력되며 단위는 퍼센트이다.**
+
+```text
+46.1
+```
+
+08:00을 선택했으므로 08:30의 값이나 출처 문자열은 출력하지 않는다. 다른 시간대의 데이터는 반환된 딕셔너리에 그대로 보관된다.
+
+`08:00` 열은 원본의 **08:00~08:30 시간대**를 뜻한다. 평일·토요일·일요일이 각각 있으며, 시간대는 영업일 기준 05:30부터 자정 이후 00:30까지 39개다.
+`source`는 measured(1~8호선 실측), measured-9(9호선 실측), generated(생성값) 중 하나다.
+
+## 공통 보조 함수: _read_table(path, columns, unique_by)
+
+**CSV를 읽고, 내용을 검사하고, 값을 문자열에서 알맞은 형태로 변환해 딕셔너리들의 리스트로 반환하는 함수다.**
+CongestionDataLoader 클래스 밖에 정의되어 있으며, 네 로딩 메서드가 내부에서 사용한다.
+
+### 입력 인자
+
+| 입력 인자 | 자료형 | 이 인자로 결정하는 것 |
+|---|---|---|
+| `path` | 파일 경로 문자열 또는 Path 객체 | 어떤 CSV를 읽을지 |
+| `columns` | 딕셔너리 | 어떤 열이 필요하고, 각 값을 어떻게 변환할지 |
+| `unique_by` | 열 이름들의 리스트 | 어떤 열의 조합이 같으면 중복으로 볼지 |
+
+예를 들어 `STATION_COLUMNS`는 역 정보의 열 이름과 변환 함수를 연결한 딕셔너리다.
+`station_code`에는 문자열을 유지하는 함수를, `station_no`에는 빈칸을 None으로 바꾸는 함수를 지정한다.
+
+### 처리 순서
+
+1. `path`에 있는 CSV를 연다.
+2. `columns`에 지정한 열이 모두 있는지 확인한다.
+3. CSV를 한 행씩 읽으며 `unique_by`로 지정한 값의 조합이 중복됐는지 확인한다.
+4. 각 열에 지정된 함수를 호출해 값을 변환한다.
+5. 변환한 한 행을 딕셔너리로 만들고, 리스트에 차례로 추가한다.
+6. 모든 행을 읽으면 완성된 리스트를 반환한다.
+
+변환 예시: 역코드 `"0222"`는 문자열로 유지하고, 시간 `"60"`은 정수 60으로 바꾼다.
+혼잡도 `"46.1"`은 실수 46.1로, 빈칸을 허용하는 항목의 빈 문자열은 None으로 바꾼다.
+
+### 반환값
+
+**바깥 자료형은 리스트이고, 각 항목은 CSV 한 행에 해당하는 딕셔너리다.**
+아래는 역 CSV를 읽었을 때 함수가 반환하는 데이터의 첫 번째 항목만 표시한 것이다. 화면에 출력한 결과를 뜻하지는 않는다.
+
+```python
+[
+    {
+        "station_code": "0150",
+        "station_no": "133",
+        "name": "서울역",
+        "line": "1호선",
+        "api_line": "1호선",
+        "branch": "본선",
     },
-    ...
-}
+]
 ```
 
-- **키**: `(호선, 출발역 코드, 도착역 코드)`. 도착역 코드가 방향이다.
-  `load_distance()` 구간의 `line`, `from_code`, `to_code`와 같아서 바로 연결된다.
-  ```python
-  congestion[(e["line"], e["from_code"], e["to_code"])]
-  ```
-- **요일**: `"평일"`, `"토요일"`, `"일요일"` (상수 `DAYS`)
-- **시간대**: `"05:30"` ~ `"00:30"` 39칸 (상수 `SLOTS`)
-  - `"08:00"`은 08:00~08:30 칸
-  - `"00:00"`, `"00:30"`은 그날 영업일의 자정 이후
-- **값**: float(%) 또는 None(운행 없음)
-- **source**
-  - `"measured"`: 1~8호선 서울교통공사 실측
-  - `"measured-9"`: 9호선 실측
-  - `"generated"`: 실측 평균으로 만든 생성값
+### 사용 예시
 
-실측 617개 구간, 생성 899개 구간. 화면에서 실측/추정을 구분해 보여줄 때 `source`를 쓴다.
+역 CSV를 읽고 변환 규칙을 적용한 뒤, 역코드 중복을 검사한다. 마지막 줄은 반환된 자료에서 첫 번째 역코드 하나만 선택해 출력한다.
 
 ```python
-from classes.data_loader import DAYS, SLOTS   # 시간대 계산에서 칸 목록이 필요하면 가져다 쓴다
+from classes.data_loader import DATA, STATION_COLUMNS, _read_table
+
+rows = _read_table(
+    DATA / "Station" / "stations.csv",
+    STATION_COLUMNS,
+    unique_by=["station_code"],
+)
+print(rows[0]["station_code"])
 ```
 
----
+**실행 결과: 문자열 하나가 출력된다.**
 
-## load_transfers()
-
-같은 역에서 노선을 갈아타는 데 걸리는 시간. 역 코드 쌍 310개, 방향별 환승 1,110개.
-
-```python
-transfers = loader.load_transfers()   # {(내리는 역 코드, 타는 역 코드): [방향별 환승, ...]}
-
-transfers[("0340", "2818")]   # 가락시장 3호선 → 8호선
-# [{'from_prev_code': '0339', 'from_prev_name': '수서',     'to_next_code': '2817', 'to_next_name': '송파', 'seconds': 122, ...},
-#  {'from_prev_code': '0339', 'from_prev_name': '수서',     'to_next_code': '2819', 'to_next_name': '문정', 'seconds': 112, ...},
-#  {'from_prev_code': '0341', 'from_prev_name': '경찰병원', 'to_next_code': '2817', 'to_next_name': '송파', 'seconds': 122, ...},
-#  {'from_prev_code': '0341', 'from_prev_name': '경찰병원', 'to_next_code': '2819', 'to_next_name': '문정', 'seconds': 112, ...}]
+```text
+0150
 ```
 
-한 항목 = "**from_prev**에서 오는 A호선을 타고 **from**에서 내려, B호선 **to_next** 방향 열차를 **to**에서 탄다".
+### 각 로딩 메서드와의 차이
 
-| 키 | 자료형 | 뜻 |
-|---|---|---|
-| `from_code`, `from_name`, `from_line` | str | 내리는 역 (A호선) |
-| `from_prev_code`, `from_prev_name` | str | A호선에서 직전에 지나온 역 = 타고 온 방향 |
-| `from_dir` | str 또는 None | A호선 방향 표기 (상행/하행/내선/외선, 참고용) |
-| `to_code`, `to_name`, `to_line` | str | 타는 역 (B호선) |
-| `to_next_code`, `to_next_name` | str | B호선에서 다음에 갈 역 = 탈 방향 |
-| `to_dir` | str 또는 None | B호선 방향 표기 (참고용) |
-| `seconds` | int | 환승 걷는 시간 (초). 열차 대기시간은 포함하지 않음 |
-| `meters` | int 또는 None | 환승 거리 (미터) |
-| `note` | str 또는 None | 보정한 값이면 `"fix:..."` |
+`_read_table()`은 데이터를 호선별·구간별로 묶지 않는다. 그 작업은 각 로딩 메서드가 맡는다.
 
-**같은 역·같은 노선 쌍이라도 방향에 따라 시간이 다르다** (예: 교대 2→3호선 57~158초).
-그래서 목록으로 두었고, 경로 탐색에서는 실제로 지나온 역과 다음 역으로 맞는 항목을 골라야 한다.
-
-```python
-def transfer_seconds(transfers, prev_code, from_code, to_code, next_code):
-    for t in transfers.get((from_code, to_code), []):
-        if t["from_prev_code"] == prev_code and t["to_next_code"] == next_code:
-            return t["seconds"]
-    return None   # 그런 환승 없음
-```
-
-키를 역 이름이 아니라 역 코드 쌍으로 둔 이유: 이름으로 묶으면 두 방향으로 틀릴 수 있다.
-
-| 경우 | 예 | 이름으로 묶으면 |
-|---|---|---|
-| 이름은 같은데 다른 역 | 양평 5호선(`2523`, 서울 영등포구) / 양평 경의중앙선(`1217`, 경기도 양평군) | 수십 km 떨어진 두 역 사이에 없는 환승이 생긴다 |
-| 이름은 다른데 같은 역 | 총신대입구 4호선(`0432`) / 이수 7호선(`2738`) | 다른 역으로 보여서 실제로 되는 환승이 빠진다 |
-
-```python
-transfers[("2738", "0432")]       # 이수 → 총신대입구 환승 목록
-transfers.get(("2523", "1217"))   # None (환승 아님)
-```
-
-환승 가능 여부는 이름으로 추측하지 않고 이 CSV에 적힌 코드 쌍을 기준으로 한다.
-
----
-
-## load_stations()
-
-역 목록. 한 행 = 한 노선의 역. 782개.
-
-```python
-stations = loader.load_stations()   # [역, ...]
-
-stations[0]
-# {'station_code': '0150', 'station_no': '133', 'name': '서울역',
-#  'line': '1호선', 'api_line': '1호선', 'branch': '본선'}
-```
-
-| 키 | 자료형 | 뜻 |
-|---|---|---|
-| `station_code` | str | 역 코드. 다른 CSV가 모두 이 코드로 역을 가리킨다 |
-| `station_no` | str 또는 None | 노선도 역번호. `"P170"` 같은 값도 있어 문자열. 3개 역은 None |
-| `name` | str | 역 이름 |
-| `line` | str | 노선명 (예: 경의중앙선) |
-| `api_line` | str | API의 노선명 (예: 경의선) |
-| `branch` | str | 지선. 여러 개면 `"경부선/경인선/본선"`처럼 `/`로 이어짐 |
-
-서울역은 1호선·4호선·경의중앙선·공항철도에 하나씩 4행이다.
-보고서 표에는 없는 메서드지만 역 목록을 만들려면 필요해서 넣었다.
-
----
-
-## 오류
-
-데이터에 문제가 있으면 읽는 순간 `ValueError`를 낸다. 메시지에 파일과 줄 번호가 나온다.
-
-| 검사 | 메시지 예 |
+| 함수·메서드 | 담당하는 일 |
 |---|---|
-| 필수 열이 없음 | `edges.csv: 필요한 열이 없다 ['seconds']` |
-| 같은 키가 두 번 | `edges.csv:4: 2번째 줄과 겹친다 {'line': '1호선', 'branch': '본선', 'from_code': '1919', 'to_code': '1918'}` |
-| 숫자가 아닌 값 | `edges.csv:3: 'seconds' 칸의 값 'abc'을 읽을 수 없다 (정수여야 한다)` |
-| 알 수 없는 요일·source | `congestion.csv:2: 'day' 칸의 값 '공휴일'을 읽을 수 없다 (['평일', '토요일', '일요일'] 중 하나여야 한다)` |
-| 구간에 요일 행이 빠짐 | `congestion.csv: ('2호선', '0222', '0221') 구간에 ['일요일'] 줄이 없다` |
+| `_read_table()` | 파일 읽기 → 검사 → 값 변환 → 행별 딕셔너리들의 리스트 반환 |
+| `load_stations()` | 역 CSV를 읽은 리스트를 그대로 반환 |
+| `load_distance()` | 구간 리스트를 호선별 딕셔너리로 묶어 반환 |
+| `load_transfers()` | 환승 리스트를 역코드 쌍별 딕셔너리로 묶어 반환 |
+| `load_congestion()` | 혼잡도 리스트를 구간·요일별 딕셔너리로 묶고 세 요일이 있는지 검사 |
 
-중복 검사 키:
-- 역: `station_code`
-- 구간: `(line, branch, from_code, to_code)`
-- 환승: `(from_code, from_prev_code, to_code, to_next_code)`
-- 혼잡도: `(line, from_code, to_code, day)`
+공통 읽기·검사 코드를 네 번 작성하지 않기 위해 분리한 함수다. 일반 사용 코드는 네 로딩 메서드를 호출하면 된다.
+필수 열 누락·중복·값 변환 실패 시 ValueError를 발생시키며, 행 처리 오류에는 파일명과 줄 번호를 표시한다.
 
----
+## 값 변환 함수
 
-## 다른 클래스와의 관계
+| 함수 | 역할 | 입력 → 반환값 |
+|---|---|---|
+| `text(value)` | 문자열 유지 | `"0222"` → 문자열 `"0222"` |
+| `text_or_none(value)` | 문자열 유지, 빈칸은 None | `""` → None |
+| `integer(value)` | 정수로 변환 | `"60"` → 정수 60 |
+| `integer_or_none(value)` | 정수로 변환, 빈칸은 None | `"800"` → 정수 800 |
+| `number_or_none(value)` | 실수로 변환, 빈칸은 None | `"46.1"` → 실수 46.1 |
+| `one_of(allowed)` | 허용된 값인지 확인하는 함수 생성 | 허용 값 목록 → 검사 함수. 그 함수에 `"평일"`을 전달하면 문자열 `"평일"` 반환 |
 
-```
-CSV ──▶ CongestionDataLoader ──▶ SubwayGraph.build(loader)
-                                   ├─ Station / Vertex   ← load_stations()
-                                   ├─ RideEdge           ← load_distance() + load_congestion()
-                                   └─ TransferEdge       ← load_transfers()
-```
+## 연결할 때 지킬 규칙
 
-로더는 객체를 모르고, 객체는 CSV를 모른다. 둘 사이는 위의 딕셔너리 형식으로만 주고받는다.
-`SubwayGraph`는 로더를 안에서 만들지 말고 밖에서 받도록 만들면 된다.
-
-```python
-class SubwayGraph:
-    def build(self, loader):
-        stations = loader.load_stations()
-        ...
-
-graph.build(CongestionDataLoader())                                   # 기본 혼잡도
-graph.build(CongestionDataLoader(congestion_path=CONGESTION_II_CSV))  # 실험판
-```
-
----
-
-## SOLID 적용
-
-| 원칙 | 적용한 곳 |
-|---|---|
-| **S** 단일 책임 | 로더는 "CSV → 파이썬 자료"만 한다. 엑셀 가공(`collect/`), 객체 생성(`SubwayGraph`), 혼잡도 조회(`RideEdge`)는 다른 클래스 몫이다. 로더 안에서도 CSV 공통 처리(`_read_table`)를 클래스 밖 함수로 떼어 메서드는 "어떤 파일을 어떤 모양으로"만 담는다. |
-| **O** 개방-폐쇄 | 파일마다 "열 이름: 변환 규칙" 표(`EDGE_COLUMNS` 등)를 두었다. 열이 바뀌면 표만 고치고 메서드는 그대로 둔다. 혼잡도 파일·데이터 폴더는 생성자 인자라 코드 수정 없이 바꾼다. |
-| **L** 리스코프 치환 | 로더는 상속을 쓰지 않아 해당하지 않는다. 이 원칙은 `Edge` → `RideEdge`·`TransferEdge`에서 지킨다. |
-| **I** 인터페이스 분리 | 메서드를 데이터 종류별로 나눠 필요한 것만 부른다. 혼잡도만 필요한 쪽은 `load_congestion()`만 쓰면 된다. `RideEdge`·`TransferEdge`는 로더를 아예 몰라도 된다. |
-| **D** 의존 역전 | 로더는 객체가 아닌 기본 자료형(dict, list)을 돌려주므로, 그래프·간선 클래스가 CSV 파일 경로나 열 이름에 묶이지 않는다. `SubwayGraph`가 로더를 밖에서 받으면 기본판·실험판을 코드 수정 없이 바꿔 끼울 수 있다. |
-
-클래스를 억지로 늘리지 않았다. 클래스는 `CongestionDataLoader` 하나이고, 나머지 도우미는 함수로 두었다.
+- 역코드는 **문자열**, 시간은 **초**, 거리는 **미터**, 혼잡도는 **퍼센트**다.
+- 값이 없는 선택 항목은 **None**이다. 혼잡도 0%로 바꾸지 않으며, 100% 초과도 허용한다.
+- 각 메서드는 호출할 때마다 CSV를 새로 읽는다. 그래프 생성 시 읽은 결과를 보관해 사용한다.
+- 로더는 객체 생성·경로 탐색·화면 출력을 하지 않는다. 이것이 **S — 단일 책임 원칙**을 적용한 부분이다.
