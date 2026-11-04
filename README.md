@@ -9,6 +9,8 @@
 
 https://object-oriented-programming-8-team.vercel.app/
 
+경로 탐색을 연결할 때는 [SubwayGraph 사용법과 검증 예시](classes/docs/SubwayGraph_README.md)를 참고하세요.
+
 ## 사용 데이터
 
 | 구분   | 데이터                                 | 사용 목적                                                 |
