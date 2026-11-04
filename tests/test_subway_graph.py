@@ -1,6 +1,7 @@
 """프로젝트 루트에서 python -m unittest discover -s tests -v 로 실행한다."""
 
 import unittest
+from types import SimpleNamespace
 
 from classes.edge import RideEdge, TransferEdge
 from classes.station import Station
@@ -128,3 +129,49 @@ class SubwayGraphTests(unittest.TestCase):
         routes = graph.route_options("A", "D")
         self.assertEqual(routes["fastest"].total_time(), 22)
         self.assertIsNone(routes["second_fastest"])
+
+
+    def test_injected_loader_and_new_priority(self):
+        # 직행은 10초, 중간 역을 거치면 4초. 두 기준이 실제로 다른 길을 선택한다.
+        line = "테스트선"
+        rows = [dict(station_code=name, name=name, line=line) for name in "ABC"]
+
+        def ride(start, end, branch, seconds):
+            return dict(from_code=start, to_code=end, branch=branch, seconds=seconds, meters=100)
+
+        rides = [ride("A", "B", "본선", 2), ride("B", "C", "본선", 2), ride("A", "C", "직행", 10)]
+        loader = SimpleNamespace(
+            load_stations=lambda: rows,
+            load_transfers=lambda: {},
+            load_distance=lambda: {line: rides},
+            load_congestion=lambda: {(line, r["from_code"], r["to_code"]): {} for r in rides},
+        )
+        graph = SubwayGraph(loader=loader)
+        graph.build()
+
+        def stops_first(edge):
+            return int(isinstance(edge, RideEdge)), edge.cost()
+
+        fastest = graph.shortest("A", "C")
+        fewest_stops = graph.shortest("A", "C", priority=stops_first)
+        self.assertIsInstance(fastest, Route)
+        self.assertEqual((fastest.total_time(), fastest.stops()[0]), (4, 2))
+        self.assertEqual((fewest_stops.total_time(), fewest_stops.stops()[0]), (10, 1))
+
+    def test_search_respects_edge_transition_contract(self):
+        class ClosedRide(RideEdge):
+            def next_state(self, previous_code, required_next):
+                return None
+
+        graph = SubwayGraph()
+        for code in "AB":
+            station = Station(code)
+            vertex = Vertex(code, station, "가상선")
+            station.add_vertex(vertex)
+            graph.stations[code] = [station]
+            graph.vertices[code] = vertex
+        a, b = graph.vertices.values()
+        a.add_edge(ClosedRide(a, b, 1, 1, {}))
+        self.assertIsNone(graph.shortest("A", "B"))
+        a.add_edge(RideEdge(a, b, 3, 1, {}))
+        self.assertEqual(graph.shortest("A", "B").total_time(), 3)

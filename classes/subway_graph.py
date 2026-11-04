@@ -1,55 +1,11 @@
 """수도권 지하철 그래프 구성과 최소 소요시간 경로 탐색."""
 
-import heapq
-from itertools import count
-
 from .data_loader import DAYS, CongestionDataLoader
 from .edge import RideEdge, TransferEdge
+from .route import Route as Route  # 기존 import 경로 유지
+from .route_finder import RouteFinder, time_first
 from .station import Station
 from .vertex import Vertex
-
-
-class Route:
-    """출발부터 도착까지 실제로 거친 탑승·환승 간선을 순서대로 보관한다."""
-
-    def __init__(self, edges):
-        self.edges = edges
-
-    def total_time(self):
-        """탑승 시간과 환승 시간을 더한 값(초)."""
-        return sum(edge.cost() for edge in self.edges)
-
-    def transfer_count(self):
-        return sum(isinstance(edge, TransferEdge) for edge in self.edges)
-
-    def stops(self):
-        """(이동한 정거장 수, 총 이동거리 m). 거리 누락이 있으면 거리는 None."""
-        count_rides = sum(isinstance(edge, RideEdge) for edge in self.edges)
-        if any(edge.meters is None for edge in self.edges):
-            return count_rides, None
-        return count_rides, sum(edge.meters for edge in self.edges)
-
-    def avg_congestion(self, day, departure_time):
-        """각 탑승 구간 진입 시각의 혼잡도 산술평균(%). 계산할 수 없으면 None."""
-        if day not in DAYS:
-            raise ValueError(f"요일은 {DAYS} 중 하나여야 합니다.")
-        hour, minute = map(int, departure_time.split(":"))
-        if not (0 <= hour < 24 and 0 <= minute < 60):
-            raise ValueError("출발 시각은 00:00~23:59 범위여야 합니다.")
-        # 새벽 0시대는 선택한 운행일의 마지막 시간대다.
-        clock = ((hour + 24 if hour < 5 else hour) * 60 + minute) * 60
-        values = []
-        for edge in self.edges:
-            if isinstance(edge, RideEdge):
-                if clock < (5 * 60 + 30) * 60 or clock >= 25 * 3600:
-                    return None
-                slot = f"{clock // 3600 % 24:02d}:{clock % 3600 // 1800 * 30:02d}"
-                value = edge.congestion_get(day, slot)
-                if value is None:
-                    return None
-                values.append(value)
-            clock += edge.cost()  # 환승 보행 시간도 다음 탑승 시각에 반영
-        return sum(values) / len(values) if values else None
 
 
 def _station_groups(station_rows, transfers):
@@ -90,20 +46,6 @@ def _branch_order(rows, vertices):
             raise ValueError(f"지선의 역 순서를 정할 수 없습니다: {branch}")
         order[branch] = ordered
     return order
-
-
-def _cycle_rides(route):
-    """이미 지난 물리적 역으로 돌아온 경우 그 순환에 포함된 탑승 간선을 반환한다."""
-    rides = [edge for edge in route.edges if isinstance(edge, RideEdge)]
-    if not rides:
-        return []
-    positions = {rides[0].from_v.station: 0}
-    for index, ride in enumerate(rides, start=1):
-        station = ride.to_v.station
-        if station in positions:
-            return rides[positions[station]:index]
-        positions[station] = index
-    return []
 
 
 class SubwayGraph:
@@ -196,104 +138,19 @@ class SubwayGraph:
         """같은 호선에서 가장 빠른 탑승 경로의 Vertex 목록(양 끝 포함)."""
         origin = self._station(start, line)
         destination = self._station(end, line)
-        route = self._dijkstra(origin, destination, line=line)
+        route = RouteFinder(self.vertices).on_line(origin, destination, line)
         if route is None:
             return []
         if not route.edges:
             return [next(v for v in origin.vertices if v.line == line)]
         return [route.edges[0].from_v] + [edge.to_v for edge in route.edges]
 
-    def shortest(self, start, end):
-        """최단시간 Route. 동률이면 환승이 적은 경로, 연결되지 않았으면 None."""
-        return self._best_route(self._station(start), self._station(end))
+    def shortest(self, start, end, *, priority=time_first):
+        """기본은 최소 소요시간. priority(edge)로 다른 비용 기준을 선택할 수 있다."""
+        origin, destination = self._station(start), self._station(end)
+        return RouteFinder(self.vertices).best_route(origin, destination, priority=priority)
 
     def route_options(self, start, end):
         """최단시간, 최소 환승, 두 번째 최단시간 Route를 각각 반환한다."""
         origin, destination = self._station(start), self._station(end)
-        fastest = self._best_route(origin, destination)
-        fewest = fastest
-        second = None
-        if fastest is not None and fastest.edges:
-            if fastest.transfer_count():
-                fewest = self._best_route(origin, destination, fewest_first=True)
-            # 서로 다른 단순 경로라면 첫 경로의 탑승 간선이 적어도 하나 빠진다.
-            exclusions = (frozenset([e]) for e in fastest.edges if isinstance(e, RideEdge))
-            second = self._best_route(origin, destination, exclusions=exclusions)
-        return {"fastest": fastest, "fewest_transfers": fewest, "second_fastest": second}
-
-    def _best_route(self, origin, destination, *, fewest_first=False, exclusions=(frozenset(),)):
-        """간선 제외 조건별 최선 후보를 비교해 물리적 역 재방문이 없는 경로를 고른다."""
-        candidates = []
-        seen = set()
-        sequence = count()
-
-        def add_candidate(excluded):
-            if excluded in seen:
-                return
-            seen.add(excluded)
-            route = self._dijkstra(origin, destination, fewest_first, excluded)
-            if route is not None:
-                rank = (route.total_time(), route.transfer_count())
-                if fewest_first:
-                    rank = rank[::-1]
-                heapq.heappush(candidates, (rank, next(sequence), excluded, route))
-
-        for excluded in exclusions:
-            add_candidate(excluded)
-        while candidates:
-            _, _, excluded, route = heapq.heappop(candidates)
-            cycle = _cycle_rides(route)
-            if not cycle:
-                return route
-            # 이 순환을 피하는 모든 경로는 순환 간선 중 하나 이상을 사용하지 않는다.
-            for ride in cycle:
-                add_candidate(excluded | {ride})
-        return None
-
-    def _dijkstra(self, origin, destination, fewest_first=False, excluded=frozenset(), line=None):
-        # 상태 = (현재 역코드, 직전 탑승역 코드, 환승 후 타야 할 다음 역코드).
-        best = {}
-        came_from = {}
-        queue = []
-        for vertex in origin.vertices:
-            if line is not None and vertex.line != line:
-                continue
-            state = (vertex.station_code, "", "")
-            best[state] = (0, 0)
-            heapq.heappush(queue, ((0, 0), state))
-
-        while queue:
-            score, state = heapq.heappop(queue)
-            if score != best[state]:
-                continue
-            code, previous_code, required_next = state
-            current = self.vertices[code]
-            if current.station is destination:
-                edges = []
-                while state in came_from:
-                    state, edge = came_from[state]
-                    edges.append(edge)
-                return Route(list(reversed(edges)))
-
-            for edge in current.edges:
-                if edge in excluded:
-                    continue
-                next_code = edge.to_v.station_code
-                transfer = isinstance(edge, TransferEdge)
-                if transfer:
-                    if line is not None or previous_code != edge.from_prev_code:
-                        continue
-                    next_state = (next_code, "", edge.to_next_code)
-                else:
-                    if required_next and next_code != required_next:
-                        continue
-                    next_state = (next_code, code, "")
-
-                # 두 기준 모두 작은 순서로 비교한다. 최소 환승 모드에서는 순서만 바뀐다.
-                primary, secondary = (int(transfer), edge.cost()) if fewest_first else (edge.cost(), int(transfer))
-                candidate = (score[0] + primary, score[1] + secondary)
-                if next_state not in best or candidate < best[next_state]:
-                    best[next_state] = candidate
-                    came_from[next_state] = (state, edge)
-                    heapq.heappush(queue, (candidate, next_state))
-        return None
+        return RouteFinder(self.vertices).route_options(origin, destination)

@@ -64,6 +64,27 @@ print([v.station.name for v in section])  # 수서, 가락시장, 경찰병원, 
 
 두 번째 경로는 첫 경로의 탑승 간선을 하나씩 제외하고 다시 탐색한 결과 중 가장 빠른 것을 고른다. 물리적 역을 재방문하지 않는 다른 경로라면 첫 경로의 탑승 간선이 적어도 하나 빠진다. 싼 환승을 노려 직전 역을 왕복하는 후보는 순환 간선을 하나씩 제외해 다시 비교한다. 따라서 비교 조회는 단일 최단시간 조회보다 비용이 크다.
 
+## 경로 기능에 적용한 SOLID 원칙
+
+화면에서는 기존처럼 `SubwayGraph`를 호출한다. 지도 조립과 역 조회는 `subway_graph.py`, 다익스트라와 대안 탐색은 `route_finder.py`, 경로 요약은 `route.py`에서 읽을 수 있다. 기존 `from classes.subway_graph import Route`도 지원한다.
+
+| 원칙 | 코드에서 확인할 곳 |
+|---|---|
+| 단일 책임(S) | 환승 횟수·평균 혼잡도 같은 결과 계산은 `Route`가, 후보 탐색과 경로 복원은 `RouteFinder`가 맡는다. |
+| 개방·폐쇄(O) | `shortest(..., priority=함수)`로 경로 기준을 바꾼다. 함수는 간선 하나를 받아 합산할 **0 이상의 비용 두 개**를 반환한다. 첫 번째 합계가 같으면 두 번째 합계를 비교한다. |
+| 리스코프 치환(L) | 탐색기는 탑승·환승 간선 모두에 같은 `next_state()`를 호출한다. 두 종류 모두 이동 가능하면 다음 상태를, 방향이 맞지 않으면 `None`을 반환한다. `cost()`의 단위는 둘 다 초다. |
+| 인터페이스 분리(I) | 혼잡도 조회 `congestion_get()`는 열차 탑승 간선에만 있다. 환승 간선이나 경로 탐색기에서 혼잡도 API를 구현할 필요가 없다. |
+| 의존성 역전(D) | `SubwayGraph(loader=...)`에 네 읽기 메서드를 제공하는 다른 데이터 공급자를 전달할 수 있다. `RouteFinder`는 정점과 간선을 받아 탐색하므로 CSV 경로나 파일 형식을 알 필요가 없다. |
+
+예를 들어 최소 환승 하나만 요청하려면 다음과 같이 호출한다.
+
+```python
+from classes.route_finder import transfers_first
+
+route = graph.shortest("서울역", "강남", priority=transfers_first)
+print(route.transfer_count(), route.total_time())  # 1 1402
+```
+
 ## 검증
 
 프로젝트 루트에서 다음 명령을 실행한다.
