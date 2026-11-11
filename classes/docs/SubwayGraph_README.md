@@ -66,15 +66,17 @@ print([v.station.name for v in section])  # 수서, 가락시장, 경찰병원, 
 
 ## 경로 기능에 적용한 SOLID 원칙
 
-화면에서는 기존처럼 `SubwayGraph`를 호출한다. 지도 조립과 역 조회는 `subway_graph.py`, 다익스트라와 대안 탐색은 `route_finder.py`, 경로 요약은 `route.py`에서 읽을 수 있다. 기존 `from classes.subway_graph import Route`도 지원한다.
+경로 탐색 담당 코드에 적용한 원칙을 정리했다. 화면은 기존처럼 `SubwayGraph`를 호출하며, 기존 `from classes.subway_graph import Route`도 지원한다.
 
-| 원칙 | 코드에서 확인할 곳 |
+| 원칙 | 적용 내용과 코드 근거 |
 |---|---|
-| 단일 책임(S) | 환승 횟수·평균 혼잡도 같은 결과 계산은 `Route`가, 후보 탐색과 경로 복원은 `RouteFinder`가 맡는다. |
-| 개방·폐쇄(O) | `shortest(..., priority=함수)`로 경로 기준을 바꾼다. 함수는 간선 하나를 받아 합산할 **0 이상의 비용 두 개**를 반환한다. 첫 번째 합계가 같으면 두 번째 합계를 비교한다. |
-| 리스코프 치환(L) | 탐색기는 탑승·환승 간선 모두에 같은 `next_state()`를 호출한다. 두 종류 모두 이동 가능하면 다음 상태를, 방향이 맞지 않으면 `None`을 반환한다. `cost()`의 단위는 둘 다 초다. |
-| 인터페이스 분리(I) | 혼잡도 조회 `congestion_get()`는 열차 탑승 간선에만 있다. 환승 간선이나 경로 탐색기에서 혼잡도 API를 구현할 필요가 없다. |
-| 의존성 역전(D) | `SubwayGraph(loader=...)`에 네 읽기 메서드를 제공하는 다른 데이터 공급자를 전달할 수 있다. `RouteFinder`는 정점과 간선을 받아 탐색하므로 CSV 경로나 파일 형식을 알 필요가 없다. |
+| **S — 단일 책임 원칙(SRP)** | `SubwayGraph`는 그래프 구성·역 조회, `RouteFinder`는 경로 탐색, `Route`는 결과 요약을 담당한다. 운행일·시간대 변환은 `service_time.py`로 분리했다. |
+| **O — 개방·폐쇄 원칙(OCP)** | `shortest(..., priority=함수)`로 탐색 알고리즘을 수정하지 않고 비용 비교 기준을 확장한다. `time_first`는 시간 우선, `transfers_first`는 환승 횟수 우선이다. |
+| **L — 리스코프 치환 원칙(LSP)** | `RideEdge`와 `TransferEdge`는 공통 `Edge` 계약을 따른다. 탐색기는 동일하게 `cost()`와 `next_state()`를 호출하며, 비용은 초 단위이고 다음 상태는 튜플 또는 이동 불가를 뜻하는 `None`이다. |
+| **I — 인터페이스 분리 원칙(ISP)** | 공통 이동 기능은 `Edge`에 두고, 탑승에만 필요한 `congestion_get()`는 `RideEdge`에 둔다. `TransferEdge`에 불필요한 혼잡도 조회 구현을 요구하지 않는다. |
+| **D — 의존성 역전 원칙(DIP)** | `SubwayGraph(loader=..., finder_factory=...)`로 데이터 공급자와 탐색기를 외부에서 주입한다. 같은 메서드 계약을 갖추면 교체할 수 있으며, 탐색기는 CSV 입출력을 알 필요가 없다. |
+
+`priority(edge)`는 합산 가능한 **0 이상의 비용 두 개**를 반환해야 하며, 첫 번째 합계가 같을 때 두 번째 합계를 비교한다. 의존성 주입은 별도의 추상 클래스 대신 파이썬의 덕 타이핑(필요한 메서드를 제공하는 객체)을 사용한다.
 
 예를 들어 최소 환승 하나만 요청하려면 다음과 같이 호출한다.
 
@@ -84,13 +86,3 @@ from classes.route_finder import transfers_first
 route = graph.shortest("서울역", "강남", priority=transfers_first)
 print(route.transfer_count(), route.total_time())  # 1 1402
 ```
-
-## 검증
-
-프로젝트 루트에서 다음 명령을 실행한다.
-
-```shell
-python -m unittest discover -s tests -v
-```
-
-회귀 테스트에 환승 방향, 세 경로의 차이, 동시간 대안, 대안 없음, 단방향 순환선, 자정 통과, 혼잡도·거리 누락을 포함했다. 실제 경로에 대한 기대값은 저장소의 현재 CSV 기준이다.
