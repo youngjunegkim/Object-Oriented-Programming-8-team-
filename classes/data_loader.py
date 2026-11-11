@@ -5,13 +5,13 @@
 import csv
 from pathlib import Path
 
+from .service_time import DAYS, SLOTS  # 기존 import 경로에서도 계속 사용 가능
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "Data"
 CONGESTION_CSV = DATA / "Congestion" / "congestion.csv"
 CONGESTION_II_CSV = DATA / "Congestion_II" / "congestion.csv"
 
-DAYS = ["평일", "토요일", "일요일"]
-SLOTS = [f"{h % 24:02d}:{m:02d}" for h in range(5, 25) for m in (0, 30)][1:]
 SOURCES = ["measured", "measured-9", "generated"]
 
 
