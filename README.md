@@ -9,7 +9,7 @@
 
 https://object-oriented-programming-8-team.vercel.app/
 
-경로 탐색을 연결할 때는 [SubwayGraph 사용법과 검증 예시](classes/docs/SubwayGraph_README.md)를 참고하세요.
+경로 탐색을 연결할 때는 [SubwayGraph 사용법과 검증 예시](classes/README.md)를 참고하세요.
 
 ## 사용 데이터
 
@@ -52,3 +52,7 @@ RideEdge와 TransferEdge는 모두 Edge를 상속해 `cost()`를 제공하므로
 | 이동 구간 혼잡도 분석 | 구간 내 역별 혼잡도 막대그래프 (가장 혼잡한 역 강조)              | 출발역, 도착역, 요일, 시간대 선택 |
 | 출발 시간대 비교      | 출발 시간대별 평균 혼잡도 막대그래프 (가장 덜 혼잡한 시간대 강조) | 출발역, 도착역, 요일 선택         |
 | 최소 이동시간 조회    | 소요시간·환승 횟수·정거장 수·거리·평균 혼잡도 요약 카드 + 경로    | 출발역, 도착역, 요일, 시간대 선택 |
+
+## 코드 구조와 인수인계
+
+파일별 역할, 변경된 import 경로, SOLID 적용 및 호출 예시는 [클래스 통합 README](classes/README.md)를 참고하세요. 데이터 설명은 [Data README](Data/README.md), 수집 코드는 로컬 collect 폴더에만 보관하며 Git 추적에서 제외합니다. 새로 clone하면 포함되지 않으며, 필요하면 정리 이전 Git 이력에서 복구할 수 있습니다.

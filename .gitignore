@@ -4,3 +4,14 @@
 # Python
 __pycache__/
 *.pyc
+
+# 로컬 데이터 수집 코드 (Git 추적 제외)
+/collect/
+
+# 재생성 시에도 원본·중간 산출물을 다시 등록하지 않음
+/Data/Edge/json/
+/Data/Transfer/json/
+/Data/Congestion/raw/
+/Data/Congestion/generated_basis.csv
+/Data/Congestion_II/raw/
+/Data/Congestion_II/activity_ratio.csv
