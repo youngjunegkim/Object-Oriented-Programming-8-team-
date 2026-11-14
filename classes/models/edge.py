@@ -1,5 +1,7 @@
-#Station과 Vertex가 관련 객체를 모아 관리한다면, Edge는 정점 사이를 실제로 연결하는 구간
-class Edge: #두 Vertex 사이의 이동 구간을 표현하기 위해 존재하는 클래스
+"""탑승·환승 구간의 비용과 이동 가능한 다음 상태를 제공한다."""
+
+
+class Edge:
     is_transfer = False
 
     def __init__(self, from_v, to_v, seconds: int, meters=None):
@@ -10,8 +12,9 @@ class Edge: #두 Vertex 사이의 이동 구간을 표현하기 위해 존재하
         self.seconds = seconds
         self.meters = meters
 
-    @staticmethod #데이터 유효성 검사
+    @staticmethod
     def _validate(from_v, to_v, seconds, meters):
+        """CSV 외의 코드에서 직접 생성해도 간선의 기본 조건을 지킨다."""
         if from_v is None or to_v is None:
             raise ValueError("출발 정점과 도착 정점이 필요합니다.")
 
@@ -23,6 +26,7 @@ class Edge: #두 Vertex 사이의 이동 구간을 표현하기 위해 존재하
                 raise ValueError("거리는 0 이상의 정수 또는 None이어야 합니다.")
 
     def cost(self):
+        """탑승·환승 모두 초 단위의 비용을 반환한다."""
         return self.seconds
 
     def next_state(self, previous_code, required_next):
@@ -38,15 +42,17 @@ class RideEdge(Edge):
         self.congestion = congestion
 
     def congestion_get(self, day=None, slot=None):
-        if day is None: #요일 데이터 없이 시간 데이터만 들어올 경우 오류 발생해야함
+        """전체 데이터, 요일별 시간대 목록, 특정 시간대 값 중 요청한 범위를 반환한다."""
+        if day is None:
             if slot is not None:
                 raise ValueError("시간대를 지정하려면 요일도 필요합니다.")
             return self.congestion
 
         if slot is None:
-            return self.congestion[day]["values"] # 선택한 요일의 모든 시간대 혼잡도 반환
+            return self.congestion[day]["values"]
 
-        return self.congestion[day]["values"][slot] #특정 시간대 혼잡도 반환
+        return self.congestion[day]["values"][slot]
+
 
 class TransferEdge(Edge):
     is_transfer = True

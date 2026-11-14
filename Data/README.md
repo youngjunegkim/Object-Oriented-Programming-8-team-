@@ -7,10 +7,10 @@
 | `Station/stations.csv` | 역 정보 |
 | `Edge/edges.csv` | 탑승 구간 |
 | `Transfer/transfers.csv` | 환승 구간 |
-| `Congestion/congestion.csv` | 기본 혼잡도 |
-| `Congestion_II/congestion.csv` | 경로를 지정하면 사용할 수 있는 실험 혼잡도 |
+| `Congestion/congestion.csv` | 비교용 기존 혼잡도 (경로를 지정하여 선택) |
+| `Congestion_II/congestion.csv` | 기본 혼잡도 (역별 이용객 차이를 반영한 추정 버전) |
 
-기본 실행은 위의 첫 네 CSV를 읽는다. 원본 JSON·raw 파일과 `generated_basis.csv`, `activity_ratio.csv` 총 1,501개는 실행에 쓰이지 않아 제거했다. 아래 상세 설명의 원본·중간 파일 표는 생성 과정의 기록이며 현재 저장소에 파일이 있다는 의미는 아니다.
+기본 실행은 역·탑승·환승 CSV와 `Congestion_II/congestion.csv`를 읽는다. 기존 버전은 `CongestionDataLoader(congestion_path=CONGESTION_CSV)`로 선택할 수 있다. 원본 JSON·raw 파일과 `generated_basis.csv`, `activity_ratio.csv` 총 1,501개는 실행에 쓰이지 않아 제거했다. 아래 상세 설명의 원본·중간 파일 표는 생성 과정의 기록이며 현재 저장소에 파일이 있다는 의미는 아니다.
 
 `collect/`는 로컬에 남기고 Git 추적에서 제외했다. 실험 생성 스크립트도 로컬 `collect/build_congestion_ii.py`로 옮겼다. 새로 clone하면 생성 코드는 포함되지 않는다.
 
@@ -18,7 +18,7 @@
 
 현재 파일만으로 CSV를 다시 생성할 수는 없다. 정리 이전 커밋 `047f731`에는 원본과 생성 코드가 보관되어 있다. 필요하면 별도 폴더에 해당 커밋을 체크아웃하여 `collect/`와 `Data/`의 생성 자료를 복구하고 당시 collect README의 순서대로 실행한다. API 재수집에는 개인 인증키가 필요하며, `.env`는 Git에 올리지 않는다.
 
-## 기본 데이터의 출처와 생성 방법
+## 기존 혼잡도와 공통 데이터의 출처·생성 방법
 
 
 수도권 지하철 **역 782개, 간선 1,516개, 환승 1,110개, 간선별 시간대 혼잡도.**
@@ -164,7 +164,7 @@ API 원본의 오류·누락을 사람이 고친 값. 각 CSV의 `note` 컬럼�
 
 ---
 
-## Congestion_II (실험 버전)
+## Congestion_II (현재 기본값 · 추정 방식 개선 버전)
 
 `Congestion/`의 생성 공식에 **역별 이용객 차이**를 더한 버전.
 실측 부분은 같고, 생성값만 간선마다 달라진다 (평일 생성 패턴 11종류 → 615종류).
