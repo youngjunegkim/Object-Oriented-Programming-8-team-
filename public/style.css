@@ -76,7 +76,8 @@ body {
 }
 .tabs button[aria-selected="true"] { color: var(--text-primary); border-bottom-color: var(--accent); }
 
-main { padding-top: 20px; padding-bottom: 40px; }
+main { padding-top: 36px; padding-bottom: 40px; }
+#hm-chart { min-height: 0; }
 
 .filters { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; margin-bottom: 16px; }
 .filters label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--text-secondary); font-weight: 600; }

@@ -174,7 +174,8 @@ async function loadHeatmap() {
       hovertemplate: "%{y} → %{customdata[0]}<br>%{x} · <b>%{z:.1f}%</b> (%{customdata[1]})<extra></extra>",
       colorbar: { title: { text: "%", side: "top" }, thickness: 10, outlinewidth: 0, tickfont: { color: css("--text-muted") } },
     }], baseLayout({
-      height: Math.max(320, data.rows.length * 18 + 80),
+      // 행 높이를 고정해 정거장 수만큼만 늘어나게 한다 (적은 구간에서 칸이 세로로 늘어지지 않도록)
+      height: data.rows.length * (data.rows.length > 30 ? 18 : 26) + 60,
       margin: { l: 130, r: 12, t: 8, b: 44 },
       yaxis: { ...baseLayout().yaxis, autorange: "reversed", automargin: true, tickfont: { size: 11, color: css("--text-secondary") } },
       xaxis: { ...baseLayout().xaxis, side: "bottom", nticks: 14 },
