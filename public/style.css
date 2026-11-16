@@ -1,0 +1,135 @@
+:root {
+  color-scheme: light;
+  --page: #f4f4f2;
+  --surface: #fcfcfb;
+  --border: #e3e2de;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #7a7974;
+  --grid: #e8e7e3;
+  --accent: #2a78d6;
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --neutral-bar: #b9b8b2;
+  --error-bg: #fdecea;
+  --error-text: #a3201c;
+  --heat: #fcfcfb, #cde2fb, #9ec5f4, #6da7ec, #3987e5, #256abf, #184f95, #0d366b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #121211;
+    --surface: #1a1a19;
+    --border: #2e2e2c;
+    --text-primary: #f0efec;
+    --text-secondary: #c3c2b7;
+    --text-muted: #8d8c85;
+    --grid: #2b2b29;
+    --accent: #3987e5;
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --neutral-bar: #5a5955;
+    --error-bg: #3a1716;
+    --error-text: #f2b8b5;
+    --heat: #1a1a19, #0d366b, #184f95, #256abf, #3987e5, #6da7ec, #9ec5f4, #cde2fb;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #121211;
+  --surface: #1a1a19;
+  --border: #2e2e2c;
+  --text-primary: #f0efec;
+  --text-secondary: #c3c2b7;
+  --text-muted: #8d8c85;
+  --grid: #2b2b29;
+  --accent: #3987e5;
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --neutral-bar: #5a5955;
+  --error-bg: #3a1716;
+  --error-text: #f2b8b5;
+  --heat: #1a1a19, #0d366b, #184f95, #256abf, #3987e5, #6da7ec, #9ec5f4, #cde2fb;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--text-primary);
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+
+.top { background: var(--surface); border-bottom: 1px solid var(--border); padding-top: 20px; }
+.top h1 { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
+.sub { margin: 4px 0 12px; color: var(--text-secondary); font-size: 14px; }
+.tabs { display: flex; gap: 4px; overflow-x: auto; }
+.tabs button {
+  border: 0; background: none; color: var(--text-secondary); font: inherit; font-weight: 600;
+  padding: 10px 14px; border-bottom: 2px solid transparent; cursor: pointer; white-space: nowrap;
+}
+.tabs button[aria-selected="true"] { color: var(--text-primary); border-bottom-color: var(--accent); }
+
+main { padding-top: 20px; padding-bottom: 40px; }
+
+.filters { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; margin-bottom: 16px; }
+.filters label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--text-secondary); font-weight: 600; }
+.filters input, .filters select, .filters button {
+  font: inherit; color: var(--text-primary); background: var(--surface);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; min-height: 40px;
+}
+.filters input[list] { width: 190px; }
+.filters select { min-width: 120px; max-width: 100%; }
+.filters button { cursor: pointer; font-weight: 600; }
+.filters .primary { background: var(--accent); color: #fff; border-color: var(--accent); padding: 8px 20px; }
+.filters .swap { width: 40px; padding: 0; }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 16px; min-width: 0; }
+.card h2 { margin: 0; font-size: 16px; }
+.note { margin: 2px 0 8px; color: var(--text-muted); font-size: 13px; }
+.chart { width: 100%; min-height: 320px; }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.kpi .k { font-size: 13px; color: var(--text-secondary); }
+.kpi .v { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.kpi .d { font-size: 13px; color: var(--text-muted); }
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; } }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.route { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.route.best { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.route .title { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.route .title b { font-size: 15px; }
+.route .same { font-size: 12px; color: var(--text-muted); }
+.route .time { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; margin: 4px 0; font-variant-numeric: tabular-nums; }
+.route .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-bottom: 12px; }
+.route .stats div { font-size: 12px; color: var(--text-muted); }
+.route .stats b { display: block; font-size: 15px; color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.legs { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--border); }
+.legs li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 14px; }
+.legs li:last-child { border-bottom: 0; }
+.chip { flex: none; display: inline-block; min-width: 64px; text-align: center; font-size: 12px; font-weight: 700; color: #fff; border-radius: 999px; padding: 2px 8px; }
+.legs .walk .chip { background: var(--neutral-bar); color: var(--text-primary); }
+.legs .meta { color: var(--text-muted); font-size: 12px; }
+
+.hl-max { border-bottom: 2px solid var(--series-2); }
+.hl-min { border-bottom: 2px solid var(--series-3); }
+
+.error { background: var(--error-bg); color: var(--error-text); padding: 10px 14px; border-radius: 8px; margin-bottom: 16px; }
+.empty { color: var(--text-muted); padding: 40px 0; text-align: center; }
+.foot { color: var(--text-muted); font-size: 12px; margin-top: 8px; }
+
+@media (max-width: 560px) {
+  .filters label, .filters input[list], .filters select { width: 100%; }
+  .filters .swap { width: 100%; }
+  .route .stats { grid-template-columns: repeat(2, 1fr); }
+}
