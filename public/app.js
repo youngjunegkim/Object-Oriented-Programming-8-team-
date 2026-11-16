@@ -53,16 +53,6 @@ function fmtMin(seconds) {
 }
 const fmtPct = (v) => (v == null ? "—" : `${v.toFixed(1)}%`);
 const fmtKm = (m) => (m == null ? "—" : `${(m / 1000).toFixed(1)}km`);
-// 혼잡도 4단계 (서울교통공사 기존 기준: 정원 160명 = 100%)
-const LEVELS = [
-  { name: "여유", max: 80 },
-  { name: "보통", max: 130 },
-  { name: "주의", max: 150 },
-  { name: "혼잡", max: Infinity },
-];
-const HEAT_MIN = 0;
-const HEAT_MAX = 180; // 데이터 최대값(약 170%)을 담는 색 범위 상한
-const levelOf = (v) => (v == null ? "" : LEVELS.find((l) => v <= l.max).name);
 const SOURCE_LABEL = { measured: "실측", "measured-9": "실측(9월)", generated: "추정" };
 
 function resolveStation(text) {
@@ -175,20 +165,14 @@ async function loadHeatmap() {
     });
     $("hm-title").textContent = `${data.line} ${data.branch} · ${data.direction}${data.circular ? " (순환)" : ""} · ${data.day}`;
     const heat = css("--heat").split(",").map((c) => c.trim());
-    // 4단계 구간을 끊어진 색으로 칠한다: 경계값 위치에 같은 색을 두 번 넣으면 그라데이션 없이 바뀐다.
-    const edges = [HEAT_MIN, ...LEVELS.slice(0, -1).map((l) => l.max), HEAT_MAX].map((v) => (v - HEAT_MIN) / (HEAT_MAX - HEAT_MIN));
-    const colorscale = heat.flatMap((c, i) => [[edges[i], c], [edges[i + 1], c]]);
+    const colorscale = heat.map((c, i) => [i / (heat.length - 1), c]);
     const labels = data.rows.map((r, i) => `${i + 1}. ${r.station}${r.source === "generated" ? " *" : ""}`);
-    const custom = data.rows.map((r) => r.values.map((v) => [r.next, SOURCE_LABEL[r.source] || "—", levelOf(v)]));
+    const custom = data.rows.map((r) => data.slots.map(() => [r.next, SOURCE_LABEL[r.source] || "—"]));
     Plotly.react("hm-chart", [{
       type: "heatmap", x: data.slots, y: labels, z: data.rows.map((r) => r.values),
-      customdata: custom, colorscale, zmin: HEAT_MIN, zmax: HEAT_MAX, xgap: 1, ygap: 1,
-      hovertemplate: "%{y} → %{customdata[0]}<br>%{x} · <b>%{z:.1f}% %{customdata[2]}</b> (%{customdata[1]})<extra></extra>",
-      colorbar: {
-        thickness: 12, outlinewidth: 0, tickfont: { color: css("--text-secondary") },
-        tickvals: LEVELS.map((l, i) => ((i ? LEVELS[i - 1].max : HEAT_MIN) + Math.min(l.max, HEAT_MAX)) / 2),
-        ticktext: LEVELS.map((l, i) => `${l.name} ${i ? LEVELS[i - 1].max : 0}${l.max === Infinity ? "%~" : `~${l.max}%`}`),
-      },
+      customdata: custom, colorscale, zmin: 0, zmax: 120, xgap: 1, ygap: 1,
+      hovertemplate: "%{y} → %{customdata[0]}<br>%{x} · <b>%{z:.1f}%</b> (%{customdata[1]})<extra></extra>",
+      colorbar: { title: { text: "%", side: "top" }, thickness: 10, outlinewidth: 0, tickfont: { color: css("--text-muted") } },
     }], baseLayout({
       height: Math.max(320, data.rows.length * 18 + 80),
       margin: { l: 130, r: 12, t: 8, b: 44 },

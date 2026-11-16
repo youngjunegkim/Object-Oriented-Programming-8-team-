@@ -14,7 +14,7 @@
   --neutral-bar: #b9b8b2;
   --error-bg: #fdecea;
   --error-text: #a3201c;
-  --heat: #1a9850, #fee08b, #f46d43, #7f0000; /* 여유·보통·주의·혼잡 */
+  --heat: #1a9850, #66bd63, #a6d96a, #fee08b, #fdae61, #f46d43, #d73027, #7f0000;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -33,7 +33,7 @@
     --neutral-bar: #5a5955;
     --error-bg: #3a1716;
     --error-text: #f2b8b5;
-    --heat: #1a9850, #fee08b, #f46d43, #7f0000; /* 여유·보통·주의·혼잡 */
+    --heat: #1a9850, #66bd63, #a6d96a, #fee08b, #fdae61, #f46d43, #d73027, #7f0000;
   }
 }
 :root[data-theme="dark"] {
@@ -52,7 +52,7 @@
   --neutral-bar: #5a5955;
   --error-bg: #3a1716;
   --error-text: #f2b8b5;
-  --heat: #1a9850, #fee08b, #f46d43, #7f0000; /* 여유·보통·주의·혼잡 */
+  --heat: #1a9850, #66bd63, #a6d96a, #fee08b, #fdae61, #f46d43, #d73027, #7f0000;
 }
 
 * { box-sizing: border-box; }
