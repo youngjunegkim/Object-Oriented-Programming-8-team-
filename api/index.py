@@ -1,4 +1,4 @@
-"""대시보드 JSON API. Vercel Python 함수(handler)와 로컬 서버(serve.py)가 함께 사용한다.
+"""대시보드 JSON API. Vercel Python 함수(handler)와 로컬 서버(main.py)가 함께 사용한다.
 
 GET /api/meta
 GET /api/directions?station=<역코드>

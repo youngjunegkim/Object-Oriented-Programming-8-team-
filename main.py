@@ -1,4 +1,4 @@
-"""로컬에서 대시보드 실행: python3 serve.py [포트]  →  http://localhost:8000
+"""로컬에서 대시보드 실행: python3 main.py [포트]  →  http://localhost:8000
 
 public/의 정적 파일과 /api/* 요청을 함께 처리한다. 표준 라이브러리만 사용한다.
 """
