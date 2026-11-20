@@ -53,7 +53,7 @@ function fmtMin(seconds) {
 }
 const fmtPct = (v) => (v == null ? "—" : `${v.toFixed(1)}%`);
 const fmtKm = (m) => (m == null ? "—" : `${(m / 1000).toFixed(1)}km`);
-const SOURCE_LABEL = { measured: "실측", "measured-9": "실측(9월)", generated: "추정" };
+const SOURCE_LABEL = { measured: "실측", "measured-9": "실측(9호선)", generated: "추정" };
 
 function resolveStation(text) {
   const t = (text || "").trim();
