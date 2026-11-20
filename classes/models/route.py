@@ -24,24 +24,27 @@ class Route:
             return count_rides, None
         return count_rides, sum(edge.meters for edge in self.edges)         #거리가 전부 있으면 거리를 전부 더해서 반환(rideedge와 transferedge 전부 더함, m임)
 
-    def avg_congestion(self, day, departure_time):      #route.avg_congestion("평일", "08:28")  출발하면 평균적으로 얼마나 붐빌까를 답함
-        """각 탑승 구간 진입 시각의 혼잡도 산술평균(%). 계산할 수 없으면 None.""" #rideedge에서 30분 단위로 출발시간의 혼잡도를 구하고 transfer은 이동 중이므로 계산 안함.
+    def ride_congestions(self, day, departure_time):    #route.ride_congestions("평일", "08:28") 탑승 구간마다 얼마나 붐비는지 답함
+        """탑승 구간마다 (간선, 진입 시간대, 혼잡도) 목록. 관측 범위 밖이면 시간대·혼잡도는 None.""" #transfer은 이동 중이므로 목록에 넣지 않음.
         if day not in DAYS:
             raise ValueError(f"요일은 {DAYS} 중 하나여야 합니다.")
         # 시간 변환은 별도 함수가 담당한다. 새벽 0시대는 선택한 운행일의 마지막 시간대다.
         clock = departure_seconds(departure_time) #초로 반환
-        values = []
+        result = []
         for edge in self.edges:  #edges중에서 rideedge면 slot에 현재 시간의 30분 시간대를 구해 넣음.
             if isinstance(edge, RideEdge):
                 slot = congestion_slot(clock)
-                if slot is None:
-                    return None
-                value = edge.congestion_get(day, slot)
-                if value is None:
-                    return None
-                values.append(value)             # 들여쓰기 주의: 열차에 타 있는 rideedge상태일 때만 append
+                value = edge.congestion_get(day, slot) if slot is not None else None
+                result.append((edge, slot, value))   # 들여쓰기 주의: 열차에 타 있는 rideedge상태일 때만 append
             clock += edge.cost()  # 환승 보행 시간도 다음 탑승 시각에 반영
-        return sum(values) / len(values) if values else None
+        return result
+
+    def avg_congestion(self, day, departure_time):      #route.avg_congestion("평일", "08:28")  출발하면 평균적으로 얼마나 붐빌까를 답함
+        """각 탑승 구간 진입 시각의 혼잡도 산술평균(%). 계산할 수 없으면 None.""" #구간별 혼잡도는 ride_congestions()가 계산하고 여기서는 평균만 낸다.
+        values = [value for edge, slot, value in self.ride_congestions(day, departure_time)]
+        if not values or None in values:  # 탑승 구간이 없거나, 하나라도 관측 범위 밖·값 없음이면 평균을 낼 수 없다.
+            return None
+        return sum(values) / len(values)
 
 """congestion_get() → 전체 혼잡도 데이터
 congestion_get("평일") → 평일의 모든 시간대 혼잡도

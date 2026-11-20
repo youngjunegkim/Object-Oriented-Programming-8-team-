@@ -53,6 +53,10 @@ class RideEdge(Edge):
 
         return self.congestion[day]["values"][slot]
 
+    def source(self, day):
+        """요일별 혼잡도 출처: measured(실측) / measured-9(9호선 실측) / generated(추정)."""
+        return self.congestion[day]["source"]
+
 
 class TransferEdge(Edge):
     is_transfer = True
