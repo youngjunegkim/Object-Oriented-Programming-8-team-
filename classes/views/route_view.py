@@ -3,7 +3,7 @@
 혼잡도 계산 규칙은 Route.ride_congestions()·avg_congestion()에만 있고, 여기서는 결과를 화면 형식으로 옮긴다.
 """
 
-from ..service_time import SLOTS, departure_seconds
+from ..service_time import SLOTS, check_day, departure_seconds
 
 ROUTE_LABELS = {
     "fastest": "최단시간",
@@ -59,7 +59,7 @@ class RouteView:
 
     def options(self, start, end, day, departure_time):
         """최단시간·최소환승·대안 경로의 요약 카드. 앞 경로와 같은 경로면 same_as로 알린다."""
-        self.query.check_day(day)
+        check_day(day)
         departure_seconds(departure_time)  # 출발 시각 형식 검사
         routes = []
         seen = []
@@ -75,7 +75,7 @@ class RouteView:
 
     def segments(self, start, end, day, departure_time):
         """최단시간 경로의 탑승 구간별 혼잡도(각 구간 진입 시각 기준)."""
-        self.query.check_day(day)
+        check_day(day)
         route = self.query.shortest(start, end)
         if route is None:
             return {"segments": []}
@@ -93,7 +93,7 @@ class RouteView:
 
     def departure(self, start, end, day):
         """같은 최단시간 경로를 시간대별로 출발했을 때의 평균 혼잡도."""
-        self.query.check_day(day)
+        check_day(day)
         route = self.query.shortest(start, end)
         if route is None:
             return {"slots": SLOTS, "values": [None] * len(SLOTS)}

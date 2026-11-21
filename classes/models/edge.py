@@ -29,16 +29,9 @@ class RideEdge(Edge):
         super().__init__(from_v, to_v, seconds, meters)
         self.congestion = congestion
 
-    # 요일·시간대를 지정한 만큼 혼잡도를 좁혀서 반환한다.
-    # congestion_get()                → 모든 요일
-    # congestion_get("평일")          → 평일의 모든 시간대
-    # congestion_get("평일", "08:00") → 평일 08:00 값 하나
-    def congestion_get(self, day=None, slot=None):
-        if day is None:
-            return self.congestion
-        if slot is None:
-            return self.congestion[day]["values"]
-        return self.congestion[day]["values"][slot]
+    # 그 요일의 {시간대: 혼잡도}. 값 하나는 day_congestion("평일")["08:00"]처럼 꺼낸다.
+    def day_congestion(self, day):
+        return self.congestion[day]["values"]
 
     # 요일별 혼잡도 출처: measured(실측) / measured-9(9호선 실측) / generated(추정)
     def source(self, day):

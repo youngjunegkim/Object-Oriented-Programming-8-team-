@@ -8,7 +8,7 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-from api.index import handler as ApiHandler, view
+from api.index import handler as ApiHandler, dashboard
 
 PUBLIC = Path(__file__).resolve().parent / "public"
 
@@ -23,7 +23,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
 
 def main():
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
-    view()  # 시작할 때 그래프를 미리 구성한다.
+    dashboard()  # 시작할 때 그래프를 미리 구성한다.
     server = ThreadingHTTPServer(("127.0.0.1", port), partial(DashboardHandler, directory=str(PUBLIC)))
     print(f"대시보드: http://localhost:{port}")
     try:

@@ -5,6 +5,11 @@ DAYS = ["평일", "토요일", "일요일"]
 SLOTS = [f"{h % 24:02d}:{m:02d}" for h in range(5, 25) for m in (0, 30)][1:]
 
 
+def check_day(day):
+    if day not in DAYS:
+        raise ValueError(f"요일은 {DAYS} 중 하나여야 합니다.")
+
+
 def departure_seconds(departure_time):
     """HH:MM을 초로 바꾼다. 새벽 0~4시는 선택한 운행일의 마지막 시간대라 24시간을 더한다.
 

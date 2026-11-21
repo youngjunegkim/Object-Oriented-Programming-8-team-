@@ -1,6 +1,6 @@
 """② 호선 히트맵 화면: 호선·지선 선택 목록, 역 × 시간대 혼잡도 행렬."""
 
-from ..service_time import SLOTS
+from ..service_time import SLOTS, check_day
 
 
 class LineHeatmapView:
@@ -23,7 +23,7 @@ class LineHeatmapView:
 
     def render(self, line, branch, day, reverse=False):
         """역(행) × 시간대(열) 혼잡도. 순환선은 마지막 역 → 첫 역 구간도 포함한다."""
-        self.query.check_day(day)
+        check_day(day)
         order = self.query.branch(line, branch)
         if reverse:
             order.reverse()
@@ -35,7 +35,7 @@ class LineHeatmapView:
         rows = []
         for start, end in pairs:
             edge = self.query.ride_between(start, end)
-            values = edge.congestion_get(day) if edge else {}
+            values = edge.day_congestion(day) if edge else {}
             rows.append({
                 "station": start.station.name,
                 "next": end.station.name,

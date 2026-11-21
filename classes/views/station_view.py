@@ -38,11 +38,13 @@ class StationCongestionView:
         """평일·토요일·일요일의 30분별 혼잡도를 한 번에 비교한다."""
         start = self.query.vertex(code).station
         edge = self.query.ride_on_line(code, next_code, line)
+        if edge is None:
+            raise ValueError(f"{line}에서 {code} → {next_code} 방향의 탑승 구간이 없습니다.")
         days = {}
         for day in DAYS:
-            values = self.query.station_congestion(code, next_code, line, day)
+            values = edge.day_congestion(day)
             days[day] = {
-                "source": edge.source(day) if edge else None,
+                "source": edge.source(day),
                 "values": [values.get(slot) for slot in SLOTS],
             }
         return {

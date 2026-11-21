@@ -29,19 +29,19 @@ https://object-oriented-programming-8-team.vercel.app/
 | Station                  | 역 하나, 호선별 Vertex를 묶어 관리                          | add_vertex                                                                           |
 | Vertex                   | 한 역의 한 호선 정점, 출발 Edge 보관                        | add_edge                                                                             |
 | Edge                     | 두 Vertex를 잇는 구간 (부모 클래스)                         | cost                                                                                 |
-| RideEdge (Edge 상속)     | 같은 호선 인접 역 사이 탑승 구간, 요일·시간대별 혼잡도 보관 | congestion_get, slot_of                                                              |
+| RideEdge (Edge 상속)     | 같은 호선 인접 역 사이 탑승 구간, 요일·시간대별 혼잡도 보관 | day_congestion, source                                                               |
 | TransferEdge (Edge 상속) | 같은 역에서 호선을 갈아타는 환승 구간                       | cost                                                                                 |
-| SubwayGraph              | 전체 역·구간 객체 생성·관리, 경로 탐색                      | build, shortest, station_congestion                                                                   |
+| SubwayGraph              | 전체 역·구간 객체 생성·관리, 경로 탐색                      | build, shortest, route_options                                                       |
 | Route                    | 탐색된 경로 하나의 요약                                     | total_time, transfer_count, stops, avg_congestion                                    |
-| DashboardView            | 사용자 입력을 받아 SubwayGraph에 요청하고 결과 출력         | render_station_congestion, render_heatmap, render_departure_congestion, render_route |
+| Dashboard                | 그래프와 화면별 클래스를 조립해 API에 제공                  | meta (화면 클래스: stations, heatmap, routes)                                        |
 
 **처리 흐름**
 
 1. CongestionDataLoader가 세 데이터를 읽어 요일·역·방향별 혼잡도, 호선별 (역명, 소요시간, 거리) 목록, 환승 소요시간으로 정리
 2. SubwayGraph.build가 Station·Vertex를 만들고 RideEdge·TransferEdge로 연결
-3. DashboardView가 사용자 선택(역·호선·방향·요일·시간대)으로 SubwayGraph를 호출해 혼잡도 조회
+3. API(api/index.py)가 사용자 선택(역·호선·방향·요일·시간대)을 Dashboard의 화면별 클래스에 넘겨 혼잡도 조회
 4. 출발역·도착역을 입력하면 SubwayGraph.shortest가 Edge의 cost를 누적해(다익스트라) Route 생성
-5. Route가 소요시간·환승 횟수·정거장 수·평균 혼잡도를 계산하고 DashboardView가 화면에 출력
+5. Route가 소요시간·환승 횟수·정거장 수·평균 혼잡도를 계산하고 화면별 클래스가 JSON으로 가공
 
 RideEdge와 TransferEdge는 모두 Edge를 상속해 `cost()`를 제공하므로, 경로 탐색에서 탑승과 환승을 같은 방식으로 계산합니다.
 

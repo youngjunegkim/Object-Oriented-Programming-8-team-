@@ -1,7 +1,6 @@
 """CSV를 읽어 수도권 지하철 그래프(Station · Vertex · Edge)를 구성하고 경로 탐색을 요청한다."""
 
 from ..loaders.data_loader import CongestionDataLoader
-from ..service_time import DAYS
 from ..models.edge import RideEdge, TransferEdge
 from .route_finder import RouteFinder, time_first
 from ..models.station import Station
@@ -56,6 +55,7 @@ class SubwayGraph:
         self.edges = []       # 전체 탑승·환승 간선
         self.line_order = {}  # 호선 → 지선 → 순서대로 정렬한 Vertex 목록
         self.stations = {}    # 역 이름 → Station 목록 (동명이역이 있어 목록)
+        self.finder = None    # build()가 만드는 경로 탐색기
 
     def build(self):
         """CSV를 읽어 정점을 만들고, 각 정점에 출발 간선을 등록한다."""
@@ -112,6 +112,7 @@ class SubwayGraph:
 
         self.stations, self.vertices = stations, vertices
         self.edges, self.line_order = edges, line_order
+        self.finder = self.finder_factory(vertices)
 
     def _station(self, name_or_code, line=None):
         """역 이름이나 역코드로 Station을 찾는다. line을 주면 그 호선이 지나는 역만 후보로 본다."""
@@ -138,25 +139,12 @@ class SubwayGraph:
             raise ValueError(f"동명이역입니다. 역코드를 입력하세요: {', '.join(options)}")
         return candidates[0]
 
-    def station_congestion(self, station, next_station, line, day):
-        """선택한 역에서 같은 호선의 이웃 역 방향으로 출발하는 30분별 혼잡도."""
-        if day not in DAYS:
-            raise ValueError(f"요일은 {DAYS} 중 하나여야 합니다.")
-        origin = self._station(station, line)
-        neighbor = self._station(next_station, line)
-        for vertex in origin.vertices:
-            if vertex.line == line:
-                for edge in vertex.edges:
-                    if isinstance(edge, RideEdge) and edge.to_v.station is neighbor:
-                        return dict(edge.congestion_get(day))
-        raise ValueError(f"{line}에서 {station} → {next_station} 방향의 탑승 구간이 없습니다.")
-
     def shortest(self, start, end, *, priority=time_first):
         """기본은 최소 소요시간. priority(edge)로 다른 비용 기준을 선택할 수 있다."""
         origin, destination = self._station(start), self._station(end)
-        return self.finder_factory(self.vertices).best_route(origin, destination, priority=priority)
+        return self.finder.best_route(origin, destination, priority=priority)
 
     def route_options(self, start, end):
         """최단시간, 최소 환승, 두 번째 최단시간 Route를 각각 반환한다."""
         origin, destination = self._station(start), self._station(end)
-        return self.finder_factory(self.vertices).route_options(origin, destination)
+        return self.finder.route_options(origin, destination)

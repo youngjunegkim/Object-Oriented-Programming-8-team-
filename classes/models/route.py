@@ -1,6 +1,6 @@
 """찾아낸 경로를 저장하고, 그 경로의 시간·환승·거리·혼잡도를 계산한다."""
 
-from ..service_time import DAYS, departure_seconds, congestion_slot
+from ..service_time import check_day, departure_seconds, congestion_slot
 from .edge import RideEdge
 
 
@@ -26,14 +26,13 @@ class Route:
 
     def ride_congestions(self, day, departure_time):
         """탑승 구간마다 (간선, 진입 시간대, 혼잡도) 목록. 관측 범위 밖이면 시간대·혼잡도는 None."""
-        if day not in DAYS:
-            raise ValueError(f"요일은 {DAYS} 중 하나여야 합니다.")
+        check_day(day)
         clock = departure_seconds(departure_time)
         result = []
         for edge in self.edges:
             if isinstance(edge, RideEdge):
                 slot = congestion_slot(clock)
-                value = edge.congestion_get(day, slot) if slot is not None else None
+                value = edge.day_congestion(day)[slot] if slot is not None else None
                 result.append((edge, slot, value))
             clock += edge.cost()  # 환승 보행 시간도 다음 탑승 시각에 반영한다.
         return result

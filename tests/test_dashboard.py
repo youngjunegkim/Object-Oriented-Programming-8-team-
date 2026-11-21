@@ -1,4 +1,4 @@
-"""대시보드 화면 클래스와 Route·RideEdge에 추가한 메서드의 테스트.
+"""대시보드 조립·화면 클래스와 Route·RideEdge에 추가한 메서드의 테스트.
 
 실행: 프로젝트 루트에서  python3 -m unittest discover -s tests -v
 """
@@ -12,8 +12,7 @@ from classes.models.station import Station
 from classes.models.vertex import Vertex
 from classes.routing.subway_graph import SubwayGraph
 from classes.service_time import DAYS, SLOTS
-from classes.views.dashboard_view import DashboardView
-from classes.views.graph_query import GraphQuery
+from classes.views.dashboard import Dashboard
 from classes.views.route_view import RouteView
 
 GRAPH = None
@@ -42,8 +41,6 @@ def tiny_route():
 
 class FakeQuery:
     """GraphQuery 대신 넣는 가짜 객체. RouteView가 그래프 구현에 묶이지 않았음을 확인한다(DIP)."""
-
-    check_day = staticmethod(GraphQuery.check_day)
 
     def __init__(self, route):
         self.route = route
@@ -116,30 +113,30 @@ class RouteViewTest(unittest.TestCase):
                          [("08:00", 40.0, "measured"), ("08:30", 80.0, "generated")])
 
 
-class DashboardViewTest(unittest.TestCase):
+class DashboardTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.view = DashboardView(GRAPH)
+        cls.dashboard = Dashboard(GRAPH)
 
     def test_meta_separates_same_name_stations(self):
-        labels = {s["label"] for s in self.view.meta()["stations"]}
+        labels = {s["label"] for s in self.dashboard.meta()["stations"]}
         self.assertIn("신촌 (2호선)", labels)
         self.assertNotIn("신촌", labels)
 
     def test_circular_line_closes_loop(self):
-        heatmap = self.view.render_heatmap("2호선", "순환선", "평일")
+        heatmap = self.dashboard.heatmap.render("2호선", "순환선", "평일")
         self.assertTrue(heatmap["circular"])
         self.assertEqual(heatmap["rows"][-1]["next"], heatmap["rows"][0]["station"])
 
     def test_station_compares_three_days(self):
-        data = self.view.render_station_congestion("0150", "0151", "1호선")
+        data = self.dashboard.stations.compare_days("0150", "0151", "1호선")
         self.assertEqual(list(data["days"]), DAYS)
         self.assertEqual(len(data["days"]["평일"]["values"]), len(SLOTS))
 
     def test_injected_views_are_used(self):
         fake_route_view = RouteView(FakeQuery(tiny_route()))
-        view = DashboardView(GRAPH, route_view=fake_route_view)
-        self.assertEqual(len(view.render_segment_congestion("A", "C", "평일", "08:20")["segments"]), 2)
+        dashboard = Dashboard(GRAPH, route_view=fake_route_view)
+        self.assertEqual(len(dashboard.routes.segments("A", "C", "평일", "08:20")["segments"]), 2)
 
 
 class ApiTest(unittest.TestCase):

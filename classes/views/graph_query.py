@@ -5,7 +5,6 @@ graph.vertices, graph.stations, graph.line_order 같은 그래프 내부 구조�
 """
 
 from ..models.edge import RideEdge
-from ..service_time import DAYS
 
 
 class GraphQuery:
@@ -13,12 +12,6 @@ class GraphQuery:
 
     def __init__(self, graph):
         self.graph = graph
-
-    # ---------- 입력 검사 ----------
-    @staticmethod
-    def check_day(day):
-        if day not in DAYS:
-            raise ValueError(f"요일은 {DAYS} 중 하나여야 합니다.")
 
     # ---------- 역·정점 ----------
     def vertex(self, code):
@@ -70,9 +63,6 @@ class GraphQuery:
         return list(branches[branch])
 
     # ---------- SubwayGraph 공개 메서드 전달 ----------
-    def station_congestion(self, code, next_code, line, day):
-        return self.graph.station_congestion(code, next_code, line, day)
-
     def shortest(self, start, end):
         return self.graph.shortest(start, end)
 

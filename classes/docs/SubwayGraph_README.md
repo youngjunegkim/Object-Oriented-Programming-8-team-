@@ -38,13 +38,13 @@ for key, route in options.items():
 | `route.transfer_count()` | 환승 횟수 |
 | `route.stops()` | `(탑승 구간 수, 총 이동거리 m)`. 총거리에 환승 보행을 포함한다. 한 구간이라도 거리 누락이면 거리는 `None`이다. |
 | `route.avg_congestion(day, departure_time)` | 구간별 혼잡도(%)의 산술평균. 각 탑승 시작 시각을 30분 단위로 내린다. 환승 시간도 다음 탑승 시각에 반영한다. 탑승이 없거나 구간 값이 하나라도 없으면 `None`이다. |
-| `graph.station_congestion(station, next_station, line, day)` | 해당 역에서 지정한 **바로 다음 역** 방향으로 출발하는 시간대별 혼잡도 딕셔너리. 방향을 다음 역으로 고르면 분기점에서도 구분할 수 있다. 빈 시간칸은 `None`이다. |
+| `ride.day_congestion(day)` | 탑승 간선(`RideEdge`) 하나의 시간대별 혼잡도 딕셔너리. 간선이 방향별로 따로 있어 분기점에서도 구분된다. 빈 시간칸은 `None`이다. |
 | `graph.line_order[line][branch]` | 히트맵 축에 사용할 지선별 역 순서. 순환선의 시작역은 한 번만 나온다. |
 | `graph.vertices[station_code]`, `graph.edges` | 역코드별 정점과 전체 방향별 간선 목록 |
 
 ```python
-series = graph.station_congestion("수서", "가락시장", "3호선", "평일")
-print(series["08:00"])  # 18.5
+ride = graph.shortest("수서", "가락시장").edges[0]  # 수서 → 가락시장 탑승 간선
+print(ride.day_congestion("평일")["08:00"])  # 18.5
 ```
 
 요일은 `평일`, `토요일`, `일요일` 중 하나이고 출발 시각은 24시간제 `HH:MM`이다. 자정 이후 00시대는 같은 운행일에 속한다. 혼잡도 관측 범위는 05:30부터 다음 날 01:00 직전까지다. 화면에서는 `None`을 ‘자료 없음’으로 표시한다. 혼잡도는 경로 비교 지표로 사용한다. 운행 여부나 출발 시각별 배차를 반영하는 시간표 탐색은 이 API의 범위 밖이다.
@@ -70,7 +70,7 @@ print(series["08:00"])  # 18.5
 | **S — 단일 책임 원칙(SRP)** | `SubwayGraph`는 그래프 구성·역 조회, `RouteFinder`는 경로 탐색, `Route`는 결과 요약을 담당한다. 운행일·시간대 변환은 `service_time.py`로 분리했다. |
 | **O — 개방·폐쇄 원칙(OCP)** | `shortest(..., priority=함수)`로 탐색 알고리즘을 수정하지 않고 비용 비교 기준을 확장한다. `time_first`는 시간 우선, `transfers_first`는 환승 횟수 우선이다. |
 | **L — 리스코프 치환 원칙(LSP)** | `RideEdge`와 `TransferEdge`는 공통 `Edge` 계약을 따른다. 탐색기는 동일하게 `cost()`와 `next_state()`를 호출하며, 비용은 초 단위이고 다음 상태는 튜플 또는 이동 불가를 뜻하는 `None`이다. |
-| **I — 인터페이스 분리 원칙(ISP)** | 공통 이동 기능은 `Edge`에 두고, 탑승에만 필요한 `congestion_get()`는 `RideEdge`에 둔다. `TransferEdge`에 불필요한 혼잡도 조회 구현을 요구하지 않는다. |
+| **I — 인터페이스 분리 원칙(ISP)** | 공통 이동 기능은 `Edge`에 두고, 탑승에만 필요한 `day_congestion()`은 `RideEdge`에 둔다. `TransferEdge`에 불필요한 혼잡도 조회 구현을 요구하지 않는다. |
 | **D — 의존성 역전 원칙(DIP)** | `SubwayGraph(loader=..., finder_factory=...)`로 데이터 공급자와 탐색기를 외부에서 주입한다. 같은 메서드 계약을 갖추면 교체할 수 있으며, 탐색기는 CSV 입출력을 알 필요가 없다. |
 
 `priority(edge)`는 합산 가능한 **0 이상의 비용 두 개**를 반환해야 하며, 첫 번째 합계가 같을 때 두 번째 합계를 비교한다. 의존성 주입은 별도의 추상 클래스 대신 파이썬의 덕 타이핑(필요한 메서드를 제공하는 객체)을 사용한다. `tests/test_solid_contracts.py`에는 상속 없이 탐색기를 교체하는 테스트가 있다.
