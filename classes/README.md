@@ -39,8 +39,8 @@ classes/
 | [Vertex](models/vertex.py) | 한 역의 한 호선 정점과 출발 간선 관리 | `add_edge` |
 | [Edge · RideEdge · TransferEdge](models/edge.py) | 이동 비용, 탑승·환승 방향 규칙, 탑승 혼잡도와 출처 제공 | `cost`, `next_state`, `congestion_get`, `source` |
 | [Route](models/route.py) | 찾은 경로의 시간·환승·거리·혼잡도 계산 | `total_time`, `transfer_count`, `stops`, `ride_congestions`, `avg_congestion` |
-| [SubwayGraph](routing/subway_graph.py) | 역·간선 구성과 조회, 탐색기로 요청 전달 | `build`, `shortest`, `route_options`, `station_congestion`, `stations_between` |
-| [RouteFinder](routing/route_finder.py) | 경로 탐색, 복원, 역 재방문 없는 대안 비교 | `_dijkstra`, `best_route`, `on_line`, `route_options` |
+| [SubwayGraph](routing/subway_graph.py) | 역·간선 구성과 조회, 탐색기로 요청 전달 | `build`, `shortest`, `route_options`, `station_congestion` |
+| [RouteFinder](routing/route_finder.py) | 경로 탐색, 복원, 역 재방문 없는 대안 비교 | `_dijkstra`, `best_route`, `route_options` |
 | [service_time](service_time.py) | 운행일 기준 시간 변환과 30분 시간대 선택 | `departure_seconds`, `congestion_slot` |
 | [GraphQuery](views/graph_query.py) | 화면 클래스가 그래프를 조회하는 유일한 창구 (그래프 내부 구조는 여기서만 다룸) | `vertex`, `physical_stations`, `ride_between`, `branch` |
 | [StationCongestionView](views/station_view.py) · [LineHeatmapView](views/heatmap_view.py) · [RouteView](views/route_view.py) | 대시보드 화면별 결과 가공 (역별 혼잡도 · 호선 히트맵 · 경로 분석) | `compare_days`, `render`, `options`, `segments`, `departure` |
@@ -159,7 +159,7 @@ def __init__(self, loader=None, finder_factory=RouteFinder):
 | 교체 대상 | 유지해야 할 계약 |
 |---|---|
 | `loader` | 네 가지 `load_*` 메서드와 기존 데이터 반환 구조 |
-| `finder_factory` | 정점 정보를 받아 `best_route`, `on_line`, `route_options`를 제공하는 탐색기 생성 |
+| `finder_factory` | 정점 정보를 받아 `best_route`, `route_options`를 제공하는 탐색기 생성 |
 
 **핵심:** 같은 계약을 제공하면 다른 로더·탐색기로 교체할 수 있다. 탐색기는 CSV 경로나 화면 구현을 알 필요가 없다.
 
@@ -214,7 +214,6 @@ route = graph.shortest("서울역", "강남", priority=transfers_first)
 | `shortest()` | `Route` 또는 경로가 없으면 `None` |
 | `route_options()` | `fastest`, `fewest_transfers`, `second_fastest`별 `Route` 또는 `None` |
 | `station_congestion(역, 다음역, 호선, 요일)` | 바로 이웃한 역으로 출발하는 방향의 시간대별 혼잡도 딕셔너리 |
-| `stations_between(출발역, 도착역, 호선)` | 해당 호선에서 환승 없는 최단시간 경유 정점 목록. 양 끝 포함, 연결 없으면 빈 목록 |
 | `total_time()` / `transfer_count()` | 탑승·환승 소요시간 합계(초) / 환승 횟수 |
 | `stops()` | `(탑승 구간 수, 총거리 m)`. 환승 거리 포함, 거리 누락 시 총거리는 `None` |
 | `ride_congestions(요일, 출발시각)` | 탑승 구간마다 `(간선, 진입 시간대, 혼잡도)` 목록. 환승 시간은 다음 진입 시각에 반영. 관측 범위 밖이면 시간대·혼잡도는 `None` |

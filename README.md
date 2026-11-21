@@ -31,7 +31,7 @@ https://object-oriented-programming-8-team.vercel.app/
 | Edge                     | 두 Vertex를 잇는 구간 (부모 클래스)                         | cost                                                                                 |
 | RideEdge (Edge 상속)     | 같은 호선 인접 역 사이 탑승 구간, 요일·시간대별 혼잡도 보관 | congestion_get, slot_of                                                              |
 | TransferEdge (Edge 상속) | 같은 역에서 호선을 갈아타는 환승 구간                       | cost                                                                                 |
-| SubwayGraph              | 전체 역·구간 객체 생성·관리, 경로 탐색                      | build, shortest, station_congestion, stations_between                                |
+| SubwayGraph              | 전체 역·구간 객체 생성·관리, 경로 탐색                      | build, shortest, station_congestion                                                                   |
 | Route                    | 탐색된 경로 하나의 요약                                     | total_time, transfer_count, stops, avg_congestion                                    |
 | DashboardView            | 사용자 입력을 받아 SubwayGraph에 요청하고 결과 출력         | render_station_congestion, render_heatmap, render_departure_congestion, render_route |
 

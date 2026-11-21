@@ -5,11 +5,10 @@
 import csv
 from pathlib import Path
 
-from ..service_time import DAYS, SLOTS  # 기존 import 경로에서도 계속 사용 가능
+from ..service_time import DAYS, SLOTS
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "Data"
-CONGESTION_CSV = DATA / "Congestion" / "congestion.csv"
 CONGESTION_II_CSV = DATA / "Congestion_II" / "congestion.csv"
 
 SOURCES = ["measured", "measured-9", "generated"]

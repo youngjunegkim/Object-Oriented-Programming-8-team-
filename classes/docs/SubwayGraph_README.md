@@ -39,15 +39,12 @@ for key, route in options.items():
 | `route.stops()` | `(탑승 구간 수, 총 이동거리 m)`. 총거리에 환승 보행을 포함한다. 한 구간이라도 거리 누락이면 거리는 `None`이다. |
 | `route.avg_congestion(day, departure_time)` | 구간별 혼잡도(%)의 산술평균. 각 탑승 시작 시각을 30분 단위로 내린다. 환승 시간도 다음 탑승 시각에 반영한다. 탑승이 없거나 구간 값이 하나라도 없으면 `None`이다. |
 | `graph.station_congestion(station, next_station, line, day)` | 해당 역에서 지정한 **바로 다음 역** 방향으로 출발하는 시간대별 혼잡도 딕셔너리. 방향을 다음 역으로 고르면 분기점에서도 구분할 수 있다. 빈 시간칸은 `None`이다. |
-| `graph.stations_between(start, end, line)` | 해당 호선에서 환승 없이 가장 빠른 구간의 `Vertex` 목록. 양 끝을 포함하고 방향상 연결이 없으면 빈 목록이다. |
 | `graph.line_order[line][branch]` | 히트맵 축에 사용할 지선별 역 순서. 순환선의 시작역은 한 번만 나온다. |
 | `graph.vertices[station_code]`, `graph.edges` | 역코드별 정점과 전체 방향별 간선 목록 |
 
 ```python
 series = graph.station_congestion("수서", "가락시장", "3호선", "평일")
 print(series["08:00"])  # 18.5
-section = graph.stations_between("수서", "오금", "3호선")
-print([v.station.name for v in section])  # 수서, 가락시장, 경찰병원, 오금
 ```
 
 요일은 `평일`, `토요일`, `일요일` 중 하나이고 출발 시각은 24시간제 `HH:MM`이다. 자정 이후 00시대는 같은 운행일에 속한다. 혼잡도 관측 범위는 05:30부터 다음 날 01:00 직전까지다. 화면에서는 `None`을 ‘자료 없음’으로 표시한다. 혼잡도는 경로 비교 지표로 사용한다. 운행 여부나 출발 시각별 배차를 반영하는 시간표 탐색은 이 API의 범위 밖이다.
