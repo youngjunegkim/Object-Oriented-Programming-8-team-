@@ -13,7 +13,7 @@ https://object-oriented-programming-8-team.vercel.app/
 
 ## 사용 데이터
 
-기본 혼잡도는 `Data/Congestion_II/congestion.csv`를 사용합니다. 실측이 없는 구간은 역별 이용객 차이를 반영한 추정값이며, 기존 `Congestion/congestion.csv`는 비교용으로 유지합니다.
+기본 혼잡도는 `Data/Congestion_II/congestion.csv`를 사용합니다. 실측이 없는 구간은 역별 이용객 차이를 반영한 추정값입니다.
 
 | 구분   | 데이터                                 | 사용 목적                                                 |
 | ------ | -------------------------------------- | --------------------------------------------------------- |
@@ -25,7 +25,7 @@ https://object-oriented-programming-8-team.vercel.app/
 
 | 클래스                   | 역할                                                        | 주요 메서드                                                                          |
 | ------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| CongestionDataLoader     | 혼잡도·역간거리·환승시간 데이터를 읽고 역 이름 정규화       | load_congestion, load_distance, load_transfers, load_station, _read_table, csv 값변환 메서드                                       |
+| CongestionDataLoader     | 역·구간·환승·혼잡도 CSV를 읽고 값 검사·변환                 | load_stations, load_distance, load_transfers, load_congestion                        |
 | Station                  | 역 하나, 호선별 Vertex를 묶어 관리                          | add_vertex                                                                           |
 | Vertex                   | 한 역의 한 호선 정점, 출발 Edge 보관                        | add_edge                                                                             |
 | Edge                     | 두 Vertex를 잇는 구간 (부모 클래스)                         | cost                                                                                 |

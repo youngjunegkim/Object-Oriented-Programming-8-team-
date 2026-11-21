@@ -52,7 +52,6 @@ class SubwayGraph:
         self.loader = CongestionDataLoader() if loader is None else loader
         self.finder_factory = finder_factory
         self.vertices = {}    # 역코드 → 호선별 Vertex
-        self.edges = []       # 전체 탑승·환승 간선
         self.line_order = {}  # 호선 → 지선 → 순서대로 정렬한 Vertex 목록
         self.stations = {}    # 역 이름 → Station 목록 (동명이역이 있어 목록)
         self.finder = None    # build()가 만드는 경로 탐색기
@@ -105,13 +104,7 @@ class SubwayGraph:
                 )
                 start.add_edge(transfer)
 
-        edges = []
-        for vertex in vertices.values():
-            for edge in vertex.edges:
-                edges.append(edge)
-
-        self.stations, self.vertices = stations, vertices
-        self.edges, self.line_order = edges, line_order
+        self.stations, self.vertices, self.line_order = stations, vertices, line_order
         self.finder = self.finder_factory(vertices)
 
     def _station(self, name_or_code, line=None):

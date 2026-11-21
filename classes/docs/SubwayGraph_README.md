@@ -40,7 +40,7 @@ for key, route in options.items():
 | `route.avg_congestion(day, departure_time)` | 구간별 혼잡도(%)의 산술평균. 각 탑승 시작 시각을 30분 단위로 내린다. 환승 시간도 다음 탑승 시각에 반영한다. 탑승이 없거나 구간 값이 하나라도 없으면 `None`이다. |
 | `ride.day_congestion(day)` | 탑승 간선(`RideEdge`) 하나의 시간대별 혼잡도 딕셔너리. 간선이 방향별로 따로 있어 분기점에서도 구분된다. 빈 시간칸은 `None`이다. |
 | `graph.line_order[line][branch]` | 히트맵 축에 사용할 지선별 역 순서. 순환선의 시작역은 한 번만 나온다. |
-| `graph.vertices[station_code]`, `graph.edges` | 역코드별 정점과 전체 방향별 간선 목록 |
+| `graph.vertices[station_code]` | 역코드별 정점. 정점의 `edges`에 그 정점에서 출발하는 간선이 있다. |
 
 ```python
 ride = graph.shortest("수서", "가락시장").edges[0]  # 수서 → 가락시장 탑승 간선

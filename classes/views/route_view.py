@@ -13,9 +13,8 @@ ROUTE_LABELS = {
 
 
 class RouteView:
-    def __init__(self, query, labels=ROUTE_LABELS):
+    def __init__(self, query):
         self.query = query  # GraphQuery와 같은 메서드를 가진 객체면 된다.
-        self.labels = labels
 
     @staticmethod
     def legs(route):
@@ -68,7 +67,7 @@ class RouteView:
                 continue
             same_as = next((k for k, r in seen if r.edges == route.edges), None)
             seen.append((key, route))
-            item = {"key": key, "label": self.labels[key], "same_as": self.labels.get(same_as)}
+            item = {"key": key, "label": ROUTE_LABELS[key], "same_as": ROUTE_LABELS.get(same_as)}
             item.update(self.summary(route, day, departure_time))
             routes.append(item)
         return {"routes": routes}

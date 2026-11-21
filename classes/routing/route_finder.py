@@ -104,7 +104,7 @@ class RouteFinder:
             add_candidate(excluded)
 
         while candidates:
-            cost, order, excluded, route = heapq.heappop(candidates)
+            _, _, excluded, route = heapq.heappop(candidates)
             cycle_edges = _cycle_rides(route)
             if not cycle_edges:
                 return route
