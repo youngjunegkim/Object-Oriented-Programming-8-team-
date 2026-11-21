@@ -1,0 +1,11 @@
+{
+  "outputDirectory": "public",
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "{classes,Data}/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index?endpoint=$1" }
+  ]
+}
