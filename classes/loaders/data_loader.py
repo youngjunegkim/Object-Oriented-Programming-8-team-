@@ -9,7 +9,7 @@ from ..service_time import DAYS, SLOTS
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "Data"
-CONGESTION_II_CSV = DATA / "Congestion_II" / "congestion.csv"
+CONGESTION_CSV = DATA / "Congestion" / "congestion.csv"
 
 SOURCES = ["measured", "measured-9", "generated"]
 
@@ -112,7 +112,7 @@ CONGESTION_COLUMNS = {
 
 class CongestionDataLoader:
     # 역·구간·환승 CSV의 경로와 사용할 혼잡도 CSV의 경로를 저장한다.
-    def __init__(self, data_dir=DATA, congestion_path=CONGESTION_II_CSV):
+    def __init__(self, data_dir=DATA, congestion_path=CONGESTION_CSV):
         data_dir = Path(data_dir)
         self.stations_path = data_dir / "Station" / "stations.csv"
         self.edges_path = data_dir / "Edge" / "edges.csv"

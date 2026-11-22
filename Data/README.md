@@ -7,10 +7,9 @@
 | `Station/stations.csv` | 역 정보 |
 | `Edge/edges.csv` | 탑승 구간 |
 | `Transfer/transfers.csv` | 환승 구간 |
-| `Congestion/congestion.csv` | 비교용 기존 혼잡도 (경로를 지정하여 선택) |
-| `Congestion_II/congestion.csv` | 기본 혼잡도 (역별 이용객 차이를 반영한 추정 버전) |
+| `Congestion/congestion.csv` | 기본 혼잡도 (역별 이용객 차이를 반영한 추정 버전) |
 
-기본 실행은 역·탑승·환승 CSV와 `Congestion_II/congestion.csv`를 읽는다. 기존 버전은 `CongestionDataLoader(congestion_path=CONGESTION_CSV)`로 선택할 수 있다. 원본 JSON·raw 파일과 `generated_basis.csv`, `activity_ratio.csv` 총 1,501개는 실행에 쓰이지 않아 제거했다. 아래 상세 설명의 원본·중간 파일 표는 생성 과정의 기록이며 현재 저장소에 파일이 있다는 의미는 아니다.
+기본 실행은 역·탑승·환승 CSV와 `Congestion/congestion.csv`를 읽는다. 원본 JSON·raw 파일과 `generated_basis.csv`, `activity_ratio.csv` 총 1,501개는 실행에 쓰이지 않아 제거했다. 아래 상세 설명의 원본·중간 파일 표는 생성 과정의 기록이며 현재 저장소에 파일이 있다는 의미는 아니다.
 
 `collect/`는 로컬에 남기고 Git 추적에서 제외했다. 실험 생성 스크립트도 로컬 `collect/build_congestion_ii.py`로 옮겼다. 새로 clone하면 생성 코드는 포함되지 않는다.
 
@@ -164,15 +163,15 @@ API 원본의 오류·누락을 사람이 고친 값. 각 CSV의 `note` 컬럼�
 
 ---
 
-## Congestion_II (현재 기본값 · 추정 방식 개선 버전)
+## Congestion 추정 방식 개선 (현재 기본값, 이전 폴더명 `Congestion_II`)
 
-`Congestion/`의 생성 공식에 **역별 이용객 차이**를 더한 버전.
+1차 생성 공식(그룹 평균)에 **역별 이용객 차이**를 더한 버전.
 실측 부분은 같고, 생성값만 간선마다 달라진다 (평일 생성 패턴 11종류 → 615종류).
 오차는 11.6%p → 11.2%p로 조금 줄었다. 재생성에는 정리 전 원본과 생성 코드 복구가 필요하다. 로컬 생성 스크립트는 `collect/build_congestion_ii.py`에 보관한다.
 
 | 파일 | 내용 |
 |---|---|
-| `congestion.csv` | 혼잡도. 열 구성은 `Congestion/congestion.csv`와 같다 |
+| `congestion.csv` | 혼잡도. 열 구성은 위 `Congestion/congestion.csv` 설명과 같다 |
 | `activity_ratio.csv` | 간선 × 요일 × 시간별 조정 비율 (생성값 = 그룹 평균 × 비율^α) |
 | `raw/` | 승하차 인원 원본 (2026-09) |
 | 로컬 `collect/build_congestion_ii.py` | 생성 스크립트. 실측 매핑과 그룹 공식은 `collect/build_congestion.py`를 가져다 쓴다 |
@@ -212,7 +211,7 @@ API 원본의 오류·누락을 사람이 고친 값. 각 CSV의 `note` 컬럼�
 
 ### 결과
 
-| | `Congestion/` | `Congestion_II` |
+| | 1차 생성 | 현재 (`Congestion/`) |
 |---|---|---|
 | 교차검증 MAE | 11.6%p | 11.2%p |
 | 오차 10%p 이내 | 55.5% | 56.7% |
