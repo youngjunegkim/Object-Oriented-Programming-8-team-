@@ -1,6 +1,6 @@
 """① 역별 혼잡도 화면: 역 선택 목록, 출발 방향, 평일·토·일 비교."""
 
-from ..service_time import DAYS, SLOTS
+from classes.service_time import DAYS, SLOTS
 
 
 class StationCongestionView:
@@ -14,6 +14,7 @@ class StationCongestionView:
             lines = [vertex.line for vertex in station.vertices]
             options.append({
                 "code": station.vertices[0].station_code,  # 역코드 하나로 물리적 역 전체를 선택한다.
+                "codes": [vertex.station_code for vertex in station.vertices],  # 호선별 역코드 (지도 구간과 연결)
                 "name": name,
                 "label": name if same_name_count == 1 else f"{name} ({', '.join(lines)})",
                 "lines": lines,

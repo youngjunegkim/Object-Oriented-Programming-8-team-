@@ -3,10 +3,9 @@
 GET /api/meta
 GET /api/directions?station=<역코드>
 GET /api/station?station=<역코드>&next=<역코드>&line=<호선>
-GET /api/heatmap?line=<호선>&branch=<지선>&day=<요일>&reverse=0|1
 GET /api/route?start=<역코드>&end=<역코드>&day=<요일>&time=HH:MM
-GET /api/segments?start=..&end=..&day=..&time=HH:MM
 GET /api/departure?start=..&end=..&day=..
+GET /api/network?day=<요일>
 """
 
 import json
@@ -19,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from classes.views.dashboard import Dashboard  # noqa: E402
+from views.dashboard import Dashboard  # noqa: E402
 
 _dashboard = None
 
@@ -45,14 +44,11 @@ ROUTES = {
     "directions": lambda d, p: d.stations.directions(_required(p, "station")),
     "station": lambda d, p: d.stations.compare_days(
         _required(p, "station"), _required(p, "next"), _required(p, "line")),
-    "heatmap": lambda d, p: d.heatmap.render(
-        _required(p, "line"), _required(p, "branch"), _required(p, "day"), p.get("reverse") == "1"),
     "route": lambda d, p: d.routes.options(
-        _required(p, "start"), _required(p, "end"), _required(p, "day"), _required(p, "time")),
-    "segments": lambda d, p: d.routes.segments(
         _required(p, "start"), _required(p, "end"), _required(p, "day"), _required(p, "time")),
     "departure": lambda d, p: d.routes.departure(
         _required(p, "start"), _required(p, "end"), _required(p, "day")),
+    "network": lambda d, p: d.network.render(_required(p, "day")),
 }
 
 

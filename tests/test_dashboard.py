@@ -12,8 +12,8 @@ from classes.models.station import Station
 from classes.models.vertex import Vertex
 from classes.routing.subway_graph import SubwayGraph
 from classes.service_time import DAYS, SLOTS
-from classes.views.dashboard import Dashboard
-from classes.views.route_view import RouteView
+from views.dashboard import Dashboard
+from views.route_view import RouteView
 
 GRAPH = None
 
@@ -101,16 +101,17 @@ class RouteViewTest(unittest.TestCase):
         legs = self.view.legs(tiny_route())
         self.assertEqual([leg["type"] for leg in legs], ["ride", "transfer", "ride"])
         self.assertEqual(legs[1]["from_line"], "X선")
+        self.assertEqual([leg.get("codes") for leg in legs], [["1", "2"], None, ["3", "4"]])
 
     def test_same_route_is_marked(self):
         routes = self.view.options("A", "C", "평일", "08:20")["routes"]
         self.assertEqual([r["label"] for r in routes], ["최단시간", "최소환승"])
         self.assertEqual(routes[1]["same_as"], "최단시간")
 
-    def test_segments_use_ride_congestions(self):
-        segments = self.view.segments("A", "C", "평일", "08:20")["segments"]
-        self.assertEqual([(s["slot"], s["value"], s["source"]) for s in segments],
-                         [("08:00", 40.0, "measured"), ("08:30", 80.0, "generated")])
+    def test_route_card_has_rides(self):
+        rides = self.view.options("A", "C", "평일", "08:20")["routes"][0]["rides"]
+        self.assertEqual([(r["from_code"], r["to_code"], r["slot"], r["value"], r["source"]) for r in rides],
+                         [("1", "2", "08:00", 40.0, "measured"), ("3", "4", "08:30", 80.0, "generated")])
 
 
 class DashboardTest(unittest.TestCase):
@@ -123,20 +124,34 @@ class DashboardTest(unittest.TestCase):
         self.assertIn("신촌 (2호선)", labels)
         self.assertNotIn("신촌", labels)
 
-    def test_circular_line_closes_loop(self):
-        heatmap = self.dashboard.heatmap.render("2호선", "순환선", "평일")
-        self.assertTrue(heatmap["circular"])
-        self.assertEqual(heatmap["rows"][-1]["next"], heatmap["rows"][0]["station"])
+    def test_meta_lines_are_names(self):
+        lines = self.dashboard.meta()["lines"]
+        self.assertEqual(len(lines), 23)
+        self.assertIn("2호선", lines)
+
+    def test_meta_lists_every_station_code(self):
+        codes = [code for s in self.dashboard.meta()["stations"] for code in s["codes"]]
+        self.assertEqual(sorted(codes), sorted(GRAPH.vertices))
 
     def test_station_compares_three_days(self):
         data = self.dashboard.stations.compare_days("0150", "0151", "1호선")
         self.assertEqual(list(data["days"]), DAYS)
         self.assertEqual(len(data["days"]["평일"]["values"]), len(SLOTS))
 
+    def test_network_has_every_ride_edge(self):
+        data = self.dashboard.network.render("평일")
+        rides = sum(1 for v in GRAPH.vertices.values() for e in v.edges if not e.is_transfer)
+        self.assertEqual(len(data["edges"]), rides)
+        self.assertTrue(all(len(e["values"]) == len(SLOTS) for e in data["edges"]))
+
+    def test_network_rejects_bad_day(self):
+        with self.assertRaises(ValueError):
+            self.dashboard.network.render("월요일")
+
     def test_injected_views_are_used(self):
         fake_route_view = RouteView(FakeQuery(tiny_route()))
         dashboard = Dashboard(GRAPH, route_view=fake_route_view)
-        self.assertEqual(len(dashboard.routes.segments("A", "C", "평일", "08:20")["segments"]), 2)
+        self.assertEqual(len(dashboard.routes.options("A", "C", "평일", "08:20")["routes"][0]["rides"]), 2)
 
 
 class ApiTest(unittest.TestCase):
