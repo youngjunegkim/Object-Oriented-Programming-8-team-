@@ -12,8 +12,8 @@ import { showTip, hideTip } from "../dom.js";
 
 const SCALE = 1000;                            // 위도 1도 = 1000 단위
 const LON_RATIO = Math.cos((37.55 * Math.PI) / 180);
-const LANE = 3.4;                              // 같은 구간을 지나는 호선 사이 간격(px)
-const DIR = 1.3;                               // 상·하행 사이 간격의 절반(px)
+const LANE = 4.4;                              // 같은 구간을 지나는 호선 사이 간격(px)
+const DIR = 1.7;                               // 상·하행 사이 간격의 절반(px)
 const LABEL_ZOOM = 5;                          // 이 배율부터 환승역이 아닌 역 이름도 후보에 넣는다.
 const PICK = 16;                               // 역 선택 반경(px)
 const CENTER = [[126.84, 37.46], [127.14, 37.63]];  // "도심" 보기 범위 [서남, 동북]
@@ -150,7 +150,7 @@ export function createMap({ svgEl, coords, river, boundary, stations, slots, byC
         if (!picked(d.line)) return DIMMED;
         return congestionColor(d.values[i]);
       })
-      .attr("stroke-width", (d) => (picked(d.line) ? 2.6 : 1.4));
+      .attr("stroke-width", (d) => (picked(d.line) ? 3.4 : 1.8));
     edgeLayer.classed("faded", Boolean(state.route));
     rideSel.attr("stroke", (r) => congestionColor(r.value));
     stationSel
@@ -219,8 +219,8 @@ export function createMap({ svgEl, coords, river, boundary, stations, slots, byC
   // ---------- 화면 좌표 ----------
   const line = d3.line().x(sx).y(sy);
   let kCenter = 1;  // "도심" 보기의 배율. 역 크기의 기준이다.
-  // 도심 보기에서 5px. 확대할수록 빠르게 커지고(2배 확대 ≈ 8px, 4배 ≈ 13px) 축소하면 1.5px까지 작아진다. 환승역은 1.4배.
-  const radius = (d) => clamp(1.5, 21, 5.25 * (transform.k / kCenter) ** 0.7) * (d.lines.length > 1 ? 1.4 : 1);
+  // 도심 보기에서 4px. 확대할수록 빠르게 커지고(2배 확대 ≈ 6.5px, 4배 ≈ 10.5px) 축소하면 1.5px까지 작아진다. 환승역은 1.4배.
+  const radius = (d) => clamp(1.5, 17, 4.25 * (transform.k / kCenter) ** 0.7) * (d.lines.length > 1 ? 1.4 : 1);
 
   function place() {
     riverLayer.attr("transform", transform);

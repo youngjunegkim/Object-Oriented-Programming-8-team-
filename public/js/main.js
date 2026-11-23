@@ -63,7 +63,7 @@ async function init() {
     $("slot-label").textContent = slotRange(state.slot);
   };
 
-  // 재생: 0.7초마다 다음 30분 시간대로 넘긴다. 처음 열면 재생 상태로 시작한다.
+  // 재생: ▶를 누르면 0.7초마다 다음 30분 시간대로 넘긴다.
   let playing = null;
   function setPlaying(on) {
     clearInterval(playing);
@@ -81,7 +81,6 @@ async function init() {
 
   showSlot();
   await loadNetwork();
-  setPlaying(true);
 }
 
 init().catch(showError);
