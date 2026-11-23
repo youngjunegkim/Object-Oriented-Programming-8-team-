@@ -57,15 +57,10 @@ button { cursor: pointer; }
 .seg button { border: 0; background: transparent; padding: 6px 12px; border-radius: 6px; color: var(--text-secondary); }
 .seg button[aria-pressed="true"] { background: var(--surface); color: var(--accent); font-weight: 600; box-shadow: 0 1px 2px rgba(20, 30, 50, 0.12); }
 .seg.small button { padding: 4px 10px; font-size: 12px; }
-/* 상단 바의 큰 묶음(보기 기준, 요일, 재생)은 모두 높이 48px로 맞춘다. */
+.seg.wrap { display: flex; flex-wrap: wrap; margin-top: 8px; }
+/* 상단 바의 큰 묶음(요일, 재생)은 모두 높이 48px로 맞춘다. */
 .seg.large { height: 48px; padding: 3px; border-radius: 10px; }
 .seg.large button { display: inline-flex; align-items: center; gap: 8px; height: 100%; padding: 0 16px; font-size: 15px; font-weight: 600; border-radius: 8px; }
-.icon-ramp { width: 26px; height: 8px; border-radius: 4px; background: linear-gradient(90deg, #2fa36b, #f3c23c, #e5542f, #8c1020); }
-.icon-dots { display: inline-flex; gap: 3px; }
-.icon-dots i { width: 8px; height: 8px; border-radius: 50%; }
-.icon-dots i:nth-child(1) { background: #0052A4; }
-.icon-dots i:nth-child(2) { background: #00A84D; }
-.icon-dots i:nth-child(3) { background: #EF7C1C; }
 
 .time {
   display: flex;
@@ -171,7 +166,10 @@ input:focus, select:focus, button:focus-visible { outline: 2px solid var(--accen
 }
 .legend .title { font-weight: 600; color: var(--text-primary); margin-bottom: 6px; }
 .legend .ramp { height: 8px; border-radius: 4px; }
-.legend .ticks { display: flex; justify-content: space-between; color: var(--text-muted); font-variant-numeric: tabular-nums; margin-top: 2px; }
+.legend .ticks { position: relative; height: 1.3em; color: var(--text-muted); font-variant-numeric: tabular-nums; margin-top: 2px; }
+.legend .ticks span { position: absolute; transform: translateX(-50%); }
+.legend .ticks span:first-child { transform: none; }
+.legend .ticks span:last-child { transform: translateX(-100%); }
 .legend .nodata { display: flex; align-items: center; gap: 6px; margin-top: 6px; color: var(--text-muted); }
 .legend .nodata i { width: 18px; height: 3px; background: #c3c8d1; display: inline-block; }
 

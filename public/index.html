@@ -17,10 +17,6 @@
       <p>서울교통공사 혼잡도 · 수도권 23개 노선</p>
     </div>
     <div class="controls">
-      <div class="seg large" id="color-by" role="group" aria-label="선 색 기준">
-        <button type="button" data-value="congestion"><span class="icon-ramp"></span>혼잡도로 보기</button>
-        <button type="button" data-value="line"><span class="icon-dots"><i></i><i></i><i></i></span>노선색으로 보기</button>
-      </div>
       <div class="seg large" id="day" role="group" aria-label="요일"></div>
       <div class="time">
         <button id="play" class="icon" type="button" aria-label="하루 흐름 재생">▶</button>
@@ -64,6 +60,7 @@
           <li><b>시간대</b>를 움직이면 지도 색이 바뀝니다 (▶ 재생)</li>
           <li><b>역</b>을 누르면 요일별 혼잡도</li>
           <li><b>출발·도착역</b>을 넣으면 경로와 덜 붐비는 출발 시간</li>
+          <li><b>호선</b>을 하나만 고르면 그 호선의 하루 혼잡도 히트맵</li>
         </ul>
       </section>
 
@@ -102,6 +99,22 @@
         <h3>출발 시간대 비교</h3>
         <p class="note">같은 경로를 언제 출발하면 덜 붐비는지 · <span class="hl-min">가장 여유로운 시간대</span> · 막대를 누르면 그 시간대로 이동</p>
         <div id="rt-dep" class="chart"></div>
+      </section>
+
+      <section id="heatmap-panel" class="panel" hidden>
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">호선 히트맵</p>
+            <h2 id="hm-line"></h2>
+            <p class="note" id="hm-title"></p>
+            <p class="note" id="hm-when"></p>
+          </div>
+          <button id="hm-close" class="icon" type="button" aria-label="히트맵 닫기">✕</button>
+        </div>
+        <div id="hm-branches" class="seg small wrap" role="group" aria-label="지선" hidden></div>
+        <div id="hm-direction" class="seg small wrap" role="group" aria-label="방향"></div>
+        <p class="note">행: 출발역(다음 역 방향) · 열: 30분 시간대 · * 추정값 구간 · 칸을 누르면 그 시간대로 이동</p>
+        <div id="hm-chart"></div>
       </section>
 
       <footer class="foot">

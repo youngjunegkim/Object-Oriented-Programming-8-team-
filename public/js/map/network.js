@@ -6,7 +6,7 @@
 // - 역 선택: 점을 정확히 누르지 않아도, 마우스에서 PICK px 안의 가장 가까운 역을 고른다(Delaunay).
 // - 역 이름: 선택한 역 > 경로 출발·도착 > 환승 호선이 많은 역 순으로, 겹치지 않는 것만 표시한다.
 import { state, subscribe } from "../state.js";
-import { LINE_COLORS, DIMMED, congestionColor } from "../colors.js";
+import { DIMMED, congestionColor } from "../colors.js";
 import { fmtPct, SOURCE_LABEL } from "../format.js";
 import { showTip, hideTip } from "../dom.js";
 
@@ -142,18 +142,17 @@ export function createMap({ svgEl, coords, river, boundary, stations, slots, byC
   }
 
   // ---------- 색 ----------
-  const rideColor = (r) => (state.colorBy === "line" ? LINE_COLORS[r.line] : congestionColor(r.value));
 
   function paint() {
     const i = slots.indexOf(state.slot);
     edgeSel
       .attr("stroke", (d) => {
         if (!picked(d.line)) return DIMMED;
-        return state.colorBy === "line" ? LINE_COLORS[d.line] : congestionColor(d.values[i]);
+        return congestionColor(d.values[i]);
       })
       .attr("stroke-width", (d) => (picked(d.line) ? 2.6 : 1.4));
     edgeLayer.classed("faded", Boolean(state.route));
-    rideSel.attr("stroke", rideColor);
+    rideSel.attr("stroke", (r) => congestionColor(r.value));
     stationSel
       .classed("dim", (d) => !d.lines.some(picked))
       .classed("selected", (d) => d.code === state.station?.code);
@@ -161,7 +160,7 @@ export function createMap({ svgEl, coords, river, boundary, stations, slots, byC
     placeLabels();
   }
 
-  // ---------- 경로 강조: 구간마다 진입 시각의 혼잡도 색(노선색 모드에서는 호선색) ----------
+  // ---------- 경로 강조: 구간마다 진입 시각의 혼잡도 색 ----------
   function drawRoute() {
     const route = state.route;
     const legs = route ? route.legs.filter((leg) => leg.type === "ride") : [];
@@ -273,7 +272,7 @@ export function createMap({ svgEl, coords, river, boundary, stations, slots, byC
   subscribe((changed) => {
     if ("lines" in changed) sortEdges();
     if ("route" in changed) drawRoute();
-    else if (["slot", "lines", "colorBy", "station"].some((key) => key in changed)) paint();
+    else if (["slot", "lines", "station"].some((key) => key in changed)) paint();
   });
 
   return {

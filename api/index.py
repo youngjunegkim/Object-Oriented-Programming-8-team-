@@ -6,6 +6,7 @@ GET /api/station?station=<역코드>&next=<역코드>&line=<호선>
 GET /api/route?start=<역코드>&end=<역코드>&day=<요일>&time=HH:MM
 GET /api/departure?start=..&end=..&day=..
 GET /api/network?day=<요일>
+GET /api/heatmap?line=<호선>&day=<요일>[&branch=<지선>][&reverse=1]
 """
 
 import json
@@ -49,6 +50,8 @@ ROUTES = {
     "departure": lambda d, p: d.routes.departure(
         _required(p, "start"), _required(p, "end"), _required(p, "day")),
     "network": lambda d, p: d.network.render(_required(p, "day")),
+    "heatmap": lambda d, p: d.heatmap.render(
+        _required(p, "line"), _required(p, "day"), p.get("branch"), p.get("reverse") == "1"),
 }
 
 

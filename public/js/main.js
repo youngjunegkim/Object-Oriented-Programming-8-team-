@@ -7,6 +7,7 @@ import { createMap } from "./map/network.js";
 import { initMapControls } from "./map/controls.js";
 import { initStationPanel } from "./panels/station.js";
 import { initRoutePanel } from "./panels/route.js";
+import { initHeatmapPanel } from "./panels/heatmap.js";
 
 async function init() {
   const [meta, coords, river, boundary] = await Promise.all([
@@ -33,6 +34,7 @@ async function init() {
   initMapControls({ lines: meta.lines, map });
   initStationPanel();
   initRoutePanel({ byLabel });
+  initHeatmapPanel();
 
   // ---------- 요일 ----------
   const dayButtons = days.map((day) => {
@@ -74,7 +76,7 @@ async function init() {
   subscribe((changed) => {
     if ("day" in changed) loadNetwork();
     if ("slot" in changed) showSlot();
-    $("intro").hidden = Boolean(state.station || (state.start && state.end));
+    $("intro").hidden = Boolean(state.station || (state.start && state.end) || state.lines.size === 1);
   });
 
   showSlot();

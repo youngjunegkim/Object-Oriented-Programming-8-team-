@@ -3,7 +3,6 @@ export const state = {
   day: "평일",
   slot: "08:00",          // 30분 시간대 (SLOTS 중 하나)
   lines: new Set(),       // 색을 켤 호선. 비어 있으면 전체
-  colorBy: "congestion",  // 선 색 기준: congestion | line
   station: null,          // 선택한 역 (meta.stations 항목)
   start: null,            // 출발역
   end: null,              // 도착역

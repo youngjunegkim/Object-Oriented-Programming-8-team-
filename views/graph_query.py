@@ -59,6 +59,20 @@ class GraphQuery:
         """호선 이름 목록 (그래프에 등록된 순서)."""
         return list(self.graph.line_order)
 
+    def branches(self, line):
+        """호선의 지선 → 순서대로 정렬된 Vertex 목록. 없는 호선이면 ValueError."""
+        branches = self.graph.line_order.get(line)
+        if not branches:
+            raise ValueError(f"찾을 수 없는 호선입니다: {line}")
+        return branches
+
+    def branch(self, line, branch):
+        """한 지선의 Vertex 목록(복사본이라 뒤집어도 그래프는 그대로). 없으면 ValueError."""
+        branches = self.branches(line)
+        if branch not in branches:
+            raise ValueError(f"{line}에 '{branch}' 지선이 없습니다.")
+        return list(branches[branch])
+
     # ---------- SubwayGraph 공개 메서드 전달 ----------
     def shortest(self, start, end):
         return self.graph.shortest(start, end)

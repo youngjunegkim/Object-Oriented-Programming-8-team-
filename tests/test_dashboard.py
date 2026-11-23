@@ -148,6 +148,31 @@ class DashboardTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.dashboard.network.render("월요일")
 
+    def test_heatmap_follows_branch_order(self):
+        data = self.dashboard.heatmap.render("3호선", "평일")
+        self.assertEqual(data["branch"], "본선")
+        self.assertEqual(len(data["rows"]), len(GRAPH.line_order["3호선"]["본선"]) - 1)
+        self.assertEqual((data["rows"][0]["station"], data["rows"][-1]["next"]), ("대화", "오금"))
+        self.assertTrue(all(len(r["values"]) == len(SLOTS) for r in data["rows"]))
+
+    def test_heatmap_reverse_and_circular(self):
+        reverse = self.dashboard.heatmap.render("3호선", "평일", "본선", reverse=True)
+        self.assertEqual(reverse["rows"][0]["station"], "오금")
+        circle = self.dashboard.heatmap.render("2호선", "평일", "순환선")
+        self.assertTrue(circle["circular"])
+        self.assertEqual(len(circle["rows"]), len(GRAPH.line_order["2호선"]["순환선"]))
+        self.assertEqual(circle["rows"][-1]["next"], circle["rows"][0]["station"])
+
+    def test_heatmap_lists_branches_and_rejects_bad_input(self):
+        branches = [b["branch"] for b in self.dashboard.heatmap.render("2호선", "평일")["branches"]]
+        self.assertEqual(branches, list(GRAPH.line_order["2호선"]))
+        with self.assertRaises(ValueError):
+            self.dashboard.heatmap.render("2호선", "평일", "없는지선")
+        with self.assertRaises(ValueError):
+            self.dashboard.heatmap.render("10호선", "평일")
+        with self.assertRaises(ValueError):
+            self.dashboard.heatmap.render("2호선", "월요일")
+
     def test_injected_views_are_used(self):
         fake_route_view = RouteView(FakeQuery(tiny_route()))
         dashboard = Dashboard(GRAPH, route_view=fake_route_view)
@@ -159,6 +184,12 @@ class ApiTest(unittest.TestCase):
         self.assertEqual(dispatch("/api/meta", "")[0], 200)
         self.assertEqual(dispatch("/api/route", "start=0150&end=0222&day=월&time=08:00")[0], 400)
         self.assertEqual(dispatch("/api/nothing", "")[0], 404)
+
+    def test_heatmap_api(self):
+        status, body = dispatch("/api/heatmap", "line=2호선&day=토요일&branch=성수지선&reverse=1")
+        self.assertEqual(status, 200)
+        self.assertEqual((body["branch"], body["reverse"], body["day"]), ("성수지선", True, "토요일"))
+        self.assertEqual(dispatch("/api/heatmap", "day=평일")[0], 400)
 
     def test_vercel_endpoint_parameter(self):
         status, body = dispatch("/api/index", "endpoint=directions&station=0150")

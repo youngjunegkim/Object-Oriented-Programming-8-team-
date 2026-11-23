@@ -11,8 +11,11 @@ export const LINE_COLORS = {
 const NO_DATA = "#c3c8d1";  // 운행 없음
 export const DIMMED = "#e1e4ea";   // 선택하지 않은 호선
 
-// [혼잡도 %, 색]: 여유(초록) → 보통(노랑) → 혼잡(빨강) → 매우 혼잡(짙은 빨강)
-export const HEAT_STOPS = [[0, "#2fa36b"], [35, "#9acd4c"], [70, "#f3c23c"], [105, "#e5542f"], [140, "#8c1020"]];
+// [혼잡도 %, 색]: 여유(초록) → 보통(노랑) → 혼잡(주황·빨강) → 매우 혼잡(짙은 빨강)
+// 평일 구간 혼잡도는 중앙값 ≈22%, 75% ≈34%에 몰려 있어 낮은 구간에서도 색이 조금씩 갈리도록 둔다.
+export const HEAT_STOPS = [
+  [0, "#2fa36b"], [25, "#8cc63f"], [50, "#f0c43a"], [75, "#ec8a35"], [100, "#dc4b2c"], [130, "#8c1020"],
+];
 
 const heat = d3.scaleLinear()
   .domain(HEAT_STOPS.map(([v]) => v))
