@@ -3,10 +3,10 @@
 GET /api/meta
 GET /api/directions?station=<역코드>
 GET /api/station?station=<역코드>&next=<역코드>&line=<호선>
-GET /api/heatmap?line=<호선>&branch=<지선>&day=<요일>&reverse=0|1
 GET /api/route?start=<역코드>&end=<역코드>&day=<요일>&time=HH:MM
-GET /api/segments?start=..&end=..&day=..&time=HH:MM
 GET /api/departure?start=..&end=..&day=..
+GET /api/network?day=<요일>
+GET /api/heatmap?line=<호선>&day=<요일>[&branch=<지선>][&reverse=1]
 """
 
 import json
@@ -19,17 +19,17 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from classes.views.dashboard_view import DashboardView  # noqa: E402
+from views.dashboard import Dashboard  # noqa: E402
 
-_view = None
+_dashboard = None
 
 
-def view():
+def dashboard():
     """그래프는 한 번만 구성해 재사용한다."""
-    global _view
-    if _view is None:
-        _view = DashboardView()
-    return _view
+    global _dashboard
+    if _dashboard is None:
+        _dashboard = Dashboard()
+    return _dashboard
 
 
 def _required(params, name):
@@ -39,19 +39,19 @@ def _required(params, name):
     return value
 
 
+# API 이름 → 화면 클래스 메서드
 ROUTES = {
-    "meta": lambda v, p: v.meta(),
-    "directions": lambda v, p: v.station_directions(_required(p, "station")),
-    "station": lambda v, p: v.render_station_congestion(
+    "meta": lambda d, p: d.meta(),
+    "directions": lambda d, p: d.stations.directions(_required(p, "station")),
+    "station": lambda d, p: d.stations.compare_days(
         _required(p, "station"), _required(p, "next"), _required(p, "line")),
-    "heatmap": lambda v, p: v.render_heatmap(
-        _required(p, "line"), _required(p, "branch"), _required(p, "day"), p.get("reverse") == "1"),
-    "route": lambda v, p: v.render_route(
+    "route": lambda d, p: d.routes.options(
         _required(p, "start"), _required(p, "end"), _required(p, "day"), _required(p, "time")),
-    "segments": lambda v, p: v.render_segment_congestion(
-        _required(p, "start"), _required(p, "end"), _required(p, "day"), _required(p, "time")),
-    "departure": lambda v, p: v.render_departure_congestion(
+    "departure": lambda d, p: d.routes.departure(
         _required(p, "start"), _required(p, "end"), _required(p, "day")),
+    "network": lambda d, p: d.network.render(_required(p, "day")),
+    "heatmap": lambda d, p: d.heatmap.render(
+        _required(p, "line"), _required(p, "day"), p.get("branch"), p.get("reverse") == "1"),
 }
 
 
@@ -63,7 +63,7 @@ def dispatch(path, query):
     if name not in ROUTES:
         return 404, {"error": f"알 수 없는 API입니다: {path}"}
     try:
-        return 200, ROUTES[name](view(), params)
+        return 200, ROUTES[name](dashboard(), params)
     except (ValueError, RuntimeError) as e:
         return 400, {"error": str(e)}
 

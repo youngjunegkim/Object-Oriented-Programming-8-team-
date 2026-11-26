@@ -23,28 +23,21 @@ classes/
 ├─ routing/
 │  ├─ subway_graph.py
 │  └─ route_finder.py
-├─ service_time.py
-└─ views/                    # 대시보드 화면용 가공 (api/index.py가 사용)
-   ├─ graph_query.py
-   ├─ station_view.py
-   ├─ heatmap_view.py
-   ├─ route_view.py
-   └─ dashboard_view.py
+└─ service_time.py
 ```
+
+대시보드 API용 가공(GraphQuery, 화면별 View, Dashboard)은 classes 밖의 최상위 [views/](../views/)에 있다. classes는 지하철 그래프와 경로 탐색만 다룬다.
 
 | 구현 | 책임 | 주요 메서드·함수 |
 |---|---|---|
 | [CongestionDataLoader](loaders/data_loader.py) | CSV 읽기, 필수 값·형식·중복 검사, 자료형 변환 | `load_stations`, `load_distance`, `load_transfers`, `load_congestion` |
 | [Station](models/station.py) | 물리적 역과 그 역에 속한 호선별 정점 관리 | `add_vertex` |
 | [Vertex](models/vertex.py) | 한 역의 한 호선 정점과 출발 간선 관리 | `add_edge` |
-| [Edge · RideEdge · TransferEdge](models/edge.py) | 이동 비용, 탑승·환승 방향 규칙, 탑승 혼잡도와 출처 제공 | `cost`, `next_state`, `congestion_get`, `source` |
+| [Edge · RideEdge · TransferEdge](models/edge.py) | 이동 비용, 탑승·환승 방향 규칙, 탑승 혼잡도와 출처 제공 | `cost`, `next_state`, `day_congestion`, `source` |
 | [Route](models/route.py) | 찾은 경로의 시간·환승·거리·혼잡도 계산 | `total_time`, `transfer_count`, `stops`, `ride_congestions`, `avg_congestion` |
-| [SubwayGraph](routing/subway_graph.py) | 역·간선 구성과 조회, 탐색기로 요청 전달 | `build`, `shortest`, `route_options`, `station_congestion`, `stations_between` |
-| [RouteFinder](routing/route_finder.py) | 경로 탐색, 복원, 역 재방문 없는 대안 비교 | `_dijkstra`, `best_route`, `on_line`, `route_options` |
-| [service_time](service_time.py) | 운행일 기준 시간 변환과 30분 시간대 선택 | `departure_seconds`, `congestion_slot` |
-| [GraphQuery](views/graph_query.py) | 화면 클래스가 그래프를 조회하는 유일한 창구 (그래프 내부 구조는 여기서만 다룸) | `vertex`, `physical_stations`, `ride_between`, `branch` |
-| [StationCongestionView](views/station_view.py) · [LineHeatmapView](views/heatmap_view.py) · [RouteView](views/route_view.py) | 대시보드 화면별 결과 가공 (역별 혼잡도 · 호선 히트맵 · 경로 분석) | `compare_days`, `render`, `options`, `segments`, `departure` |
-| [DashboardView](views/dashboard_view.py) | 화면별 클래스를 묶어 API에 하나의 진입점 제공 (퍼사드) | `meta`, `render_*` |
+| [SubwayGraph](routing/subway_graph.py) | 역·간선 구성, 역 찾기, 탐색기로 요청 전달 | `build`, `shortest`, `route_options` |
+| [RouteFinder](routing/route_finder.py) | 경로 탐색, 복원, 역 재방문 없는 대안 비교 | `_dijkstra`, `best_route`, `route_options` |
+| [service_time](service_time.py) | 요일 검사, 운행일 기준 시간 변환과 30분 시간대 선택 | `check_day`, `departure_seconds`, `congestion_slot` |
 
 예를 들어 가락시장 `Station` 하나에 3호선·8호선 `Vertex`가 속한다. 정점 사이는 탑승 또는 환승 간선으로 연결되고, 탐색 결과는 간선 목록을 가진 `Route`로 반환된다.
 
@@ -133,13 +126,13 @@ next_state = edge.next_state(previous_code, required_next)
 
 ```text
 Edge                 → cost(), next_state(), is_transfer
-├─ RideEdge          → 공통 기능 + congestion_get(), source()
+├─ RideEdge          → 공통 기능 + day_congestion(), source()
 └─ TransferEdge      → 공통 기능 + 환승 방향 처리
 ```
 
 **예시:** 열차 탑승 구간에는 혼잡도가 필요하지만, 환승 보행 구간에는 같은 혼잡도 조회 기능을 구현하도록 요구하지 않는다.
 
-**핵심:** `congestion_get()`는 `RideEdge`에만 있다. 별도의 인터페이스 클래스를 선언한 것은 아니며, 메서드의 범위를 역할별로 구분했다.
+**핵심:** `day_congestion()`은 `RideEdge`에만 있다. 별도의 인터페이스 클래스를 선언한 것은 아니며, 메서드의 범위를 역할별로 구분했다.
 
 ---
 
@@ -159,7 +152,7 @@ def __init__(self, loader=None, finder_factory=RouteFinder):
 | 교체 대상 | 유지해야 할 계약 |
 |---|---|
 | `loader` | 네 가지 `load_*` 메서드와 기존 데이터 반환 구조 |
-| `finder_factory` | 정점 정보를 받아 `best_route`, `on_line`, `route_options`를 제공하는 탐색기 생성 |
+| `finder_factory` | 정점 정보를 받아 `best_route`, `route_options`를 제공하는 탐색기 생성 |
 
 **핵심:** 같은 계약을 제공하면 다른 로더·탐색기로 교체할 수 있다. 탐색기는 CSV 경로나 화면 구현을 알 필요가 없다.
 
@@ -196,7 +189,7 @@ from classes.routing.subway_graph import SubwayGraph
 from classes.routing.route_finder import transfers_first
 
 graph = SubwayGraph()
-graph.build()  # 기본 혼잡도: Congestion_II. 한 번 구성한 후 재사용
+graph.build()  # 기본 혼잡도: Data/Congestion. 한 번 구성한 후 재사용
 
 options = graph.route_options("서울역", "강남")
 for name, route in options.items():
@@ -213,8 +206,6 @@ route = graph.shortest("서울역", "강남", priority=transfers_first)
 |---|---|
 | `shortest()` | `Route` 또는 경로가 없으면 `None` |
 | `route_options()` | `fastest`, `fewest_transfers`, `second_fastest`별 `Route` 또는 `None` |
-| `station_congestion(역, 다음역, 호선, 요일)` | 바로 이웃한 역으로 출발하는 방향의 시간대별 혼잡도 딕셔너리 |
-| `stations_between(출발역, 도착역, 호선)` | 해당 호선에서 환승 없는 최단시간 경유 정점 목록. 양 끝 포함, 연결 없으면 빈 목록 |
 | `total_time()` / `transfer_count()` | 탑승·환승 소요시간 합계(초) / 환승 횟수 |
 | `stops()` | `(탑승 구간 수, 총거리 m)`. 환승 거리 포함, 거리 누락 시 총거리는 `None` |
 | `ride_congestions(요일, 출발시각)` | 탑승 구간마다 `(간선, 진입 시간대, 혼잡도)` 목록. 환승 시간은 다음 진입 시각에 반영. 관측 범위 밖이면 시간대·혼잡도는 `None` |
@@ -225,5 +216,5 @@ route = graph.shortest("서울역", "강남", priority=transfers_first)
 - 요일은 `평일`, `토요일`, `일요일`, 시각은 `HH:MM`이다. 혼잡도 관측 범위는 05:30 이상 다음 날 01:00 미만이다.
 - 구성 전 조회는 `RuntimeError`, 잘못된 역·방향·요일 등의 입력은 `ValueError`로 알린다.
 - 혼잡도는 찾은 경로의 비교 정보이며 기본 경로 선택 비용에는 포함하지 않는다. 열차 대기시간·배차 시간표도 반영하지 않는다.
-- 기본 혼잡도 파일은 `Data/Congestion_II/congestion.csv`이다. 기존 버전은 `CongestionDataLoader(congestion_path=CONGESTION_CSV)`로 선택한 로더를 `SubwayGraph(loader=loader)`에 전달한다. 두 이름은 `classes.loaders.data_loader`에서 import한다.
+- 기본 혼잡도 파일은 `Data/Congestion/congestion.csv`이다. 다른 혼잡도 파일을 쓰려면 `CongestionDataLoader(congestion_path=경로)`로 만든 로더를 `SubwayGraph(loader=loader)`에 전달한다. `CongestionDataLoader`는 `classes.loaders.data_loader`에서 import한다.
 - CSV 출처·컬럼·생성 방법은 [Data README](../Data/README.md)를 참고한다.

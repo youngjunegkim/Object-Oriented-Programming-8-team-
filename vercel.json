@@ -2,7 +2,7 @@
   "outputDirectory": "public",
   "functions": {
     "api/index.py": {
-      "includeFiles": "{classes,Data}/**"
+      "includeFiles": "{classes,views,Data}/**"
     }
   },
   "rewrites": [

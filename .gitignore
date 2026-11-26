@@ -13,5 +13,4 @@ __pycache__/
 /Data/Transfer/json/
 /Data/Congestion/raw/
 /Data/Congestion/generated_basis.csv
-/Data/Congestion_II/raw/
-/Data/Congestion_II/activity_ratio.csv
+/Data/Congestion/activity_ratio.csv
